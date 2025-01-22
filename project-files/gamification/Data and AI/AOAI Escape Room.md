@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "AOAI Escape Room"
-category: "Gamification"
+category: "Gamification123"
 sub-category: "Data and AI"
 courses: [AI-102, AI-3016, AI-3018]
 ---
