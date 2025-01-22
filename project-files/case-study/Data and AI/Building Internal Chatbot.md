@@ -11,7 +11,7 @@ courses: [AI-102, AI-3016, AI-3022, PR-801]
 ## Introduction
 Ben, an AI architect at a mid-sized company, is tasked with developing an internal chatbot to streamline access to corporate resources. These resources are currently dispersed across multiple knowledge bases and document repositories, making it challenging for employees to find the information they need quickly and efficiently.
 
-<a href="./images/cb1.png" download>
+<a href="./images/cb1.png">
   <img src="./images/cb1.png" alt="a group of people around a table with a robot">
 </a>
 
