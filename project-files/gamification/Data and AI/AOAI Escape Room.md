@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "AOAI Escape Room"
-category: "Gamification123"
+category: "Gamification"
 sub-category: "Data and AI"
 courses: [AI-102, AI-3016, AI-3018]
 ---
@@ -60,6 +60,9 @@ courses: [AI-102, AI-3016, AI-3018]
     You are part of a team of Azure OpenAI enthusiasts on a mission to explore the world of generative AI. Your journey begins at the headquarters of a tech company, where you are tasked with solving various challenges using different AI tools and services.
     
     <h2>Escape Room Instructions</h2>
+    <a href="./images/es.png">
+  <img src="./images/es.png" alt="a group of people exploring map">
+</a>
     <div class="instructions">
         <h3>How to Play</h3>
         <ol>
@@ -203,7 +206,9 @@ courses: [AI-102, AI-3016, AI-3018]
         const clueElement = document.getElementById(`clue${puzzleNumber}`);
 
         if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
-            clueElement.textContent = `Correct! Clue: ${clues[puzzleNumber - 1]}`;
+            clueElement.textContent = `Correct!`;
+            clueElement.style.color = 'green';
+            
             currentPuzzle++;
             if (currentPuzzle <= clues.length) {
                 setTimeout(() => {
@@ -218,6 +223,7 @@ courses: [AI-102, AI-3016, AI-3018]
             }
         } else {
             clueElement.textContent = 'Incorrect, try again!';
+            clueElement.style.color = 'red';
         }
     }
 
@@ -238,6 +244,7 @@ courses: [AI-102, AI-3016, AI-3018]
             finalClueElement.classList.add('congratulations');
         } else {
             finalClueElement.textContent = 'Incorrect, try again!';
+            finalClueElement.style.color = 'red';
             finalClueElement.classList.remove('congratulations');
         }
     }
