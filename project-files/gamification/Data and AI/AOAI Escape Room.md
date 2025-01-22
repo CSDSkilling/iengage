@@ -10,7 +10,9 @@ courses: [AI-102, AI-3016, AI-3018]
 <head>
 
     <style>
-
+        .room{
+        justify-content: center;
+        }
 
         .puzzle { 
             display: none; 
@@ -27,7 +29,7 @@ courses: [AI-102, AI-3016, AI-3018]
             margin: 10px auto; 
         }
         #intro {
-            background-color: lightblue; 
+            background-color: F1F1F1; 
             padding: 20px; 
             border-radius: 10px; 
         }
@@ -54,7 +56,7 @@ courses: [AI-102, AI-3016, AI-3018]
     
     <div class="room">
     <div id="intro">
-        <h2>elcome to the Virtual AI Escape Room! Solve the puzzles using your knowledge of Azure OpenAI to escape.</h2>
+        <h2>Welcome to the Virtual AI Escape Room! Solve the puzzles using your knowledge of Azure OpenAI to escape.</h2>
         <button onclick="startEscapeRoom()">Start</button>
     </div>
     <div id="puzzle1" class="puzzle">
@@ -219,5 +221,4 @@ courses: [AI-102, AI-3016, AI-3018]
         }
     }
 </script>
-</body>
-</html>
+
