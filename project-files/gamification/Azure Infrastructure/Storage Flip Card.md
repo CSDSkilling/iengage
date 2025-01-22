@@ -18,6 +18,10 @@ In this enchanted land, their first mission was to uncover the secrets of Azure 
 
 However, Alex and Zara were unfamiliar with Azure Storage Accounts. Your goal is to help them answer the questions correctly, collect all the cards, and become Azure Storage Masters!
 
+<a href="./images/st1.png">
+  <img src="./images/st1.png" alt="a boy and a girl reading a book">
+</a>
+
 ### Instructions for Flip Cards
 Below are questions based on the scenario. Each question is on one side of a flip card. Flip the card to see the answer.
 
