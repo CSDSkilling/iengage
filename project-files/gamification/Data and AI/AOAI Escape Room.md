@@ -234,7 +234,7 @@ courses: [AI-102, AI-3016, AI-3018]
         const finalClueElement = document.getElementById('finalClue');
 
         if (finalAnswer === 'context') {
-            finalClueElement.textContent = 'Congratulations! You have escaped the room!';
+            finalClueElement.textContent = 'CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM !';
             finalClueElement.classList.add('congratulations');
         } else {
             finalClueElement.textContent = 'Incorrect, try again!';
