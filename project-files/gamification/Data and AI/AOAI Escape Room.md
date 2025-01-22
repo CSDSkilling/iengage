@@ -33,6 +33,25 @@ courses: [AI-102, AI-3016, AI-3018]
             padding: 20px; 
             border-radius: 10px; 
         }
+        .congratulations {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+      animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
     </style>
 </head>
 <body>
@@ -216,8 +235,10 @@ courses: [AI-102, AI-3016, AI-3018]
 
         if (finalAnswer === 'context') {
             finalClueElement.textContent = 'Congratulations! You have escaped the room!';
+            finalClueElement.classList.add('congratulations');
         } else {
             finalClueElement.textContent = 'Incorrect, try again!';
+            finalClueElement.classList.remove('congratulations');
         }
     }
 </script>
