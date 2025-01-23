@@ -81,12 +81,12 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     </div>
     <div id="puzzle1" class="puzzle">
         <h2>Chapter 1: The Creative Campaign</h2>
-        <h3>Your first task is to create a captivating marketing campaign for a new product launch. You need to generate creative content that will grab the audience's attention.</h3>
+        <h3>1.	What is the primary advantage of using RAG with Azure OpenAI over fine-tuning a model?</h3>
         <p>Which generative AI tool would be most suitable for generating creative content for your marketing campaign?</p>
-        <label><input type="radio" name="answer1" value="a"> A) Azure Cognitive Services</label><br>
-        <label><input type="radio" name="answer1" value="b"> B) Azure OpenAI services</label><br>
-        <label><input type="radio" name="answer1" value="c"> C) Azure Machine Learning</label><br>
-        <label><input type="radio" name="answer1" value="d"> D) Azure Data Factory</label><br>
+        <label><input type="radio" name="answer1" value="a"> A) RAG requires less computational power</label><br>
+        <label><input type="radio" name="answer1" value="b"> B) RAG eliminates the need for training a custom model with your data</label><br>
+        <label><input type="radio" name="answer1" value="c"> C) RAG provides higher quality responses than fine-tuning</label><br>
+        <label><input type="radio" name="answer1" value="d"> D) RAG allows for the use of larger datasets than fine-tuning</label><br>
         <button onclick="checkAnswer(1)">Submit</button>
         <button onclick="helpMe(1)">Help Me</button>
         <div class="clue" id="clue1"></div>
@@ -187,7 +187,7 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     </div>
 <script>
     let currentPuzzle = 1;
-    const clues = ["Azure OpenAI services", "GPT", "Azure Bot Services", "To provide context and instructions to the AI model", "DALL-E", "Azure Synapse Analytics", "It increases the randomness and creativity of the content", "To maintain conversation context"];
+    const clues = ["RAG eliminates the need for training a custom model with your data", "GPT", "Azure Bot Services", "To provide context and instructions to the AI model", "DALL-E", "Azure Synapse Analytics", "It increases the randomness and creativity of the content", "To maintain conversation context"];
     const correctAnswers = ["b", "b", "a", "b", "c", "b", "b", "b"];
 
     function startEscapeRoom() {
