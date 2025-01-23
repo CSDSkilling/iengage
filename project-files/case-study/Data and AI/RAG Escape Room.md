@@ -158,31 +158,28 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     }
 
     function checkAnswer(puzzleNumber) {
-        const selectedOption = document.querySelector(`input[name="answer${puzzleNumber}"]:checked`);
-        const clueElement = document.getElementById(`clue${puzzleNumber}`);
+    const selectedOption = document.querySelector(`input[name="answer${puzzleNumber}"]:checked`);
+    const clueElement = document.getElementById(`clue${puzzleNumber}`);
 
-        if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
-            clueElement.textContent = `Correct! Clue: ${clues[puzzleNumber - 1]}`;
-            clueElement.style.color = 'green';
-            
-            currentPuzzle++;
+    if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
+        clueElement.textContent = `Correct!`;
+        clueElement.style.color = 'green';
+        
+        currentPuzzle++;
+        setTimeout(() => {
             if (currentPuzzle <= clues.length) {
-                setTimeout(() => {
-                    document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
-                    showPuzzle(currentPuzzle);
-                }, 1000);
+                document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
+                showPuzzle(currentPuzzle);
             } else {
-                setTimeout(() => {
-                    document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
-                    document.getElementById('finalChallenge').style.display = 'block';
-                }, 5000);
+                document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
+                document.getElementById('finalChallenge').style.display = 'block';
             }
-        } else {
-            clueElement.textContent = 'Incorrect, try again!';
-            clueElement.style.color = 'red';
-        }
+        }, 5000); // Stay on the current question for 5 seconds
+    } else {
+        clueElement.textContent = 'Incorrect, try again!';
+        clueElement.style.color = 'red';
     }
-
+}
     function helpMe(puzzleNumber) {
            if (puzzleNumber === 'final') {
             document.getElementById('finalAnswer').value = 'context';
