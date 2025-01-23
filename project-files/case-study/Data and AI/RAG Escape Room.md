@@ -59,6 +59,9 @@ courses: [AI-102, AI-3016, AI-3018]
     <h1>Finding the Thief Misusing Azure AI Service Key</h1>
 A company with three developers is facing an issue where someone is using the Azure AI service key for personal projects. Despite the admin's efforts to regenerate the key, the misuse continues. The company resources are new to Azure and are yet to learn about facilities like Azure Key Vault. 
 
+   <a href="./images/es1.png">
+  <img src="./images/es1.png" alt="a group of people looking into the computer">
+
 <h2>Problem Statement </h2>
  The company needs to identify the person misusing the Azure AI service key. The admin has tried regenerating the key, but it hasn't been effective. The developers are new to Azure and are not familiar with facilities like Azure Key Vault that could help secure the keys. 
 
@@ -157,12 +160,12 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
         document.getElementById(`puzzle${puzzleNumber}`).style.display = 'block';
     }
 
-    function checkAnswer(puzzleNumber) {
+  function checkAnswer(puzzleNumber) {
     const selectedOption = document.querySelector(`input[name="answer${puzzleNumber}"]:checked`);
     const clueElement = document.getElementById(`clue${puzzleNumber}`);
 
     if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
-        clueElement.textContent = `Correct! Clue: ${clues[puzzleNumber - 1]}`;
+        clueElement.textContent = `Correct!`;
         clueElement.style.color = 'green';
         
         currentPuzzle++;
@@ -172,15 +175,23 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
                 showPuzzle(currentPuzzle);
             } else {
                 document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
-                document.getElementById('finalChallenge').style.display = 'block';
+                displayCongratulations();
             }
-        }, 8000); // Stay on the current question for 5 seconds
+        }, 5000); // Stay on the current question for 5 seconds
     } else {
         clueElement.textContent = 'Incorrect, try again!';
         clueElement.style.color = 'red';
     }
 }
-    function helpMe(puzzleNumber) {
+
+function displayCongratulations() {
+    const congratsMessage = document.createElement('div');
+    congratsMessage.classList.add('congratulations');
+    congratsMessage.textContent = 'CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM!';
+    document.body.appendChild(congratsMessage);
+}
+
+function helpMe(puzzleNumber) {
            if (puzzleNumber === 'final') {
             document.getElementById('finalAnswer').value = 'context';
         } else {
@@ -188,17 +199,5 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
         }
     }
 
-    function checkFinalAnswer() {
-        const finalAnswer = document.getElementById('finalAnswer').value.toLowerCase();
-        const finalClueElement = document.getElementById('finalClue');
-
-        if (finalAnswer === 'context') {
-            finalClueElement.textContent = 'CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM !';
-            finalClueElement.classList.add('congratulations');
-        } else {
-            finalClueElement.textContent = 'Incorrect, try again!';
-            finalClueElement.style.color = 'red';
-            finalClueElement.classList.remove('congratulations');
-        }
-    }
+ 
 </script>
