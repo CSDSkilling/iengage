@@ -184,11 +184,9 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     }
 
     function helpMe(puzzleNumber) {
-        if (puzzleNumber === 'final') {
-            document.getElementById('finalAnswer').value = 'context';
-        } else {
-            document.querySelector(`input[name="answer${puzzleNumber}"][value="${correctAnswers[puzzleNumber - 1]}"]`).checked = true;
-        }
+        const clueElement = document.getElementById(`clue${puzzleNumber}`);
+        clueElement.textContent = clues[puzzleNumber - 1];
+        clueElement.style.color = 'blue';
     }
 
     function checkFinalAnswer() {
