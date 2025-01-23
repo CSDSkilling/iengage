@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "RAG Escape Room"
-category: "Case Study"
+category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, AI-3016, AI-3018]
 ---
