@@ -84,7 +84,7 @@ provides endpoint protection for Contoso.
 <script>
   function checkAnswer1() {
     var answer = document.getElementById('cloudProtection').value.toUpperCase();
-    if (answer === 'MICROSOFT ENTRA ID') {
+    if (answer === 'MICROSOFT ENTRA ID' || answer === 'ENTRA ID') {
       document.getElementById('result1').innerText = 'Correct answer';
       document.getElementById('result1').style.color = 'green';
     } else {
@@ -109,7 +109,7 @@ provides endpoint protection for Contoso.
 <script>
   function checkAnswer2() {
     var answer = document.getElementById('cloudProtection2').value.toUpperCase();
-    if (answer === 'SENTINEL') {
+    if (answer === 'SENTINEL'|| answer === 'MICROSOFT SENTINEL') {
       document.getElementById('result2').innerText = 'Correct answer';
       document.getElementById('result2').style.color = 'green';
     } else {
