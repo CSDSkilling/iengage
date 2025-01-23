@@ -115,20 +115,20 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
         <button onclick="helpMe(3)">Help Me</button>
         <div class="clue" id="clue3"></div>
     </div>
-    <div id="puzzle4" class="puzzle">
-      
-        <h3>4.	Which of the following steps are involved in the RAG process with Azure OpenAI on your data? (Select all that apply)</h3>
-        
-        <label><input type="radio" name="answer4" value="a"> A) Receive user prompt</label><br>
-        <label><input type="radio" name="answer4" value="b"> B) Train a custom model with your data</label><br>
-        <label><input type="radio" name="answer4" value="c"> C) Determine relevant content</label><br>
-        <label><input type="radio" name="answer4" value="d"> D) Query the search index</label><br>
-        <label><input type="radio" name="answer5" value="e"> E) Insert search result into the Azure OpenAI prompt, along with user prompt</label><br>
-        <label><input type="radio" name="answer6" value="f"> F) Return response and data reference (if any) to the user</label><br>
-        <button onclick="checkAnswer(4)">Submit</button>
-        <button onclick="helpMe(4)">Help Me</button>
-        <div class="clue" id="clue4"></div>
-    </div>
+
+<div id="puzzle4" class="puzzle">
+    <h3>4. Which of the following steps are involved in the RAG process with Azure OpenAI on your data? (Select all that apply)</h3>
+    
+    <label><input type="checkbox" name="answer4" value="a"> A) Receive user prompt</label><br>
+    <label><input type="checkbox" name="answer4" value="b"> B) Train a custom model with your data</label><br>
+    <label><input type="checkbox" name="answer4" value="c"> C) Determine relevant content</label><br>
+    <label><input type="checkbox" name="answer4" value="d"> D) Query the search index</label><br>
+    <label><input type="checkbox" name="answer4" value="e"> E) Insert search result into the Azure OpenAI prompt, along with user prompt</label><br>
+    <label><input type="checkbox" name="answer4" value="f"> F) Return response and data reference (if any) to the user</label><br>
+    <button onclick="checkAnswer(4)">Submit</button>
+    <button onclick="helpMe(4)">Help Me</button>
+    <div class="clue" id="clue4"></div>
+</div>
 
      <div id="puzzle5" class="puzzle">
         <h2>Final Challenge: The Ultimate Test</h2>
