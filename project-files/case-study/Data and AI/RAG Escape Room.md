@@ -151,49 +151,6 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
 const clues = ["The thief often leaves a coffee mug on their desk", "The thief usually visits the office early in the morning", "The thief often brings a laptop with a unique sticker.", "The thief prefers to work in a quiet corner of the office", "The thief often leaves the office just before lunch."];
 const correctAnswers = ["b", "b", "b", "a", "a"];
 
-function startEscapeRoom() {
-    document.getElementById('intro').style.display = 'none';
-    showPuzzle(currentPuzzle);
-}
 
-function showPuzzle(puzzleNumber) {
-    document.getElementById(`puzzle${puzzleNumber}`).style.display = 'block';
-}
-
-function checkAnswer(puzzleNumber) {
-    const selectedOption = document.querySelector(`input[name="answer${puzzleNumber}"]:checked`);
-    const clueElement = document.getElementById(`clue${puzzleNumber}`);
-
-    if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
-        clueElement.textContent = `Correct!`;
-        clueElement.style.color = 'green';
-        
-        setTimeout(() => {
-            document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
-            currentPuzzle++;
-            if (currentPuzzle <= clues.length) {
-                showPuzzle(currentPuzzle);
-            } else {
-                displayCongratulations();
-            }
-        }, 5000); // Stay on the current question for 5 seconds
-    } else {
-        clueElement.textContent = 'Incorrect, try again!';
-        clueElement.style.color = 'red';
-    }
-}
-
-function displayCongratulations() {
-    const congratsMessage = document.createElement('div');
-    congratsMessage.classList.add('congratulations');
-    congratsMessage.textContent = 'CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM!';
-    document.body.appendChild(congratsMessage);
-}
-
-function helpMe(puzzleNumber) {
-    const clueElement = document.getElementById(`clue${puzzleNumber}`);
-    clueElement.textContent = clues[puzzleNumber - 1];
-    clueElement.style.color = 'blue';
-}
  
 </script>
