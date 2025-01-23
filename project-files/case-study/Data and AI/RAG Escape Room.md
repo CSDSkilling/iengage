@@ -181,12 +181,10 @@ function checkAnswer(puzzleNumber) {
 }
 
 function displayCongratulations() {
+
+  const roomDiv = document.querySelector('.room');
+    roomDiv.innerHTML = '<div class="congratulations">CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM!</div>';
     
-
-
-    const puzzleDiv = document.getElementById(`puzzle${puzzleNumber}`);
-    puzzleDiv.innerHTML = '<div class="congratulations">CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM!</div>';
-    puzzleDiv.style.display = 'block';
 }
 
 function helpMe(puzzleNumber) {   
