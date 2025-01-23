@@ -162,7 +162,7 @@ function checkAnswer(puzzleNumber) {
     const clueElement = document.getElementById(`clue${puzzleNumber}`);
 
     if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
-        clueElement.textContent = `Correct!`;
+        clueElement.textContent = `Correct! Clue: ${clues[puzzleNumber - 1]}`;
         clueElement.style.color = 'green';
         
         setTimeout(() => {
