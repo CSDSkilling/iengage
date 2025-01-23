@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "RAG Escape Room"
-category: "Case Study123"
+category: "Case Study"
 sub-category: "Data and AI"
 courses: [AI-102, AI-3016, AI-3018]
 ---
@@ -73,6 +73,22 @@ A company with three developers is facing an issue where someone is using the Az
 
 <h2>Objective</h2>
 To solve the issue of key misuse, the company needs to identify the thief. The following MCQs will help in providing hints about the thief based on the correct answers. 
+
+    <a href="./images/es1.png">
+  <img src="./images/es1.png" alt="a group of people looking at computer">
+</a>
+    <div class="instructions">
+        <h3>How to Play</h3>
+        <ol>
+            <li><strong>Start the Game:</strong> Click the <strong>"Start"</strong> button on the introduction screen to begin your escape room adventure.</li>
+            <li><strong>Solve Puzzles:</strong> You will be presented with a series of puzzles, each related to Azure OpenAI concepts. Read the question carefully and select the correct answer by clicking on the corresponding radio button. Click the <strong>"Submit"</strong> button to check your answer.</li>
+            <li><strong>Get Help:</strong> If you're stuck on a puzzle, you can click the <strong>"Help Me"</strong> button to reveal the correct answer. Use this option sparingly to challenge yourself!</li>
+            <li><strong>Collect Clues:</strong> For each correct answer, you will receive a clue. Pay attention to these clues as they will help you in the final challenge.</li>
+            <li><strong>Progress Through Puzzles:</strong> After submitting a correct answer, the next puzzle will automatically appear after 8 seconds. Continue solving puzzles until you reach the final challenge.</li>        
+            <li><strong>Complete the Game:</strong> If your final answer is correct, you will see a congratulatory message indicating that you have escaped the room. If your answer is incorrect, you can try again or use the <strong>"Help Me"</strong> button for assistance.</li>
+        </ol>
+</div>
+
  
     <div class="room">
     <div id="intro">
