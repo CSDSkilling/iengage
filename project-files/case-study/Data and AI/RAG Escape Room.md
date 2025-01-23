@@ -187,10 +187,9 @@ function displayCongratulations() {
     document.body.appendChild(congratsMessage);
 }
 
-function helpMe(puzzleNumber) {
-    const clueElement = document.getElementById(`clue${puzzleNumber}`);
-    clueElement.textContent = clues[puzzleNumber - 1];
-    clueElement.style.color = 'blue';
+function helpMe(puzzleNumber) {   
+
+     document.querySelector(`input[name="answer${puzzleNumber}"][value="${correctAnswers[puzzleNumber - 1]}"]`).checked = true;
 }
 
  
