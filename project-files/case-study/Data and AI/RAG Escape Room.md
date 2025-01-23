@@ -80,9 +80,9 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
         <button onclick="startEscapeRoom()">Start</button>
     </div>
     <div id="puzzle1" class="puzzle">
-        <h2>Chapter 1: The Creative Campaign</h2>
+        
         <h3>1.	What is the primary advantage of using RAG with Azure OpenAI over fine-tuning a model?</h3>
-        <p>Which generative AI tool would be most suitable for generating creative content for your marketing campaign?</p>
+        
         <label><input type="radio" name="answer1" value="a"> A) RAG requires less computational power</label><br>
         <label><input type="radio" name="answer1" value="b"> B) RAG eliminates the need for training a custom model with your data</label><br>
         <label><input type="radio" name="answer1" value="c"> C) RAG provides higher quality responses than fine-tuning</label><br>
@@ -92,103 +92,61 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
         <div class="clue" id="clue1"></div>
     </div>
     <div id="puzzle2" class="puzzle">
-        <h2>Chapter 2: Customer Insights</h2>
-        <h3>Next, you move to the customer feedback department. Your team needs to analyze customer feedback and generate summaries for quick insights.</h3>
-        <p>Which Azure OpenAI model would you use to analyze customer feedback and generate summaries?</p>
-        <label><input type="radio" name="answer2" value="a"> A) BERT</label><br>
-        <label><input type="radio" name="answer2" value="b"> B) GPT</label><br>
-        <label><input type="radio" name="answer2" value="c"> C) DALL-E</label><br>
-        <label><input type="radio" name="answer2" value="d"> D) Azure Synapse Analytics</label><br>
+        
+        <h3>2.	What is the role of Azure Search in RAG?</h3>
+        
+        <label><input type="radio" name="answer2" value="a"> A) It generates random data for the model</label><br>
+        <label><input type="radio" name="answer2" value="b"> B) It provides context by generating indexes from various data sources</label><br>
+        <label><input type="radio" name="answer2" value="c"> C) It replaces the need for prompts</label><br>
+        <label><input type="radio" name="answer2" value="d"> D) It only works with SQL databases</label><br>
         <button onclick="checkAnswer(2)">Submit</button>
         <button onclick="helpMe(2)">Help Me</button>
         <div class="clue" id="clue2"></div>
     </div>
     <div id="puzzle3" class="puzzle">
-        <h2>Chapter 3: The Chatbot Challenge</h2>
-        <h3>Your journey continues to the customer support division, where you are tasked with creating a chatbot that can handle customer queries and provide personalized responses.</h3>
-        <p>Which Azure service would you choose to implement a chatbot for handling customer queries?</p>
-        <label><input type="radio" name="answer3" value="a"> A) Azure Bot Services</label><br>
-        <label><input type="radio" name="answer3" value="b"> B) Azure Open AI services</label><br>
-        <label><input type="radio" name="answer3" value="c"> C) AI Search</label><br>
-        <label><input type="radio" name="answer3" value="d"> D) Azure Data Lake</label><br>
+      
+        <h3>3.	How Which of the following is a key benefit of fine-tuning a model compared to using RAG?</h3>
+      
+        <label><input type="radio" name="answer3" value="a"> A) Fine-tuning is less costly and time-intensive</label><br>
+        <label><input type="radio" name="answer3" value="b"> B) Fine-tuning allows for customization on examples larger than can fit in a prompt</label><br>
+        <label><input type="radio" name="answer3" value="c"> C) Fine-tuning eliminates the need for a stateless API</label><br>
+        <label><input type="radio" name="answer3" value="d"> D) Fine-tuning provides immediate responses without the need for grounding data</label><br>
         <button onclick="checkAnswer(3)">Submit</button>
         <button onclick="helpMe(3)">Help Me</button>
         <div class="clue" id="clue3"></div>
     </div>
     <div id="puzzle4" class="puzzle">
-        <h2>Chapter 4: System Messages</h2>
-        <h3>In the next challenge, you need to ensure that the AI model provides responses that are aligned with the company's guidelines. You decide to use system messages to achieve this.</h3>
-        <p>What is the purpose of using system messages in generative AI models?</p>
-        <label><input type="radio" name="answer4" value="a"> A) To generate new content</label><br>
-        <label><input type="radio" name="answer4" value="b"> B) To provide context and instructions to the AI model</label><br>
-        <label><input type="radio" name="answer4" value="c"> C) To analyze data</label><br>
-        <label><input type="radio" name="answer4" value="d"> D) To create images</label><br>
+      
+        <h3>4.	Which of the following steps are involved in the RAG process with Azure OpenAI on your data? (Select all that apply)</h3>
+        
+        <label><input type="radio" name="answer4" value="a"> A) Receive user prompt</label><br>
+        <label><input type="radio" name="answer4" value="b"> B) Train a custom model with your data</label><br>
+        <label><input type="radio" name="answer4" value="c"> C) Determine relevant content</label><br>
+        <label><input type="radio" name="answer4" value="d"> D) Query the search index</label><br>
+        <label><input type="radio" name="answer5" value="e"> E) Insert search result into the Azure OpenAI prompt, along with user prompt</label><br>
+        <label><input type="radio" name="answer6" value="f"> F) Return response and data reference (if any) to the user</label><br>
         <button onclick="checkAnswer(4)">Submit</button>
         <button onclick="helpMe(4)">Help Me</button>
         <div class="clue" id="clue4"></div>
     </div>
-    <div id="puzzle5" class="puzzle">
-        <h2>Chapter 5: Design Studio</h2>
-        <h3>Your next stop is the design studio, where you need to create realistic images based on text descriptions for a design project.</h3>
-        <p>Which generative AI model should you use to generate realistic images from text descriptions?</p>
-        <label><input type="radio" name="answer5" value="a"> A) GPT</label><br>
-        <label><input type="radio" name="answer5" value="b"> B) BERT</label><br>
-        <label><input type="radio" name="answer5" value="c"> C) DALL-E</label><br>
-        <label><input type="radio" name="answer5" value="d"> D) Azure Machine Learning</label><br>
+
+     <div id="puzzle5" class="puzzle">
+        <h2>Final Challenge: The Ultimate Test</h2>
+  
+        <p>Azure Open ai enables RAG by connecting ________ models to your own data source</p>
+        <label><input type="radio" name="answer5" value="a"> A) Pre-trained models</label><br>
+        <label><input type="radio" name="answer5" value="b"> B) Fine-tuned models</label><br>
+        
         <button onclick="checkAnswer(5)">Submit</button>
         <button onclick="helpMe(5)">Help Me</button>
         <div class="clue" id="clue5"></div>
     </div>
-    <div id="puzzle6" class="puzzle">
-        <h2>Chapter 6: Data Analysis</h2>
-        <h3>In the data analysis department, your team is tasked with generating detailed reports from large datasets.</h3>
-        <p>Which Azure service would be best suited for generating detailed reports from large datasets?</p>
-        <label><input type="radio" name="answer6" value="a"> A) Azure Data Factory</label><br>
-        <label><input type="radio" name="answer6" value="b"> B) Azure Synapse Analytics</label><br>
-        <label><input type="radio" name="answer6" value="c"> C) Azure Open AI services</label><br>
-        <label><input type="radio" name="answer6" value="d"> D) Azure Cognitive Services</label><br>
-        <button onclick="checkAnswer(6)">Submit</button>
-        <button onclick="helpMe(6)">Help Me</button>
-        <div class="clue" id="clue6"></div>
-    </div>
-    <div id="puzzle7" class="puzzle">
-        <h2>Chapter 7: Temperature Control</h2>
-        <h3>Your team is working on a creative writing project and needs to control the randomness of the AI-generated content. You decide to adjust the temperature parameter.</h3>
-        <p>What effect does increasing the temperature parameter have on the AI-generated content?</p>
-        <label><input type="radio" name="answer7" value="a"> A) It makes the content more deterministic</label><br>
-        <label><input type="radio" name="answer7" value="b"> B) It increases the randomness and creativity of the content</label><br>
-        <label><input type="radio" name="answer7" value="c"> C) It reduces the length of the content</label><br>
-        <label><input type="radio" name="answer7" value="d"> D) It improves the accuracy of the content</label><br>
-        <button onclick="checkAnswer(7)">Submit</button>
-        <button onclick="helpMe(7)">Help Me</button>
-        <div class="clue" id="clue7"></div>
-    </div>
-    <div id="puzzle8" class="puzzle">
-        <h2>Chapter 8: Assistant APIs</h2>
-        <h3>Finally, you need to maintain conversation context in your AI-powered application. You decide to use Assistant APIs for this purpose.</h3>
-        <p>What is the primary benefit of using Assistant APIs in generative AI applications?</p>
-        <label><input type="radio" name="answer8" value="a"> A) To generate images</label><br>
-        <label><input type="radio" name="answer8" value="b"> B) To maintain conversation context</label><br>
-        <label><input type="radio" name="answer8" value="c"> C) To analyze data</label><br>
-        <label><input type="radio" name="answer8" value="d"> D) To create new models</label><br>
-        <button onclick="checkAnswer(8)">Submit</button>
-        <button onclick="helpMe(8)">Help Me</button>
-        <div class="clue" id="clue8"></div>
-    </div>
-    <div id="finalChallenge" class="puzzle">
-    <h2>Final Challenge: The Ultimate Test</h2>
-    <h3>To complete your mission, you need to demonstrate your understanding of prompt engineering. Fill in the blank to complete the statement:</h3>
-    <p>Effective prompt engineering involves crafting prompts that are clear, concise, and provide sufficient </p>
-    <input type="text" id="finalAnswer" style="display: block; margin: 10px auto;"><br>
-    <button onclick="checkFinalAnswer()">Submit</button>
-    <button onclick="helpMe('final')">Help Me</button>
-    <div class="clue" id="finalClue"></div>
-    </div>
-    </div>
+
+</div>
 <script>
     let currentPuzzle = 1;
-    const clues = ["RAG eliminates the need for training a custom model with your data", "GPT", "Azure Bot Services", "To provide context and instructions to the AI model", "DALL-E", "Azure Synapse Analytics", "It increases the randomness and creativity of the content", "To maintain conversation context"];
-    const correctAnswers = ["b", "b", "a", "b", "c", "b", "b", "b"];
+    const clues = ["The thief often leaves a coffee mug on their desk", "The thief usually visits the office early in the morning", "The thief often brings a laptop with a unique sticker.", "The thief prefers to work in a quiet corner of the office", "The thief often leaves the office just before lunch."];
+    const correctAnswers = ["b", "b", "b", "a","a"];
 
     function startEscapeRoom() {
         document.getElementById('intro').style.display = 'none';
