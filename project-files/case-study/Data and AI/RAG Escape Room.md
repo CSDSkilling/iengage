@@ -146,7 +146,15 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
 <script>
  let currentPuzzle = 1;
 const clues = ["The thief often leaves a coffee mug on their desk", "The thief usually visits the office early in the morning", "The thief often brings a laptop with a unique sticker.", "The thief prefers to work in a quiet corner of the office", "The thief often leaves the office just before lunch."];
-const correctAnswers = ["b", "b", "b", "a", "a"];
+
+const correctAnswers = {
+    1: ["b"],
+    2: ["b"],
+    3: ["b"],
+    4: ["a", "c", "d", "e", "f"],
+    5: ["a"]
+};
+
 
 function startEscapeRoom() {
     document.getElementById('intro').style.display = 'none';
@@ -158,17 +166,18 @@ function showPuzzle(puzzleNumber) {
 }
 
 function checkAnswer(puzzleNumber) {
-    const selectedOption = document.querySelector(`input[name="answer${puzzleNumber}"]:checked`);
+    const selectedOptions = document.querySelectorAll(`input[name="answer${puzzleNumber}"]:checked`);
     const clueElement = document.getElementById(`clue${puzzleNumber}`);
+    const selectedValues = Array.from(selectedOptions).map(option => option.value);
 
-    if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
+    if (arraysEqual(selectedValues, correctAnswers[puzzleNumber])) {
         clueElement.textContent = `Correct! Clue: ${clues[puzzleNumber - 1]}`;
         clueElement.style.color = 'green';
         
         setTimeout(() => {
             document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
             currentPuzzle++;
-            if (currentPuzzle <= clues.length) {
+            if (currentPuzzle <= Object.keys(clues).length) {
                 showPuzzle(currentPuzzle);
             } else {
                 displayCongratulations();
@@ -180,6 +189,11 @@ function checkAnswer(puzzleNumber) {
     }
 }
 
+function arraysEqual(arr1, arr2) {
+    return arr1.length === arr2.length && arr1.every(value => arr2.includes(value));
+}
+
+
 function displayCongratulations() {
 
   const roomDiv = document.querySelector('.room');
@@ -189,7 +203,10 @@ function displayCongratulations() {
 
 function helpMe(puzzleNumber) {   
 
-     document.querySelector(`input[name="answer${puzzleNumber}"][value="${correctAnswers[puzzleNumber - 1]}"]`).checked = true;
+   const correctOptions = correctAnswers[puzzleNumber];
+    correctOptions.forEach(option => {
+        document.querySelector(`input[name="answer${puzzleNumber}"][value="${option}"]`).checked = true;
+    });
 }
 
  
