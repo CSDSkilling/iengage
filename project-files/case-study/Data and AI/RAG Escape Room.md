@@ -59,9 +59,6 @@ courses: [AI-102, AI-3016, AI-3018]
     <h1>Finding the Thief Misusing Azure AI Service Key</h1>
 A company with three developers is facing an issue where someone is using the Azure AI service key for personal projects. Despite the admin's efforts to regenerate the key, the misuse continues. The company resources are new to Azure and are yet to learn about facilities like Azure Key Vault. 
 
-   <a href="./images/es1.png">
-  <img src="./images/es1.png" alt="a group of people looking into the computer">
-
 <h2>Problem Statement </h2>
  The company needs to identify the person misusing the Azure AI service key. The admin has tried regenerating the key, but it hasn't been effective. The developers are new to Azure and are not familiar with facilities like Azure Key Vault that could help secure the keys. 
 
@@ -151,6 +148,50 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
 const clues = ["The thief often leaves a coffee mug on their desk", "The thief usually visits the office early in the morning", "The thief often brings a laptop with a unique sticker.", "The thief prefers to work in a quiet corner of the office", "The thief often leaves the office just before lunch."];
 const correctAnswers = ["b", "b", "b", "a", "a"];
 
+function startEscapeRoom() {
+    document.getElementById('intro').style.display = 'none';
+    showPuzzle(currentPuzzle);
+}
+
+function showPuzzle(puzzleNumber) {
+    document.getElementById(`puzzle${puzzleNumber}`).style.display = 'block';
+}
+
+function checkAnswer(puzzleNumber) {
+    const selectedOption = document.querySelector(`input[name="answer${puzzleNumber}"]:checked`);
+    const clueElement = document.getElementById(`clue${puzzleNumber}`);
+
+    if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
+        clueElement.textContent = `Correct!`;
+        clueElement.style.color = 'green';
+        
+        setTimeout(() => {
+            document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
+            currentPuzzle++;
+            if (currentPuzzle <= clues.length) {
+                showPuzzle(currentPuzzle);
+            } else {
+                displayCongratulations();
+            }
+        }, 5000); // Stay on the current question for 5 seconds
+    } else {
+        clueElement.textContent = 'Incorrect, try again!';
+        clueElement.style.color = 'red';
+    }
+}
+
+function displayCongratulations() {
+    const congratsMessage = document.createElement('div');
+    congratsMessage.classList.add('congratulations');
+    congratsMessage.textContent = 'CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM!';
+    document.body.appendChild(congratsMessage);
+}
+
+function helpMe(puzzleNumber) {
+    const clueElement = document.getElementById(`clue${puzzleNumber}`);
+    clueElement.textContent = clues[puzzleNumber - 1];
+    clueElement.style.color = 'blue';
+}
 
  
 </script>
