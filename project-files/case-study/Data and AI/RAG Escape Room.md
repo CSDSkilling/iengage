@@ -162,7 +162,7 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
         const clueElement = document.getElementById(`clue${puzzleNumber}`);
 
         if (selectedOption && selectedOption.value === correctAnswers[puzzleNumber - 1]) {
-            clueElement.textContent = `Correct!`;
+            clueElement.textContent = `Correct! Clue: ${clues[puzzleNumber - 1]}`;
             clueElement.style.color = 'green';
             
             currentPuzzle++;
@@ -175,7 +175,7 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
                 setTimeout(() => {
                     document.getElementById(`puzzle${puzzleNumber}`).style.display = 'none';
                     document.getElementById('finalChallenge').style.display = 'block';
-                }, 1000);
+                }, 5000);
             }
         } else {
             clueElement.textContent = 'Incorrect, try again!';
@@ -184,9 +184,11 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     }
 
     function helpMe(puzzleNumber) {
-        const clueElement = document.getElementById(`clue${puzzleNumber}`);
-        clueElement.textContent = clues[puzzleNumber - 1];
-        clueElement.style.color = 'blue';
+           if (puzzleNumber === 'final') {
+            document.getElementById('finalAnswer').value = 'context';
+        } else {
+            document.querySelector(`input[name="answer${puzzleNumber}"][value="${correctAnswers[puzzleNumber - 1]}"]`).checked = true;
+        }
     }
 
     function checkFinalAnswer() {
