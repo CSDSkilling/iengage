@@ -3,7 +3,7 @@ layout: default
 title:  "Copilot Studio Vs AI Foundry"
 category: "Gamification"
 sub-category: "Modern Workplace"
-courses: [MS-4009, MS-4010]
+courses: [AI-3018, MS-4010]
 ---
 
 # Copilot Studio Vs AI Foundry
