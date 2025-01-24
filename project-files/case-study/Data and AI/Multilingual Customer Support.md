@@ -3,7 +3,7 @@ layout: default
 title:  "Multilingual Customer Support"
 category: "Case Study"
 sub-category: "Data and AI"
-courses: [AI-102]
+courses: [AI-102, AI-3003, PR-801]
 ---
 
 # Multilingual Customer Support
