@@ -3,7 +3,7 @@ layout: default
 title:  " AI Vision in Marketing"
 category: "Case Study"
 sub-category: "Data and AI"
-courses: [AI-102, PR-801]
+courses: [AI-102, PR-801, AI-3004]
 ---
 
 # Enhancing Digital Media Management with Azure AI Vision
