@@ -3,7 +3,7 @@ layout: default
 title:  "Azure AI Hub Vs Project"
 category: "Gamification"
 sub-category: "Data and AI"
-courses: [DP-203 ,AZ-305]
+courses: [AI-3016, AI-3018]
 ---
 
 # Understanding Azure AI Project Vs AI Hub
