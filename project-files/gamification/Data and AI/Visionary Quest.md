@@ -3,7 +3,7 @@ layout: default
 title:  "Quest with AI Vision"
 category: "Gamification"
 sub-category: "Data and AI"
-courses: [AI-102, PR-801]
+courses: [AI-102, PR-801, AI-3004]
 ---
 # Quest with AI Vision
 
