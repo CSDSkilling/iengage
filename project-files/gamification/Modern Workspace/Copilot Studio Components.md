@@ -3,7 +3,7 @@ layout: default
 title:  "Copilot Studio-Actions and Components"
 category: "Gamification"
 sub-category: "Modern Workplace"
-courses: [MS-4009, MS-4010]
+courses: [MS-4010, MS-4015]
 ---
 
 
