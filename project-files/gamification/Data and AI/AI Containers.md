@@ -3,7 +3,7 @@ layout: default
 title:  "AI Containers"
 category: "Gamification"
 sub-category: "Data and AI"
-courses: [AI-102]
+courses: [AI-102, PR-801, AI-3003, AI-3004]
 ---
 
 # Understanding AI Container
