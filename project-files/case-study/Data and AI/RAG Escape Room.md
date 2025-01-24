@@ -166,7 +166,7 @@ const clues = ["The thief often leaves a coffee mug on their desk", "The thief u
 const correctAnswers = {
     1: ["b"],
     2: ["b"],
-    3: ["b"],
+    3: ["d"],
     4: ["a", "c", "d", "e", "f"],
     5: ["a"]
 };
