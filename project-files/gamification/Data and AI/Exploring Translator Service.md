@@ -3,7 +3,7 @@ layout: default
 title:  "Exploring Translator Service"
 category: "Gamification"
 sub-category: "Data and AI"
-courses: [AI-102]
+courses: [AI-102, AI-3003, PR-801]
 ---
 
 # Exploring Azure Translator Service: A Conversation Between Alice and Bob
