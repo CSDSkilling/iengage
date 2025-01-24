@@ -3,7 +3,7 @@ layout: default
 title:  "Data Integration and Analysis -Synapse and Fabrics"
 category: "Case Study"
 sub-category: "Data and AI"
-courses: [DP-203]
+courses: [DP-203, DP-3012, DP-600, DP-700]
 ---
 # Data Integration and Analysis with Azure Synapse Analytics and Microsoft Fabric
 
