@@ -3,7 +3,7 @@ layout: default
 title:  "RAG Escape Room"
 category: "Case Study"
 sub-category: "Data and AI"
-courses: [AI-102, AI-3016, AI-3018]
+courses: [AI-102, AI-3016, AI-3018, PR-801]
 ---
 
 <html lang="en">
