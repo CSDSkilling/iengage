@@ -100,7 +100,7 @@ Below are questions based on the scenario. Help Jamie identify when to use RAG, 
             <div class="back">RAG and Fine-tuning - Because the chatbot needs to handle both consistent queries and the latest information.</div>
         </div>
   </div>
-  </div>
+  
 
     <script>
         function checkAnswer(tile, answer) {
