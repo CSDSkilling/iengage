@@ -20,7 +20,7 @@ Alex and Jamie, two colleagues working in the customer support department of a t
 
 **Help Jamie to find answers for the below questions**
 
-Below are questions based on the scenario. Help Jamie identify when to use RAG, fint-tuning and both
+Below are questions based on the scenario. Help Jamie identify when to use RAG, fint-tuning and both.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -120,7 +120,7 @@ Below are questions based on the scenario. Help Jamie identify when to use RAG, 
 </body>
 </html>
 
-### Question 1:
+
 **Alex and Jamie decide to implement RAG to ensure their chatbot can provide the latest product information. They need a service to retrieve relevant documents from their knowledge base. Which Azure service should they use?**
 
 <form id="quizForm1">
@@ -136,7 +136,7 @@ Below are questions based on the scenario. Help Jamie identify when to use RAG, 
 </form>
 <p id="result1"></p>
 
-### Question 2:
+
 **After fine-tuning the GPT model, Alex and Jamie want to deploy it as a scalable API for their chatbot. They need a service to manage this deployment. Which Azure service should they use?**
 
 <form id="quizForm2">
