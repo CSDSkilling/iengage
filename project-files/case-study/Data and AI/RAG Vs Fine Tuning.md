@@ -20,7 +20,7 @@ Alex and Jamie, two colleagues working in the customer support department of a t
 
 **Help Jamie to find answers for the below questions**
 
-Below are questions based on the scenario. Help Jamie identify when to use RAG, fint-tuning and both.
+Below are questions based on the scenario. Help Jamie identify when to use RAG, fine-tuning and both.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
