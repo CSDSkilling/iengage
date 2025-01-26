@@ -97,7 +97,7 @@ Below are questions based on the scenario. Help Jamie identify when to use RAG, 
         </div>
         <div class="tile" onclick="checkAnswer(this, 'RAG and Fine-tuning - Because the chatbot needs to handle both consistent queries and the latest information, combining both techniques would be most effective.')">
             <div class="front">The chatbot is required to handle a wide range of customer queries, including both frequently asked questions and the latest product announcements. Which technique should be used?</div>
-            <div class="back">RAG and Fine-tuning - Because the chatbot needs to handle both consistent queries and the latest information, combining both techniques would be most effective.</div>
+            <div class="back">RAG and Fine-tuning - Because the chatbot needs to handle both consistent queries and the latest information.</div>
         </div>
   </div>
   </div>
