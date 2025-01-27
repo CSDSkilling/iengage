@@ -110,9 +110,7 @@ Your goal is to help the team identify which features or services belong to ADDS
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises application">On-premises application</div>
     </div>
 
-
-    <div class="container">
-        <div class="drop-area" id="entra-id">
+   <div class="drop-area" id="entra-id">
             <h2>Entra ID</h2>
               <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
@@ -131,7 +129,7 @@ Your goal is to help the team identify which features or services belong to ADDS
         <p class="message"></p>
 
         </div>
-    </div>
+
     
 
     
