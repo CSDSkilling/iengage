@@ -107,11 +107,13 @@ Your goal is to help the team identify which features or services belong to ADDS
     </div>
     <div>
         <p><b>Entra ID</b></p>
+        <div class="drop-area-container">
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,CPolicy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,CPolicy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,CPolicy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,CPolicy"></div>
           <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,CPolicy"></div>
+          </div>
         <p class="message"></p>
     </div>
 
