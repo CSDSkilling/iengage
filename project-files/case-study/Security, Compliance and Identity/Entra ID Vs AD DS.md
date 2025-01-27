@@ -92,16 +92,18 @@ Your goal is to help the team identify which features or services belong to ADDS
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="M365 and Azure Services integration">M365 and Azure Services integration</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Forest/Domain/OU">Forest, Domain, OU</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Cloud Identity">Cloud Identity</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Policy">Policy</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Policy" ondragstart="showSecondPolicy()>Policy</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises identity">On-premises Identity</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises application">On-premises application</div>
+
+         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Policy2" style="display: none;">Policy</div>
     </div>
     <div>
         <p><b>Entra ID</b></p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,Policy"></div>        
         <p class="message"></p>
     </div>
@@ -126,6 +128,9 @@ Your goal is to help the team identify which features or services belong to ADDS
             event.dataTransfer.setData("text", event.target.id);
         }
 
+  function showSecondPolicy() {
+        document.getElementById('Policy2').style.display = 'block';
+    }
 
     function drop(event) {
     event.preventDefault();
