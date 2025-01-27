@@ -96,26 +96,32 @@ Your goal is to help the team identify which features or services belong to ADDS
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises identity">On-premises Identity</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises application">On-premises application</div>
     </div>
-    <div>
-        <p><b>Entra ID</b></p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
+
+
+    <div class="container">
+        <div class="drop-area" id="entra-id">
+            <h2>Entra ID</h2>
+              <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,Policy"></div>        
         <p class="message"></p>
-    </div>
-
-    <div>
-        <p><b>Active Directory Domain Services</b></p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application"></div>
+        </div>
+        <div class="drop-area" id="ad-ds">
+            <h2>Active Directory Domain Services</h2>
+                <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application"></div>        
         <p class="message"></p>
-    </div>
 
+        </div>
+    </div>
+    
+
+    
 
     <script>
         function allowDrop(event) {
@@ -156,4 +162,4 @@ Your goal is to help the team identify which features or services belong to ADDS
 
     </script>
 </body>
-</body>
+
