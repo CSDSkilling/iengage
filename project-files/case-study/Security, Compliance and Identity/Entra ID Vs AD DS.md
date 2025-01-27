@@ -81,6 +81,12 @@ Your goal is to help the team identify which features or services belong to ADDS
             background-color: #f8d7da;
             border: 1px solid #f5c6cb;
     }
+
+     .drop-area-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px; /* Adjust the gap between the blocks as needed */
+    }
     </style>
 </head>
 <body>
@@ -111,12 +117,14 @@ Your goal is to help the team identify which features or services belong to ADDS
 
     <div>
         <p><b>Active Directory Domain Services</b></p>
+         <div class="drop-area-container">
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>        
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>        
+        </div>
         <p class="message"></p>
     </div>
 
