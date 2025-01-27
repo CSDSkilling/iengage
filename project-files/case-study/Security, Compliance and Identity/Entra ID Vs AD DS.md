@@ -56,13 +56,6 @@ Your goal is to help the team identify which features or services belong to ADDS
            .container {
             display: flex;
         }
-        .drop-area {
-            flex: 1;
-            border: 2px dashed #ccc;
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
-        }
 
         
         .drop-area:hover {
@@ -97,6 +90,7 @@ Your goal is to help the team identify which features or services belong to ADDS
     </style>
 </head>
 <body>
+      <div class="container">
     <div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Kerberos/NTLM">Kerberos, NTLM</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="SAML/OIDC/ WS-FED">SAML, OIDC, WS-FED</div>
@@ -130,7 +124,7 @@ Your goal is to help the team identify which features or services belong to ADDS
 
         </div>
 
-    
+</div>    
 
     
 
