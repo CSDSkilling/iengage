@@ -50,8 +50,21 @@ Your goal is to help the team identify which features or services belong to ADDS
             vertical-align: top;
             background-color: #fafafa;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s, border-color 0.3s;
+            transition: background-color 0.3s, border-color 0.3s;            
         }
+
+           .container {
+            display: flex;
+        }
+        .drop-area {
+            flex: 1;
+            border: 2px dashed #ccc;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        
         .drop-area:hover {
             background-color: #f0f0f0;
             border-color: #bbb;
