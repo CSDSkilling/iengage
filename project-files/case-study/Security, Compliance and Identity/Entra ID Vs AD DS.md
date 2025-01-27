@@ -109,12 +109,12 @@ Your goal is to help the team identify which features or services belong to ADDS
 
     <div>
         <p><b>Active Directory Domain Services</b></p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application","Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application","Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application","Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application","Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application","Policy"></div>        
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application","Policy"></div>        
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>        
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="Kerberos/NTLM,On-premises Printers,Forest/Domain/OU,On-premises identity,On-premises application,Policy"></div>        
         <p class="message"></p>
     </div>
 
