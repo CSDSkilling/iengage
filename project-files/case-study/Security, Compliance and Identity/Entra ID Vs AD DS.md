@@ -86,9 +86,9 @@ Your goal is to help the team identify which features or services belong to ADDS
 <body>
     <div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Kerberos/NTLM">Kerberos, NTLM</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="SAML/OIDC/ WS-FED">AML, OIDC, WS-FED</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="SAML/OIDC/ WS-FED">SAML, OIDC, WS-FED</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Tenants">Tenants</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises Printers">On-premises Printers"</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises Printers">On-premises Printers</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="M365 and Azure Services integration">M365 and Azure Services integration</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Forest/Domain/OU">Forest, Domain, OU</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Cloud Identity">Cloud Identity</div>
@@ -102,7 +102,7 @@ Your goal is to help the team identify which features or services belong to ADDS
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity, Policy"></div>        
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="SAML/OIDC/ WS-FED,Tenants,M365 and Azure Services integration,Cloud Identity,Policy"></div>        
         <p class="message"></p>
     </div>
 
