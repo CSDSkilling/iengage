@@ -92,7 +92,7 @@ Your goal is to help the team identify which features or services belong to ADDS
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="M365 and Azure Services integration">M365 and Azure Services integration</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Forest/Domain/OU">Forest, Domain, OU</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Cloud Identity">Cloud Identity</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Policy" ondragstart="showSecondPolicy()>Policy</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="Policy" ondragstart="showSecondPolicy()">Policy</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises identity">On-premises Identity</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="On-premises application">On-premises application</div>
 
