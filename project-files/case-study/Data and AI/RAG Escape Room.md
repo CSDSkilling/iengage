@@ -97,7 +97,7 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     </div>
     <div id="puzzle1" class="puzzle">
         
-        <h3>1.	What is the primary advantage of using RAG with Azure OpenAI over fine-tuning a model?</h3>
+        <h3>1.What is the primary advantage of using RAG with Azure OpenAI over fine-tuning a model?</h3>
         
         <label><input type="radio" name="answer1" value="a"> A) RAG requires less computational power</label><br>
         <label><input type="radio" name="answer1" value="b"> B) RAG eliminates the need for training a custom model with your data</label><br>
@@ -109,7 +109,7 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     </div>
     <div id="puzzle2" class="puzzle">
         
-        <h3>2.	What is the role of Azure Search in RAG?</h3>
+        <h3>2.What is the role of Azure Search in RAG?</h3>
         
         <label><input type="radio" name="answer2" value="a"> A) It generates random data for the model</label><br>
         <label><input type="radio" name="answer2" value="b"> B) It provides context by generating indexes from various data sources</label><br>
@@ -121,7 +121,7 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     </div>
     <div id="puzzle3" class="puzzle">
       
-        <h3>3.	How Which of the following is a key benefit of fine-tuning a model compared to using RAG?</h3>
+        <h3>3.How Which of the following is a key benefit of fine-tuning a model compared to using RAG?</h3>
       
         <label><input type="radio" name="answer3" value="a"> A) Fine-tuning is less costly and time-intensive</label><br>
         <label><input type="radio" name="answer3" value="b"> B) Fine-tuning allows for customization on examples larger than can fit in a prompt</label><br>
@@ -146,29 +146,42 @@ To solve the issue of key misuse, the company needs to identify the thief. The f
     <div class="clue" id="clue4"></div>
 </div>
 
-     <div id="puzzle5" class="puzzle">
-        <h2>Final Challenge: The Ultimate Test</h2>
-  
-        <p>Azure Open ai enables RAG by connecting ________ models to your own data source</p>
-        <label><input type="radio" name="answer5" value="a"> A) Pre-trained models</label><br>
-        <label><input type="radio" name="answer5" value="b"> B) Fine-tuned models</label><br>
-        
+<div id="puzzle5" class="puzzle">
+    <h3>5. Azure Open ai enables RAG by connecting ________ models to your own data source</h3>
+    
+  <label><input type="radio" name="answer5" value="a">  A) Pre-trained models</label><br>
+        <label><input type="radio" name="answer5" value="b">  B) Fine-tuned models</label><br>
+
         <button onclick="checkAnswer(5)">Submit</button>
         <button onclick="helpMe(5)">Help Me</button>
         <div class="clue" id="clue5"></div>
+</div>
+
+     <div id="puzzle6" class="puzzle">
+        <h2>Final Challenge: The Ultimate Test</h2>
+  
+        <p>Based on the clues, who is the thief</p>
+        <label><input type="radio" name="answer6" value="a"> A)Alex</label><br>
+        <label><input type="radio" name="answer6" value="b"> B) Jordan</label><br>
+        <label><input type="radio" name="answer6" value="c"> C) Taylor</label><br>
+        
+        <button onclick="checkAnswer(6)">Submit</button>
+        <button onclick="helpMe(6)">Help Me</button>
+        <div class="clue" id="clue6"></div>
     </div>
 
 </div>
 <script>
  let currentPuzzle = 1;
-const clues = ["The thief often leaves a coffee mug on their desk", "The thief usually visits the office early in the morning", "The thief often brings a laptop with a unique sticker.", "The thief prefers to work in a quiet corner of the office", "The thief often leaves the office just before lunch."];
+const clues = ["The thief often leaves a coffee mug on their desk", "The thief usually visits the office early in the morning", "The thief often brings a laptop with a unique sticker.", "The thief prefers to work in a quiet corner of the office", "The thief often leaves the office just before lunch.","Alex"];
 
 const correctAnswers = {
     1: ["b"],
     2: ["b"],
     3: ["d"],
     4: ["a", "c", "d", "e", "f"],
-    5: ["a"]
+    5: ["a"],
+    6: ["a"]
 };
 
 
@@ -213,7 +226,7 @@ function arraysEqual(arr1, arr2) {
 function displayCongratulations() {
 
   const roomDiv = document.querySelector('.room');
-    roomDiv.innerHTML = '<div class="congratulations">CONGRATULATIONS! YOU HAVE ESCAPED THE ROOM!</div>';
+    roomDiv.innerHTML = '<div class="congratulations">CONGRATULATIONS! ALEX IS THE THIEF!</div>';
     
 }
 
