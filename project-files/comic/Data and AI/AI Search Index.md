@@ -24,8 +24,8 @@ In this scenario, team members in a conference room are discussing the intricaci
             margin-top: 50px;
         }
         .carousel-image {
-            max-width: 500px;
-            max-height: 300px;
+            max-width: 700px;
+            max-height: 700px;
         }
         .carousel-button {
             padding: 10px 20px;
