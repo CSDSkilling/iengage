@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  " APIM in banking"
+title:  "APIM in banking"
 category: "Comic"
 sub-category: "Digital and App Innovation"
 courses: [AZ-204,AZ-305]
