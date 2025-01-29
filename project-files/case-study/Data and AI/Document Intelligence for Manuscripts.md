@@ -111,7 +111,7 @@ In a library filled with countless handwritten manuscripts, managing and searchi
             }
         });
         if (allCorrect) {
-            result.innerHTML = '<p style="color: green;">Correct!</p>';
+            result.innerHTML = '<p style="color: green;">Correct! Document intelligence uses machine learning to categorize and organize documents based on their content and context, Document intelligence can identify duplicates by comparing document content and metadata, Document intelligence can flag important sections by analyzing document structure and extracting key information </p>';
         } else {
             result.innerHTML = '<p style="color: red;">Some answers are incorrect. The correct answers are B, C, and D.</p>';
         }
@@ -125,9 +125,9 @@ In a library filled with countless handwritten manuscripts, managing and searchi
         result.innerHTML = '';
         if (selected) {
             if (selected.value === correctAnswer) {
-                result.innerHTML = '<p style="color: green;">Correct! You create a custom model by uploading training data, labeling the data, and training the model using Azure AI Document Intelligence.</p>';
+                result.innerHTML = '<p style="color: green;">Correct! By uploading training data, labeling the data, and training the model using Azure AI Document Intelligence.</p>';
             } else {
-                result.innerHTML = '<p style="color: red;">Incorrect. The correct answer is C. You create a custom model by uploading training data, labeling the data, and training the model using Azure AI Document Intelligence.</p>';
+                result.innerHTML = '<p style="color: red;">Incorrect. The correct answer is C. By uploading training data, labeling the data, and training the model using Azure AI Document Intelligence.</p>';
             }
         } else {
             result.innerHTML = '<p style="color: red;">Please select an answer.</p>';
@@ -137,7 +137,7 @@ In a library filled with countless handwritten manuscripts, managing and searchi
       function checkAnswer4() {
         const correctAnswers = ['A', 'C'];
         const form = document.getElementById('question4Form');
-        const selected = Array.from(form.querySelectorAll('input[name="question9"]:checked')).map(input => input.value);
+        const selected = Array.from(form.querySelectorAll('input[name="question4"]:checked')).map(input => input.value);
         const result = document.getElementById('result4');
         result.innerHTML = '';
         let allCorrect = true;
