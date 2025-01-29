@@ -78,7 +78,7 @@ In a library filled with countless handwritten manuscripts, managing and searchi
         result.innerHTML = '';
         if (selected) {
             if (selected.value === correctAnswer) {
-                result.innerHTML = '<p style="color: green;">Correct!</p>';
+                result.innerHTML = '<p style="color: green;">Correct! By using Optical Character Recognition (OCR) and machine learning to scan and convert handwritten text into digital text.</p>';
             } else {
                 result.innerHTML = '<p style="color: red;">Incorrect. The correct answer is B.</p>';
             }
