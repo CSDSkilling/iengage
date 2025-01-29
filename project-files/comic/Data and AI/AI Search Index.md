@@ -37,7 +37,7 @@ In this scenario, team members in a conference room are discussing the intricaci
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="ai1.png" alt="Image Carousel">
+        <img id="carousel" class="carousel-image" src="./images/ai1.png" alt="Image Carousel">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
