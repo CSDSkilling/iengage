@@ -3,7 +3,7 @@ layout: default
 title:  "Single Service Vs Multi-Service Resource"
 category: "Gamification"
 sub-category: "Data and AI"
-courses: [AI-102, PR-801, AI-3003, AI-3004]
+courses: [AI-102, PR-801, AI-3003, AI-3004, AI-3002]
 ---
 # Smart City Initiative - Single Service Vs Multi-Service Account
 
