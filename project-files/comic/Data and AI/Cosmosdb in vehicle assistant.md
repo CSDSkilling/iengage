@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  " Cosmos DB in Vehicle Assistants"
+title:  "Cosmos DB in Vehicle Assistants"
 category: "Comic"
 sub-category: "Data and AI"
 courses: [DP-203,AZ-305]
