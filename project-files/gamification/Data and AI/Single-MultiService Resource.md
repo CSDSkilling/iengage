@@ -92,9 +92,9 @@ Below are questions based on the scenario. Each question is on one side of a fli
             <div class="front">You need to analyze live video feeds from traffic cameras to monitor traffic flow and detect incidents in real-time. What type of Azure AI service account should you use?</div>
             <div class="back">Single-service account (Computer Vision)</div>
         </div>
-        <div class="tile" onclick="checkAnswer(this, 'Multi-service account (Language Service)')">
+        <div class="tile" onclick="checkAnswer(this, 'Single-service account (Language Service)')">
             <div class="front">Your project involves analyzing customer feedback from multiple sources, including social media, emails, and surveys, to understand sentiment and key topics. What type of Azure AI service account should you use?</div>
-            <div class="back">Multi-service account (Language Service)</div>
+            <div class="back">Single-service account (Language Service)</div>
         </div>
         <div class="tile" onclick="checkAnswer(this, 'Multi-service account (Speech Services, Translator)')">
             <div class="front">You are developing a voice-activated virtual assistant that can understand and respond to user queries, transcribe spoken words, and translate languages. What type of Azure AI service account should you use?</div>
