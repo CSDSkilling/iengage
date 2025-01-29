@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "AI Search Index in Action"
-category: "Comic123"
+category: "Comic"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801, AI-3016]
 ---
