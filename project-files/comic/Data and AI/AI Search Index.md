@@ -24,8 +24,13 @@ In this scenario, team members in a conference room are discussing the intricaci
             margin-top: 50px;
         }
         .carousel-image {
-            max-width: 700px;
+            width: 800px;
             max-height: 700px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .carousel-image.enlarged {
+            transform: scale(1.5);
         }
         .carousel-button {
             padding: 10px 20px;
@@ -37,7 +42,7 @@ In this scenario, team members in a conference room are discussing the intricaci
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/ai1.png" alt="Image Carousel">
+        <img id="carousel" class="carousel-image" src="./images/ai1.png" alt="Image Carousel" onclick="toggleEnlarge()">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
@@ -58,6 +63,11 @@ In this scenario, team members in a conference room are discussing the intricaci
         function prevImage() {
             currentIndex = (currentIndex - 1 + images.length) % images.length;
             showImage(currentIndex);
+        }
+
+        function toggleEnlarge() {
+            const carousel = document.getElementById('carousel');
+            carousel.classList.toggle('enlarged');
         }
     </script>
 </body>
