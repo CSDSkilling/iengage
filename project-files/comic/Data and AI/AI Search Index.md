@@ -25,7 +25,7 @@ In this scenario, team members in a conference room are discussing the intricaci
         }
         .carousel-image {
             width: 800px;
-            max-height: 600px;
+            max-height: 700px;
             transition: transform 0.3s ease;
             cursor: pointer;
         }
