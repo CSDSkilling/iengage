@@ -13,3 +13,10 @@ In a library filled with countless handwritten manuscripts, managing and searchi
 <a href="./images/di1.png" download>
   <img src="./images/di1.png" alt="A group of four people in a library analying old manuscripts">
 </a>
+
+Alice, Bob, Charlie and David share their findings with development team. 
+
+<a href="./images/di2.png" download>
+  <img src="./images/di2.png" alt="2 developers discussing">
+</a>
+
