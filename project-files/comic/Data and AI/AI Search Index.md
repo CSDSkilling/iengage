@@ -42,7 +42,7 @@ In this scenario, team members in a conference room are discussing the intricaci
     </div>
 
     <script>
-        const images = ["ai1.png", "ai2.png"];
+        const images = ["./images/ai1.png", "./images/ai2.png"];
         let currentIndex = 0;
 
         function showImage(index) {
