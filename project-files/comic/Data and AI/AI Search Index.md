@@ -25,7 +25,7 @@ In this scenario, team members in a conference room are discussing the intricaci
         }
         .carousel-image {
             width: 800px;
-            max-height: 700px;
+            max-height: 600px;
             transition: transform 0.3s ease;
             cursor: pointer;
         }
@@ -37,6 +37,18 @@ In this scenario, team members in a conference room are discussing the intricaci
             margin: 0 10px;
             cursor: pointer;
         }
+        .knowledge-check {
+            margin-top: 50px;
+        }
+        .knowledge-check-question {
+            margin-bottom: 20px;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -46,7 +58,7 @@ In this scenario, team members in a conference room are discussing the intricaci
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
-   <div class="knowledge-check">
+    <div class="knowledge-check">
         <h2>Knowledge Check</h2>
         <form id="knowledgeCheckForm">
             <div class="knowledge-check-question">
@@ -99,7 +111,7 @@ In this scenario, team members in a conference room are discussing the intricaci
             carousel.classList.toggle('enlarged');
         }
 
-          function checkAnswers() {
+        function checkAnswers() {
             const answers = {
                 question1: 'B',
                 question2: 'B',
@@ -113,8 +125,15 @@ In this scenario, team members in a conference room are discussing the intricaci
 
             for (const [question, correctAnswer] of Object.entries(answers)) {
                 const selected = form.querySelector(`input[name="${question}"]:checked`);
+                const questionElement = form.querySelector(`input[name="${question}"][value="${correctAnswer}"]`).parentElement;
                 if (selected && selected.value === correctAnswer) {
                     score++;
+                    questionElement.classList.add('correct');
+                } else if (selected) {
+                    selected.parentElement.classList.add('incorrect');
+                    questionElement.classList.add('correct');
+                } else {
+                    questionElement.classList.add('correct');
                 }
             }
 
@@ -123,5 +142,3 @@ In this scenario, team members in a conference room are discussing the intricaci
     </script>
 </body>
 </html>
-
-## Knowledge Check
