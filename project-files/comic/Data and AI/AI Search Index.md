@@ -11,8 +11,56 @@ courses: [AI-102, PR-801, AI-3016]
 ## Introduction
 In this scenario, team members in a conference room are discussing the intricacies of Azure AI Search Index. They delve into how the search index functions, its physical structure, and the factors influencing its size. The conversation highlights the internal management of the index by Microsoft, the importance of schema definition, and the role of field attributes and suggesters in optimizing search performance. This dialogue aims to provide a comprehensive understanding of how to effectively utilize Azure AI Search Index for efficient and secure data retrieval.
 
-<a href="./images/cosmos1.jpg" download>
-  <img src="./images/cosmos1.jpg" alt="A group of four people in a business meeting discussing the integration of AI and Cosmos DB to enhance their assistant app. The conversation highlights the benefits of natural language processing, global distribution, multi-model capabilities, and personalized suggestions.">
-</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <style>
+        .carousel-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .carousel-image {
+            max-width: 500px;
+            max-height: 300px;
+        }
+        .carousel-button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <button class="carousel-button" onclick="prevImage()">Previous</button>
+        <img id="carousel" class="carousel-image" src="ai1.png" alt="Image Carousel">
+        <button class="carousel-button" onclick="nextImage()">Next</button>
+    </div>
+
+    <script>
+        const images = ["ai1.png", "ai2.png"];
+        let currentIndex = 0;
+
+        function showImage(index) {
+            const carousel = document.getElementById('carousel');
+            carousel.src = images[index];
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(currentIndex);
+        }
+    </script>
+</body>
+</html>
 
 ## Knowledge Check
