@@ -17,28 +17,8 @@ courses: [DP-600]
     <link rel="stylesheet" href="styles.css">
 </head>
 
-    <div class="container">
-        <div class="card-container">
-            <div class="card">
-                <div class="card-front">Front 1</div>
-                <div class="card-back">Back 1</div>
-            </div>
-            <div class="card">
-                <div class="card-front">Front 2</div>
-                <div class="card-back">Back 2</div>
-            </div>
-        </div>
-        <img src="./images/ai2.png" alt="Center Image" class="center-image">
-        <div class="card-container">
-            <div class="card">
-                <div class="card-front">Front 3</div>
-               Back 3</div>
-            </div>
-            <div class="card">
-                <div class="card-front">Front 4</div>
-                <div class="card-back">Back 4</div>
-            </div>
-        </div>
+    <div class="container"> 
+        <img src="./images/ai2.png" alt="Center Image" class="center-image">  
     </div>
 
 .container {
@@ -46,51 +26,5 @@ courses: [DP-600]
     align-items: center;
 }
 
-.card-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-}
 
-.card {
-    width: 150px;
-    height: 200px;
-    perspective: 1000px;
-    margin-bottom: 20px;
-}
-
-.card-front, .card-back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
-    border-radius: 10px;
-}
-
-.card-front {
-    background-color: #007bff;
-}
-
-.card-back {
-    background-color: #28a745;
-    transform: rotateY(180deg);
-}
-
-.card:hover .card-front {
-    transform: rotateY(180deg);
-}
-
-.card:hover .card-back {
-    transform: rotateY(360deg);
-}
-
-.center-image {
-    width: 300px;
-    height: auto;
-}
 </html>
