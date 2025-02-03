@@ -13,7 +13,7 @@ courses: [AI-3016, AI-3018]
             </div>
         </div>
         <div class="card" onclick="flipCard(this)">
-            <div class="card-front">Front 2</div>
+            <div class="card-front clue-card">Clue</div>
             <div class="card-back">Back 2</div>
         </div>
     </div>
@@ -27,7 +27,7 @@ courses: [AI-3016, AI-3018]
             </div>
         </div>
         <div class="card" onclick="flipCard(this)">
-            <div class="card-front">Front 4</div>
+            <div class="card-front clue-card">Clue</div>
             <div class="card-back">Back 4</div>
         </div>
     </div>
@@ -94,6 +94,11 @@ courses: [AI-3016, AI-3018]
     width: 500px;
     height: auto;
     margin: 0 20px;
+}
+
+.clue-card {
+    background-color: #ffcc00; /* Dark yellow */
+    color: black; /* Text color for better contrast */
 }
 </style>
 
