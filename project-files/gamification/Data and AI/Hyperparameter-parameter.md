@@ -21,10 +21,6 @@ courses: [DP-600]
         <img src="./images/ai2.png" alt="Center Image" class="center-image">  
     </div>
 
-.container {
-    display: flex;
-    align-items: center;
-}
 
 
 </html>
