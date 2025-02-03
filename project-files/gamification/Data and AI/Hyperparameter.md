@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Azure ML - Hyperparameter"
-category: "Gamification"
+category: "Gamification123"
 sub-category: "Data and AI"
 courses: [AI-3016, AI-3018]
 ---
