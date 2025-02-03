@@ -7,17 +7,9 @@ courses: [AI-3016, AI-3018]
 ---
 <div class="custom-container">
     <div class="card-container">
-        <div class="card" onclick="flipCard(this)">
+        <div class="card">
             <div class="card-front">
                 represent the internal mechanisms of car, which are determined by the car's mechanical design
-            </div>
-            <div class="card-back">
-                <ul>
-                    <li>Example:</li>
-                    <li>engine</li>
-                    <li>gears</li>
-                    <li>tires</li>
-                </ul>
             </div>
         </div>
         <div class="card" onclick="flipCard(this)">
@@ -29,9 +21,10 @@ courses: [AI-3016, AI-3018]
         <img src="./images/ai2.png" alt="Alex is joined by a team of sidekicks" class="center-image">
     </a>
     <div class="card-container">
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-front">Front 3</div>
-            <div class="card-back">Back 3</div>
+        <div class="card">
+            <div class="card-front">
+                represent the internal mechanisms of car, which are determined by the car's mechanical design
+            </div>
         </div>
         <div class="card" onclick="flipCard(this)">
             <div class="card-front">Front 4</div>
