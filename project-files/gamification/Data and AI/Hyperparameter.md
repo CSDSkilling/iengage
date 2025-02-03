@@ -46,7 +46,7 @@ courses: [AI-3016, AI-3018]
 }
 
 .card {
-    width: 150px;
+    width: 250px;
     height: 200px;
     perspective: 1000px;
     margin-bottom: 20px;
