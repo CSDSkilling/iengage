@@ -5,7 +5,7 @@ category: "Gamification123"
 sub-category: "Data and AI"
 courses: [AI-3016, AI-3018]
 ---
-<div class="container">
+<div class="custom-container">
     <div class="card-container">
         <div class="card">
             <div class="card-front">Front 1</div>
@@ -32,11 +32,11 @@ courses: [AI-3016, AI-3018]
 </div>
 
 <style>
-.container {
+.custom-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    margin-top: 20px; /* Adjust as needed to fit your layout */
 }
 
 .card-container {
@@ -89,5 +89,4 @@ courses: [AI-3016, AI-3018]
     height: auto;
     margin: 0 20px;
 }
-
 </style>
