@@ -7,11 +7,11 @@ courses: [AI-3016, AI-3018]
 ---
 <div class="custom-container">
     <div class="card-container">
-        <div class="card">
+        <div class="card" onclick="flipCard(this)">
             <div class="card-front">Front 1</div>
             <div class="card-back">Back 1</div>
         </div>
-        <div class="card">
+        <div class="card" onclick="flipCard(this)">
             <div class="card-front">Front 2</div>
             <div class="card-back">Back 2</div>
         </div>
@@ -20,11 +20,11 @@ courses: [AI-3016, AI-3018]
         <img src="./images/ai2.png" alt="Alex is joined by a team of sidekicks" class="center-image">
     </a>
     <div class="card-container">
-        <div class="card">
+        <div class="card" onclick="flipCard(this)">
             <div class="card-front">Front 3</div>
             <div class="card-back">Back 3</div>
         </div>
-        <div class="card">
+        <div class="card" onclick="flipCard(this)">
             <div class="card-front">Front 4</div>
             <div class="card-back">Back 4</div>
         </div>
@@ -51,6 +51,7 @@ courses: [AI-3016, AI-3018]
     perspective: 1000px;
     margin-bottom: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .card-front, .card-back {
@@ -76,11 +77,11 @@ courses: [AI-3016, AI-3018]
     transform: rotateY(180deg);
 }
 
-.card:hover .card-front {
+.card.flipped .card-front {
     transform: rotateY(180deg);
 }
 
-.card:hover .card-back {
+.card.flipped .card-back {
     transform: rotateY(360deg);
 }
 
@@ -90,3 +91,9 @@ courses: [AI-3016, AI-3018]
     margin: 0 20px;
 }
 </style>
+
+<script>
+function flipCard(card) {
+    card.classList.toggle('flipped');
+}
+</script>
