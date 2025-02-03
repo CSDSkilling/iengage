@@ -5,6 +5,16 @@ category: "Gamification123"
 sub-category: "Data and AI"
 courses: [AI-3016, AI-3018]
 ---
+# Perform hyperparameter tuning with Azure Machine Learning
+
+## Introduction
+
+<<placeholder>>
+
+## How to play
+
+<<placeholder>>
+
 <div class="custom-container">
     <div class="card-container">
         <div class="card tall-card">
