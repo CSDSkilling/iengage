@@ -7,12 +7,12 @@ courses: [AI-3016, AI-3018]
 ---
 <div class="custom-container">
     <div class="card-container">
-        <div class="card">
+        <div class="card tall-card">
             <div class="card-front">
                 represent the internal mechanisms of car, which are determined by the car's mechanical design
             </div>
         </div>
-        <div class="card" onclick="flipCard(this)">
+        <div class="card short-card" onclick="flipCard(this)">
             <div class="card-front clue-card">Clue</div>
             <div class="card-back">Back 2</div>
         </div>
@@ -21,12 +21,12 @@ courses: [AI-3016, AI-3018]
         <img src="./images/ai2.png" alt="Alex is joined by a team of sidekicks" class="center-image">
     </a>
     <div class="card-container">
-        <div class="card">
+        <div class="card tall-card">
             <div class="card-front">
                 represent the internal mechanisms of car, which are determined by the car's mechanical design
             </div>
         </div>
-        <div class="card" onclick="flipCard(this)">
+        <div class="card short-card" onclick="flipCard(this)">
             <div class="card-front clue-card">Clue</div>
             <div class="card-back">Back 4</div>
         </div>
@@ -49,11 +49,18 @@ courses: [AI-3016, AI-3018]
 
 .card {
     width: 250px;
-    height: 200px;
     perspective: 1000px;
     margin-bottom: 20px;
     position: relative;
     cursor: pointer;
+}
+
+.tall-card {
+    height: 300px; /* Increased by 100px */
+}
+
+.short-card {
+    height: 150px; /* Increased by 50px */
 }
 
 .card-front, .card-back {
