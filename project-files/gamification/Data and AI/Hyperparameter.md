@@ -9,26 +9,26 @@ courses: [AI-3016, AI-3018]
     <div class="card-container">
         <div class="card tall-card">
             <div class="card-front">
-                represent the internal mechanisms of car, which are determined by the car's mechanical design
+                Represent the internal mechanisms of car, which are determined by the car's mechanical design. Example: engine, gears, tires
             </div>
         </div>
         <div class="card short-card" onclick="flipCard(this)">
-            <div class="card-front clue-card">Clue</div>
-            <div class="card-back">Back 2</div>
+            <div class="card-front clue-card"><i>Clue</i></div>
+            <div class="card-back">placeholder</div>
         </div>
     </div>
-    <a href="./images/ai2.png">
-        <img src="./images/ai2.png" alt="Alex is joined by a team of sidekicks" class="center-image">
+    <a href="./images/car1.png">
+        <img src="./images/car1.png" alt="picture of a car" class="center-image">
     </a>
     <div class="card-container">
         <div class="card tall-card">
             <div class="card-front">
-                represent the internal mechanisms of car, which are determined by the car's mechanical design
+                Represent external settings, which you adjust according to a personal preference or a specific journey. Example: angle of your steering wheel,  the position of your seat
             </div>
         </div>
         <div class="card short-card" onclick="flipCard(this)">
-            <div class="card-front clue-card">Clue</div>
-            <div class="card-back">Back 4</div>
+            <div class="card-front clue-card"><i>Clue</i></div>
+            <div class="card-back">placeholder</div>
         </div>
     </div>
 </div>
@@ -60,7 +60,7 @@ courses: [AI-3016, AI-3018]
 }
 
 .short-card {
-    height: 150px; /* Increased by 50px */
+    height: 50px; /* Increased by 50px */
 }
 
 .card-front, .card-back {
