@@ -28,7 +28,7 @@ courses: [DP-600]
                 <div class="card-back">Back 2</div>
             </div>
         </div>
-        <img src="your-image.jpg" alt="Center Image" class="center-image">
+        <img src="./images/ai2.png" alt="Center Image" class="center-image">
         <div class="card-container">
             <div class="card">
                 <div class="card-front">Front 3</div>
