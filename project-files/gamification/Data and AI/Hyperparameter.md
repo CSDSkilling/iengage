@@ -106,6 +106,7 @@ courses: [AI-3016, AI-3018]
 .clue-card {
     background-color: #ffcc00; /* Dark yellow */
     color: black; /* Text color for better contrast */
+    height: auto;
 }
 </style>
 
