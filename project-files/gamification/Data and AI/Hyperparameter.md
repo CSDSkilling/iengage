@@ -8,8 +8,17 @@ courses: [AI-3016, AI-3018]
 <div class="custom-container">
     <div class="card-container">
         <div class="card" onclick="flipCard(this)">
-            <div class="card-front">Front 1</div>
-            <div class="card-back">Back 1</div>
+            <div class="card-front">
+                represent the internal mechanisms of car, which are determined by the car's mechanical design
+            </div>
+            <div class="card-back">
+                <ul>
+                    <li>Example:</li>
+                    <li>engine</li>
+                    <li>gears</li>
+                    <li>tires</li>
+                </ul>
+            </div>
         </div>
         <div class="card" onclick="flipCard(this)">
             <div class="card-front">Front 2</div>
@@ -66,6 +75,9 @@ courses: [AI-3016, AI-3018]
     color: white;
     border-radius: 10px;
     transition: transform 0.6s;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .card-front {
