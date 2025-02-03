@@ -69,7 +69,7 @@ In this scenario, team members in a conference room are discussing the intricaci
                 <label><input type="radio" name="question1" value="D"> D) To enhance data security</label>
             </div>
             <div class="knowledge-check-question">
-                <p>2. Which of the following scenarios allows the Azure AI Search service to connect to the source data?</p>
+                <p>2. Which of the following scenarios enable the Azure AI Search service to connect to the source data for indexing?</p>
                 <label><input type="radio" name="question2" value="A"> A) Full text search</label><br>
                 <label><input type="radio" name="question2" value="B"> B) Indexer-driven indexing</label><br>
                 <label><input type="radio" name="question2" value="C"> C) Vector search</label><br>
