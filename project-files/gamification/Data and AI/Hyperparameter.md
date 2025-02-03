@@ -61,7 +61,7 @@ courses: [AI-3016, AI-3018]
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 16px;
     color: white;
     border-radius: 10px;
     transition: transform 0.6s;
@@ -85,7 +85,7 @@ courses: [AI-3016, AI-3018]
 }
 
 .center-image {
-    width: 300px;
+    width: 500px;
     height: auto;
     margin: 0 20px;
 }
