@@ -164,7 +164,7 @@ Welcome to our exciting gamified learning experience! In this video, you'll join
 
   function checkAnswer4() {
     var radios = document.getElementsByName('q4');
-    var correctAnswer = 'B';
+    var correctAnswer = 'A';
     var result = document.getElementById('result4');
     var selected = false;
 
