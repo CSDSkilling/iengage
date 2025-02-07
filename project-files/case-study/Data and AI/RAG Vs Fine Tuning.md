@@ -137,7 +137,7 @@ Below are questions based on the scenario. Help Jamie identify when to use RAG, 
 <p id="result1"></p>
 
 
-**After fine-tuning the GPT model, Alex and Jamie want to deploy it as a scalable API for their chatbot. They need a service to manage this deployment. Which Azure service should they use?**
+**After fine-tuning the GPT model, Alex and Jamie want to deploy the chatbot. They need a service to manage this deployment. Which Azure service should they use?**
 
 <form id="quizForm2">
   <input type="radio" id="q2a" name="q2" value="A">
