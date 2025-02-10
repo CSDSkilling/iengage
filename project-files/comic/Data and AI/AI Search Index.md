@@ -28,6 +28,7 @@ In this scenario, team members in a conference room are discussing the intricaci
             max-height: 700px;
             transition: transform 0.3s ease;
             cursor: pointer;
+            border-radius: 35px;
         }
         .carousel-image.enlarged {
             transform: scale(1.5);
