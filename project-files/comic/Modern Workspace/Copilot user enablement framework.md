@@ -10,7 +10,8 @@ courses: [MS-4007, MS-4014]
 # Copilot User Enablement Framework
 
 ## Introduction
-In this scenario, team members in a conference room are discussing the Copilot Adoption Framework.
+Olivia and Ethan, two IT professionals, discuss how to successfully adopt Microsoft 365 Copilot in their organization. Olivia takes the lead in explaining the framework, while Ethan asks questions and provides insights.
+ 
 
 <html lang="en">
 <head>
