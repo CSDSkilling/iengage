@@ -9,7 +9,7 @@ courses: [MS-4007]
 # Copilot User Enablement Framework
 
 ## Introduction
-In this scenario, team members in a conference room are discussing the intricacies of Azure AI Search Index. They delve into how the search index functions, its physical structure, and the factors influencing its size. The conversation highlights the internal management of the index by Microsoft, the importance of schema definition, and the role of field attributes and suggesters in optimizing search performance. This dialogue aims to provide a comprehensive understanding of how to effectively utilize Azure AI Search Index for efficient and secure data retrieval.
+In this scenario, team members in a conference room are discussing the Copilot Adoption Framework.
 
 <html lang="en">
 <head>
@@ -54,7 +54,7 @@ In this scenario, team members in a conference room are discussing the intricaci
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/Slide1.png" alt="Image Carousel" onclick="toggleEnlarge()">
+        <img id="carousel" class="carousel-image" src="./images/Slide1.PNG" alt="Image Carousel" onclick="toggleEnlarge()">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
@@ -84,7 +84,7 @@ In this scenario, team members in a conference room are discussing the intricaci
     </div>
 
     <script>
-        const images = ["./images/Slide1.png", "./images/Slide2.png", "./images/Slide3.png", "./images/Slide4.png", "./images/Slide5.png", "./images/Slide6.png"];
+        const images = ["./images/Slide1.PNG", "./images/Slide2.PNG", "./images/Slide3.PNG", "./images/Slide4.PNG", "./images/Slide5.PNG", "./images/Slide6.PNG"];
         let currentIndex = 0;
 
         function showImage(index) {
