@@ -2,7 +2,7 @@
 layout: default
 title:  "Copilot User Enablement"
 category: "Comic"
-sub-category: "Digital and App Innovation"
+sub-category: "Modern Workspace"
 courses: [MS-4007, MS-4014]
 ---
 
