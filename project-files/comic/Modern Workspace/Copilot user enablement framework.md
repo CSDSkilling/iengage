@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title:  "Copilot User Enablement"
