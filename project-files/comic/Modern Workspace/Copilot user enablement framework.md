@@ -30,6 +30,7 @@ Olivia and Ethan, two IT professionals, discuss how to successfully adopt Micros
             max-height: 700px;
             transition: transform 0.3s ease;
             cursor: pointer;
+         border-radius: 35px;
         }
         .carousel-image.enlarged {
             transform: scale(1.5);
