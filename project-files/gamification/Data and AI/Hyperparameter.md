@@ -9,11 +9,17 @@ courses: [AI-3016, AI-3018]
 
 ## Introduction
 
-<<placeholder>>
+#### Parameter
+* Parameters are values within a machine learning model that are determined from the training data. They are internal configuration variables that can be estimated from the data.<br>
+#### Hyperparameter
+* Hyperparameters are values you set to influence the training process of a machine learning model. They are not derived from the training data but are used to configure how the model is trained to improve its accuracy.
+
 
 ## How to play
+What is a hyperparameter vs model parameter?
+Imagine your machine learning model is like a car. We can compare different parts of the car to hyperparameters and parameters in a machine learning model.
 
-<<placeholder>>
+
 
 <div class="custom-container">
     <div class="card-container">
@@ -24,7 +30,7 @@ courses: [AI-3016, AI-3018]
         </div>
         <div class="card short-card" onclick="flipCard(this)">
             <div class="card-front clue-card"><i>Clue</i></div>
-            <div class="card-back">placeholder</div>
+            <div class="card-back">Parameter</div>
         </div>
     </div>
     <a href="./images/car1.png">
@@ -38,7 +44,7 @@ courses: [AI-3016, AI-3018]
         </div>
         <div class="card short-card" onclick="flipCard(this)">
             <div class="card-front clue-card"><i>Clue</i></div>
-            <div class="card-back">placeholder</div>
+            <div class="card-back">Hyperparameter</div>
         </div>
     </div>
 </div>
