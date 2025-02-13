@@ -16,7 +16,9 @@ courses: [AI-3016, AI-3018]
 
 
 ## How to play
+**Section 1:** <br>
 What is a hyperparameter vs model parameter?
+
 Imagine your machine learning model is like a car. We can compare different parts of the car to hyperparameters and parameters in a machine learning model.
 
 
@@ -45,6 +47,46 @@ Imagine your machine learning model is like a car. We can compare different part
             <div class="card short-card" onclick="flipCard(this)">
                 <div class="card-front clue-card"><i>Clue</i></div>
                 <div class="card-back">Hyperparameter</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-section">
+    <h2>Azure Machine Learning Hyperparameter Optimization</h2>
+    <p>Azure Machine Learning supports various sampling methods for hyperparameter optimization. The specific values used in hyperparameter tuning depend on the type of sampling method:</p>
+    <ul>
+        <li><strong>Grid Sampling</strong> tries every possible combination of values in the search space.</li>
+        <li><strong>Random Sampling</strong> randomly selects a value for hyperparameter from the search space.</li>
+    </ul>
+</div>
+
+<div class="custom-container">
+    <a href="./images/car2.png">
+        <img src="./images/car2.png" alt="picture of a car" class="center-image">
+    </a>
+    <div class="cards-row">
+        <div class="card-container">
+            <div class="card tall-card">
+                <div class="card-front">
+                  This is like checking how the car drives when you change things like the seat position, mirror angles, and steering wheel height in every possible way. In machine learning, this method tries every possible combination of hyperparameters in the search space to find what works best.
+                </div>
+            </div>
+            <div class="card short-card" onclick="flipCard(this)">
+                <div class="card-front clue-card"><i>Clue</i></div>
+                <div class="card-back">Grid Sampling </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card tall-card">
+                <div class="card-front">
+                  Instead of changing everything step by step, this is like randomly tweaking things in your car (e.g., adjusting the air conditioning, the radio volume, or the seat warmth). It’s quicker and can sometimes give you a surprisingly good setting without having to try everything.
+
+                </div>
+            </div>
+            <div class="card short-card" onclick="flipCard(this)">
+                <div class="card-front clue-card"><i>Clue</i></div>
+                <div class="card-back">NRandom Sampling </div>
             </div>
         </div>
     </div>
