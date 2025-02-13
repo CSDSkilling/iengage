@@ -2,7 +2,7 @@
 layout: default
 title:  "Cosmos DB Read Consistency"
 category: "Comic"
-sub-category: "Modern Workplace"
+sub-category: "Data and AI"
 courses: [AZ-204, AZ-305, DP-203]
 ---
 
@@ -61,5 +61,58 @@ Olivia and Ethan, two IT professionals, discuss how to choose the right consiste
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
+  <script>
+        const images = ["./images/cd1.PNG", "./images/cd2.PNG", "./images/cd3.PNG", "./images/cd4.PNG", "./images/cd5.PNG", "./images/cd6.PNG", "./images/cd7.PNG"];
+        let currentIndex = 0;
+
+        function showImage(index) {
+            const carousel = document.getElementById('carousel');
+            carousel.src = images[index];
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(currentIndex);
+        }
+
+        function toggleEnlarge() {
+            const carousel = document.getElementById('carousel');
+            carousel.classList.toggle('enlarged');
+        }
+
+        function checkAnswers() {
+            const answers = {
+                question1: 'B',
+                question2: 'B'
+               
+            };
+
+            let score = 0;
+            const form = document.getElementById('knowledgeCheckForm');
+            const results = document.getElementById('results');
+            results.innerHTML = '';
+
+            for (const [question, correctAnswer] of Object.entries(answers)) {
+                const selected = form.querySelector(`input[name="${question}"]:checked`);
+                const questionElement = form.querySelector(`input[name="${question}"][value="${correctAnswer}"]`).parentElement;
+                if (selected && selected.value === correctAnswer) {
+                    score++;
+                    questionElement.classList.add('correct');
+                } else if (selected) {
+                    selected.parentElement.classList.add('incorrect');
+                    questionElement.classList.add('correct');
+                } else {
+                    questionElement.classList.add('correct');
+                }
+            }
+
+            results.innerHTML = `You got ${score} out of ${Object.keys(answers).length} correct.`;
+        }
+    </script>
 </body>
 </html>
