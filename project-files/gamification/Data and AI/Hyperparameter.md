@@ -21,29 +21,31 @@ Imagine your machine learning model is like a car. We can compare different part
 
 
 <div class="custom-container">
-    <div class="card-container">
-        <div class="card tall-card">
-            <div class="card-front">
-                Represent the internal mechanisms of car, which are determined by the car's mechanical design. Example: engine, gears, tires
-            </div>
-        </div>
-        <div class="card short-card" onclick="flipCard(this)">
-            <div class="card-front clue-card"><i>Clue</i></div>
-            <div class="card-back">Parameter</div>
-        </div>
-    </div>
     <a href="./images/car1.png">
         <img src="./images/car1.png" alt="picture of a car" class="center-image">
     </a>
-    <div class="card-container">
-        <div class="card tall-card">
-            <div class="card-front">
-                Represent external settings, which you adjust according to a personal preference or a specific journey. Example: angle of your steering wheel, the position of your seat
+    <div class="cards-row">
+        <div class="card-container">
+            <div class="card tall-card">
+                <div class="card-front">
+                    Represent the internal mechanisms of car, which are determined by the car's mechanical design. Example: engine, gears, tires
+                </div>
+            </div>
+            <div class="card short-card" onclick="flipCard(this)">
+                <div class="card-front clue-card"><i>Clue</i></div>
+                <div class="card-back">Parameter</div>
             </div>
         </div>
-        <div class="card short-card" onclick="flipCard(this)">
-            <div class="card-front clue-card"><i>Clue</i></div>
-            <div class="card-back">Hyperparameter</div>
+        <div class="card-container">
+            <div class="card tall-card">
+                <div class="card-front">
+                    Represent external settings, which you adjust according to a personal preference or a specific journey. Example: angle of your steering wheel, the position of your seat
+                </div>
+            </div>
+            <div class="card short-card" onclick="flipCard(this)">
+                <div class="card-front clue-card"><i>Clue</i></div>
+                <div class="card-back">Hyperparameter</div>
+            </div>
         </div>
     </div>
 </div>
@@ -51,16 +53,21 @@ Imagine your machine learning model is like a car. We can compare different part
 <style>
 .custom-container {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
-    justify-content: space-around; /* Distribute space evenly */
-    flex-wrap: wrap; /* Allow wrapping */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed to fit your layout */
+}
+
+.cards-row {
+    display: flex;
+    justify-content: center;
     margin-top: 20px; /* Adjust as needed to fit your layout */
 }
 
 .card-container {
     display: flex;
     flex-direction: column;
-    margin: 10px; /* Adjust margin to ensure spacing */
+    margin: 0 20px;
 }
 
 .card {
