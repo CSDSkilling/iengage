@@ -69,7 +69,7 @@ Imagine your machine learning model is like a car. We can compare different part
         <div class="card-container">
             <div class="card tall-card">
                 <div class="card-front">
-                  This is like checking how the car drives when you change things like the seat position, mirror angles, and steering wheel height in every possible way. In machine learning, this method tries every possible combination of hyperparameters in the search space to find what works best.
+                  This is like checking how the car drives when you change the seat position, mirror angles, and steering wheel height in every possible way. In ML, this method tries every possible combination of hyperparameters in the search space to find what works best.
                 </div>
             </div>
             <div class="card short-card" onclick="flipCard(this)">
@@ -80,7 +80,7 @@ Imagine your machine learning model is like a car. We can compare different part
         <div class="card-container">
             <div class="card tall-card">
                 <div class="card-front">
-                  Instead of changing everything step by step, this is like randomly tweaking things in your car (e.g., adjusting the air conditioning, the radio volume, or the seat warmth). It’s quicker and can sometimes give you a surprisingly good setting without having to try everything.
+                  Instead of changing everything step by step, this is like randomly tweaking things in car (e.g., adjusting the air conditioning, the radio volume, etc). It’s quicker and can sometimes give you a surprisingly good setting without having to try everything.
 
                 </div>
             </div>
