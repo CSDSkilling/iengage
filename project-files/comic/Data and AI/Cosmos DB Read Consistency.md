@@ -10,7 +10,7 @@ courses: [AZ-204, AZ-305, DP-203]
 # Cosmos DB Read Consistency
 
 ## Introduction
-Olivia and Ethan, two IT professionals, discuss how to choose the right consistency levels when using Cosmos DB.
+In the bustling world of e-commerce, ensuring a seamless shopping experience is crucial. Meet Alice and Bob, two dedicated IT professionals working on their company's new e-commerce application. Alice has been facing some challenges with the current consistency level in Azure Cosmos DB, leading to customer complaints about outdated shopping cart data. Join Alice and Bob as they navigate through the complexities of database consistency levels to find the perfect solution for their application.
  
 
 <html lang="en">
