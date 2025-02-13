@@ -53,7 +53,7 @@ Imagine your machine learning model is like a car. We can compare different part
 </div>
 
 <div class="content-section">
-    <h2>Azure Machine Learning Hyperparameter Optimization</h2>
+    <h2>Configure a sampling method for hyperparameter tuning in Azure Machine Learning</h2>
     <p>Azure Machine Learning supports various sampling methods for hyperparameter optimization. The specific values used in hyperparameter tuning depend on the type of sampling method:</p>
     <ul>
         <li><strong>Grid Sampling</strong> tries every possible combination of values in the search space.</li>
@@ -86,7 +86,53 @@ Imagine your machine learning model is like a car. We can compare different part
             </div>
             <div class="card short-card" onclick="flipCard(this)">
                 <div class="card-front clue-card"><i>Clue</i></div>
-                <div class="card-back">NRandom Sampling </div>
+                <div class="card-back">Random Sampling </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content-section">
+    <h2>Work with environments in Azure Machine Learning</h2>
+    <p>learning task happens, specifying software packages, environment variables, and settings around your training and scoring scripts. An Azure Machine Learning environment includes the dependencies (like software runtime and libraries) needed to run your training and scoring script on your compute resource.
+
+There are two types of environments:
+</p>
+    <ul>
+        <li><strong>Curated environment:</strong> are available to you in Azure Machine Learning by default. Curated Environment are predefined environments containing popular ML frameworks and tools.</li>
+        <li><strong>Custom environment: </strong> You can create and manage your own custom environments. This allows you to define consistent, reusable runtime contexts for your experiments.</li>
+    </ul>
+</div>
+
+<div class="custom-container">
+    <a href="./images/car2.png">
+        <img src="./images/cookie1.png" alt="picture of a car" class="center-image">
+    </a>
+    <div class="cards-row">
+        <div class="card-container">
+            <div class="card tall-card">
+                <div class="card-front">
+            Do you want to use store-bought cookie dough (Environment) & reuse the cookie dough for the cookie (Machine Learning experiment) you are making? It's provided by Azure Machine Learning and is available in your workspace by default. These precreated environments also allow for faster deployment time. 
+
+                </div>
+            </div>
+            <div class="card short-card" onclick="flipCard(this)">
+                <div class="card-front clue-card"><i>Clue</i></div>
+                <div class="card-back">Curated Environment </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card tall-card">
+                <div class="card-front">
+               Do you want to make new cookie dough (Environment) for each cookie (Machine Learning experiment) you are making? You're responsible for setting up your ___ and installing every package that your training script needs on the compute target. 
+
+
+                </div>
+            </div>
+            <div class="card short-card" onclick="flipCard(this)">
+                <div class="card-front clue-card"><i>Clue</i></div>
+                <div class="card-back">Custom Environment  </div>
             </div>
         </div>
     </div>
