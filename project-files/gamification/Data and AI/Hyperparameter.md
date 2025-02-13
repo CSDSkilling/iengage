@@ -106,8 +106,8 @@ There are two types of environments:
 </div>
 
 <div class="custom-container">
-    <a href="./images/car2.png">
-        <img src="./images/cookie1.png" alt="picture of a car" class="center-image">
+    <a href="./images/cookie1.png">
+        <img src="./images/cookie1.png" alt="picture of cookie" class="center-image">
     </a>
     <div class="cards-row">
         <div class="card-container">
