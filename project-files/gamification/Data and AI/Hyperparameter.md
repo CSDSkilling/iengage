@@ -20,7 +20,6 @@ What is a hyperparameter vs model parameter?
 Imagine your machine learning model is like a car. We can compare different parts of the car to hyperparameters and parameters in a machine learning model.
 
 
-
 <div class="custom-container">
     <div class="card-container">
         <div class="card tall-card">
@@ -39,7 +38,7 @@ Imagine your machine learning model is like a car. We can compare different part
     <div class="card-container">
         <div class="card tall-card">
             <div class="card-front">
-                Represent external settings, which you adjust according to a personal preference or a specific journey. Example: angle of your steering wheel,  the position of your seat
+                Represent external settings, which you adjust according to a personal preference or a specific journey. Example: angle of your steering wheel, the position of your seat
             </div>
         </div>
         <div class="card short-card" onclick="flipCard(this)">
@@ -52,15 +51,16 @@ Imagine your machine learning model is like a car. We can compare different part
 <style>
 .custom-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-around; /* Distribute space evenly */
+    flex-wrap: wrap; /* Allow wrapping */
     margin-top: 20px; /* Adjust as needed to fit your layout */
 }
 
 .card-container {
     display: flex;
     flex-direction: column;
-    margin: 0 20px;
+    margin: 10px; /* Adjust margin to ensure spacing */
 }
 
 .card {
@@ -116,7 +116,7 @@ Imagine your machine learning model is like a car. We can compare different part
 .center-image {
     width: 500px;
     height: auto;
-    margin: 0 20px;
+    margin: 20px; /* Adjust margin to ensure spacing */
 }
 
 .clue-card {
