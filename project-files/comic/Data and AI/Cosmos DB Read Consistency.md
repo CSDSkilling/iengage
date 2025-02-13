@@ -10,7 +10,7 @@ courses: [AZ-204, AZ-305, DP-203]
 # Cosmos DB Read Consistency
 
 ## Introduction
-Olivia and Ethan, two IT professionals, discuss how to successfully adopt Microsoft 365 Copilot in their organization. Olivia takes the lead in explaining the framework, while Ethan asks questions and provides insights.
+Olivia and Ethan, two IT professionals, discuss how to choose the right consistency levels when using Cosmos DB.
  
 
 <html lang="en">
