@@ -16,11 +16,11 @@ courses: [DP-100]
 
 
 ## How to play
-**Section 1:** <br>
-What is a hyperparameter vs model parameter?
 
-Imagine your machine learning model is like a car. We can compare different parts of the car to hyperparameters and parameters in a machine learning model.
-
+<div class="content-section">
+    <h2>What is a hyperparameter vs model parameter?</h2>
+    <p>Imagine your machine learning model is like a car. We can compare different parts of the car to hyperparameters and parameters in a machine learning model.</p>
+</div>
 
 <div class="custom-container">
     <a href="./images/car1.png">
