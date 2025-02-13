@@ -95,7 +95,7 @@ Imagine your machine learning model is like a car. We can compare different part
 
 <div class="content-section">
     <h2>Work with environments in Azure Machine Learning</h2>
-    <p>learning task happens, specifying software packages, environment variables, and settings around your training and scoring scripts. An Azure Machine Learning environment includes the dependencies (like software runtime and libraries) needed to run your training and scoring script on your compute resource.
+    <p>In Azure Machine Learning, environments encapsulate the environment where your machine learning task happens, specifying software packages, environment variables, and settings around your training and scoring scripts. An Azure Machine Learning environment includes the dependencies (like software runtime and libraries) needed to run your training and scoring script on your compute resource.
 
 There are two types of environments:
 </p>
@@ -113,7 +113,7 @@ There are two types of environments:
         <div class="card-container">
             <div class="card tall-card">
                 <div class="card-front">
-            Do you want to use store-bought cookie dough (Environment) & reuse the cookie dough for the cookie (Machine Learning experiment) you are making? It's provided by Azure Machine Learning and is available in your workspace by default. These precreated environments also allow for faster deployment time. 
+           Looking to use store-bought cookie dough (Environment) & reuse the cookie dough for the cookie (Machine Learning experiment) you are making?It's provided by Azure ML and is available in your workspace.These precreated environments allow for faster deployment time. 
 
                 </div>
             </div>
