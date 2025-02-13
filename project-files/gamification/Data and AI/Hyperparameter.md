@@ -3,7 +3,7 @@ layout: default
 title:  "Azure ML - Hyperparameter"
 category: "Gamification"
 sub-category: "Data and AI"
-courses: [AI-3016, AI-3018]
+courses: [DP-100]
 ---
 # Perform hyperparameter tuning with Azure Machine Learning
 
