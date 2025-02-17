@@ -46,53 +46,34 @@ With the combined efforts of Captain Synapse, Real-time Ranger, and Data Dynamo,
 
 
 
-1. How can Contoso improve accessibility and searchability? 
+1. What types of data sources did Captain Synapse connect to using Azure Synapse Pipelines? 
    <button onclick="toggleSolution('solution1')">Show Solution</button>
    <div id="solution1" style="display:none;">
-     <p>Contoso can use Azure Computer Vision's Image Analysis API to automatically generate alt text and captions for their images. This feature uses AI models to analyze the visual content of images and generate one-sentence descriptions that can be used as alt text. The key benefits of having descriptive alt text and captions include improved accessibility for visually impaired users, better search engine optimization (SEO), and enhanced user experience by making images more discoverable and understandable.</p>
-     <p><strong>API Used</strong>: <a href="https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/use-case-alt-text">Image Analysis API</a></p>
+     <p>Captain Synapse connected to various data sources, including Azure Blob Storage, SQL databases, and external APIs.</p>
    </div>
 
-2. What steps should Contoso take to extract text from images? How can the extracted text be used to enhance the searchability and management of media content?
+2. What steps did Data Dynamo take to clean and transform the ingested data?
    <button onclick="toggleSolution('solution2')">Show Solution</button>
    <div id="solution2" style="display:none;">
-     <p>Contoso should use Azure Computer Vision's OCR feature to extract text from images. The steps include:
-       <ol>
-         <li>Upload images to Azure Blob Storage.</li>
-         <li>Use the OCR API to analyze the images and extract text.</li>
-         <li>Store the extracted text in a searchable database.</li>
-       </ol>
-       The extracted text can be used to enhance searchability by indexing the text content, making it easier to find specific information within the media library. It also aids in content management by providing metadata that can be used for categorization and tagging.</p>
-     <p><strong>API Used</strong>: <a href="https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-ocr">OCR API</a></p>
+     <p>Data Dynamo used ETL processes to clean, transform, and load the data into Azure Synapse Analytics. This included data validation, normalization, and aggregation.</p>
    </div>
 
-3. How can Contoso detect whether images are in black and white or color? What methods can be employed to identify the dominant colors in images, and how can this information be utilized for categorization and design purposes?
+3. How did Real-time Ranger set up real-time data processing to detect anomalies?
    <button onclick="toggleSolution('solution3')">Show Solution</button>
    <div id="solution3" style="display:none;">
-     <p>Contoso can use Azure Computer Vision's color detection feature to analyze images and determine whether they are black and white or color. The feature also identifies the dominant foreground and background colors, as well as the overall dominant colors in the image. This information can be used to categorize images based on color schemes and make informed design decisions for marketing materials and visual content.</p>
-     <p><strong>API Used</strong>: <a href="https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-detecting-color-schemes">Analyze Image API</a></p>
+     <p>Real-time Ranger set up Azure Event Hub to capture streaming data from IoT devices and social media feeds. Azure Synapse Analytics was configured to process this data in real-time using Spark streaming jobs to detect anomalies and trigger alerts.</p>
    </div>
 
-4. What techniques can Contoso use to remove backgrounds from images and isolate subjects? How can background removal improve the quality and versatility of marketing materials and visual content?
+4. What tools did the League use to monitor data flows and real-time processing?
    <button onclick="toggleSolution('solution4')">Show Solution</button>
    <div id="solution4" style="display:none;">
-     <p>Contoso can use AI-powered tools like Microsoft Designer or Azure Computer Vision's background removal feature to remove backgrounds from images. These tools use advanced algorithms to accurately detect and remove backgrounds, leaving the main subject isolated. Background removal improves the quality and versatility of marketing materials by allowing designers to place subjects on different backgrounds, create transparent images, and enhance the overall visual appeal of content.</p>
-     <p><strong>API Used</strong>: <a href="https://create.microsoft.com/en-us/features/image-background-remover">Microsoft Designer Background Remover</a></p>
+     <p>The League used dashboards in Azure Synapse Studio to monitor data flows and real-time processing. They also set up alerts to notify them of any suspicious activity or data anomalies.</p>
    </div>
 
-5. How can Contoso identify brand logos and other custom objects? What are the steps involved in this process?
+5. What challenges did the League of Data Heroes face, and how did they overcome them?
    <button onclick="toggleSolution('solution5')">Show Solution</button>
    <div id="solution5" style="display:none;">
-     <p>Contoso can use Azure Custom Vision to develop and deploy custom models for identifying brand logos and other custom objects. The steps involved include:
-       <ol>
-         <li>Collect and label images of the objects to be detected.</li>
-         <li>Create Custom Vision resources in the Azure portal.</li>
-         <li>Train the custom model using the labeled images.</li>
-         <li>Test and evaluate the model's performance.</li>
-         <li>Deploy the model and use it to scan new media assets.</li>
-       </ol>
-       To ensure accuracy and reliability, the company should use a diverse set of training images, regularly update the model with new data, and continuously monitor its performance.</p>
-     <p><strong>API Used</strong>: <a href="https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/get-started-build-detector">Custom Vision API</a></p>
+     <p>The League faced challenges such as ingesting unstructured data from various sources, cleaning and transforming messy data, and detecting real-time anomalies. They overcame these challenges by using Azure Synapse Pipelines for efficient data ingestion, ETL processes for data transformation, and Azure Event Hub with Spark streaming jobs for real-time processing and anomaly detection.</p>
    </div>
 
    <script>
