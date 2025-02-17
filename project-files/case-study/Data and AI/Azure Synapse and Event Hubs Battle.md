@@ -14,8 +14,8 @@ In the bustling city of Dataville, a group of superheroes known as the League of
 
 ### Characters
 
-<a href="./images/syn1.png">
-  <img src="./images/syn1.png" alt="picture of 4 superheroes">
+<a href="./images/syn1.jpeg">
+  <img src="./images/syn1.jpeg" alt="picture of 4 superheroes">
 </a>
 <br>
 - **Captain Synapse**: The leader of the League, expert in Azure Synapse Pipelines.
