@@ -13,6 +13,11 @@ courses: [DP-203]
 In the bustling city of Dataville, a group of superheroes known as the League of Data Heroes is tasked with protecting the city's data from the evil villain, Dr. Chaos, who thrives on data corruption and chaos. The League's mission is to ensure seamless data ingestion, transformation, and real-time processing to keep Dataville's information systems running smoothly.
 
 ### Characters
+
+<a href="./images/syn1.png">
+  <img src="./images/syn1.png" alt="picture of 4 superheroes">
+</a>
+<br>
 - **Captain Synapse**: The leader of the League, expert in Azure Synapse Pipelines.
 - **Real-time Ranger**: Master of real-time data processing with Azure Synapse and Event Hub.
 - **Data Dynamo**: Specialist in data transformation and ETL processes.
@@ -44,7 +49,7 @@ With the combined efforts of Captain Synapse, Real-time Ranger, and Data Dynamo,
 
 
 
-
+### Tasks
 
 1. What types of data sources did Captain Synapse connect to using Azure Synapse Pipelines? 
    <button onclick="toggleSolution('solution1')">Show Solution</button>
