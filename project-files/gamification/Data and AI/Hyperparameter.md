@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Azure ML - Hyperparameter"
+title:  "Azure ML - Knowledge Games"
 category: "Gamification"
 sub-category: "Data and AI"
 courses: [DP-100]
@@ -18,7 +18,7 @@ courses: [DP-100]
 ## How to play
 
 <div class="content-section">
-    <h2>What is a hyperparameter vs model parameter?</h2>
+    <h2>Perform hyperparameter tuning with Azure Machine Learning</h2>
     <p>Imagine your machine learning model is like a car. We can compare different parts of the car to hyperparameters and parameters in a machine learning model.</p>
 </div>
 
@@ -53,7 +53,7 @@ courses: [DP-100]
 </div>
 
 <div class="content-section">
-    <h2>Configure a sampling method for hyperparameter tuning in Azure Machine Learning</h2>
+    <h2>Azure ML - Sampling Methods</h2>
     <p>Azure Machine Learning supports various sampling methods for hyperparameter optimization. The specific values used in hyperparameter tuning depend on the type of sampling method:</p>
     <ul>
         <li><strong>Grid Sampling</strong> tries every possible combination of values in the search space.</li>
