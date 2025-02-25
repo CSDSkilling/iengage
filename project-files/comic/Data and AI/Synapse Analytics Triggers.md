@@ -72,6 +72,14 @@ In this conversation, David seeks Juliet's expertise on the different types of t
                 <label><input type="radio" name="question1" value="C">C) Storage Event Trigger</label><br>
                 <label><input type="radio" name="question1" value="D"> D) Custom Event Trigger</label>
             </div>
+            <div class="knowledge-check-question">
+                <p>Question 2: Which trigger is best suited for processing data in fixed, non-overlapping time intervals while ensuring dependency on previous runs?</p>
+                
+                <label><input type="radio" name="question1" value="A">A) Tumbling Window Trigger</label><br>
+                <label><input type="radio" name="question1" value="B">B) Schedule Trigger</label><br>
+                <label><input type="radio" name="question1" value="C">C) Storage Event Trigger</label><br>
+                <label><input type="radio" name="question1" value="D"> D) Custom Event Trigger</label>
+            </div>
                            
             <button type="button" onclick="checkAnswers()">Submit</button>
         </form>
