@@ -17,8 +17,6 @@ After listening the video, you will take up the quizzes.
 
 <iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Digital%20and%20App%20Innovation/videos/githubplan/GitHub_player.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-## Knowledge Check
-
   <div class="knowledge-check">
         <h2>Knowledge Check</h2>
         <form id="knowledgeCheckForm">
@@ -102,6 +100,20 @@ After listening the video, you will take up the quizzes.
             results.innerHTML = `You got ${score} out of ${Object.keys(answers).length} correct.`;
         }
     </script>
-            
+     <style>
+      
+        .knowledge-check {
+            margin-top: 50px;
+        }
+        .knowledge-check-question {
+            margin-bottom: 20px;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+    </style>
 
 
