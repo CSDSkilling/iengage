@@ -9,7 +9,11 @@ courses: [AZ-2007]
 
 ## Introduction
 
-A software development team at TechSolutions is working on a new project to develop a web application. The team is facing challenges with maintaining productivity due to the complexity of the codebase and the need for frequent code reviews and debugging. The team decides to leverage GitHub Copilot to enhance their workflow and improve efficiency.
+A software development team at Contoso is working on a new project to develop a web application. The team is facing challenges with maintaining productivity due to the complexity of the codebase and the need for frequent code reviews and debugging. The team decides to leverage GitHub Copilot to enhance their workflow and improve efficiency.
+
+<a href="./images/g1.jpeg">
+  <img src="./images/g1.png" alt="a group of developers in a office environment">
+</a>
 
 ### Instructions for Flip Cards
 Below are the questions. Each question is on one side of a flip card. Flip the card to see the answer. The answer can be **Copilot Chat** or  **Copilot Edit** or **Copilot Completion** or **Copilot Pull Request Summaries** or **Copilot Extensions**.
@@ -31,7 +35,7 @@ Below are the questions. Each question is on one side of a flip card. Flip the c
         }
         .tile {
             width: 300px;
-            height: 200px;
+            height: 300px;
             display: flex;
             align-items: center;
             justify-content: center;
