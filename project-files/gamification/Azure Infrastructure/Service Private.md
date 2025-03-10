@@ -18,7 +18,7 @@ The IT team at Lamna Healthcare, led by the brilliant and meticulous Sarah, was 
 
 This video contains discussion about Service Endpoint and Private Endpoint. Watch the video and participate in the activity below to reinforce your learning.
 
-<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Azure Infrastructure/videos/LamnaHealthcare/LlamaHealthcare-CC.mp4?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Azure Infrastructure/videos/LamnaHealthcare/LlamaHealthcare-CC_player.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
 ## Match the features to each rows below by dragging and dropping.
