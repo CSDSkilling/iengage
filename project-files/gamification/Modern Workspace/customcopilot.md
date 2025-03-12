@@ -12,7 +12,7 @@ courses: [AI-3018, MS-4010]
 
 Welcome to our exciting gamified learning experience! In this video, you'll join Helen and Alice as they discuss the differences between Copilot Studio and AI Studio. Pay close attention, because after their conversation, you'll have the chance to answer some questions and earn rewards!
 
-<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Modern Workspace/videos/customcopilot/customcopilot.mp4?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Modern Workspace/videos/copilotstudiofoundry/customcopilot1_player.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
 ### Question 1:
