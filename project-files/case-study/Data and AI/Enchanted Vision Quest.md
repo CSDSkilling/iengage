@@ -14,7 +14,7 @@ Dr. Visionary was on a magical mission to create an enchanted image classifier. 
 ## The Magical Challenges
 <br>
 <a href="./images/m1.png" download>
-  <img src="./images/m1.png" alt="picture of wizaed">
+  <img src="./images/m1.png" alt="picture of wizaed" class="img-fluid">
 </a>
 
 Just as Dr. Visionary thought he was nearing the end of his quest; he encountered an unexpected magical challenge. The problem is that Dr. Visionary's magic wand is broken, and it will take some time to fix it. He consulted the Head Wizard, who suggested using Custom Vision. Since Dr. Visionary has no idea about Custom Vision, can you help him match the problem statement with the appropriate solution?
