@@ -6,17 +6,6 @@ sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
 
-<div class="fixed-buttons">
-
-  <a href="#business" class="button">Business Overview</a>
-  <a href="#existing" class="button">Existing Setup</a>
-  <a href="#new" class="button">New Requirement</a>
-</div>
-
-
-<br><br>
-
-
 # Case Study: Transforming Retail Operations with Azure AI Services
 
 ## Business Overview
@@ -24,7 +13,7 @@ courses: [AI-102, PR-801]
 Lakeshore Retail, a prominent retail chain with over 500 stores nationwide, offers a diverse range of products from groceries to electronics and maintains a strong online presence. Lakeshore Retail goals include enhancing customer experience, streamlining operations, and leveraging data for informed decision-making. <br>
 
 <a href="./images/r1.png">
-  <img src="./images/r1.png" alt="picture of a shop">
+  <img src="./images/r1.png" alt="picture of a shop" class="img-fluid">
 </a>
 <br>
 
@@ -55,7 +44,7 @@ Lakeshore Retail has identified several areas for improvement:
 
 **Question 1:** Which Azure AI service can they use to implement the virtual Try-It-On feature, to identify the position of the eyes in an uploaded image ?<br>
 <a href="./images/r2.png">
-  <img src="./images/r2.png" alt="image of people trying virtual try it on glasses">
+  <img src="./images/r2.png" alt="image of people trying virtual try it on glasses" class="img-fluid">
 </a>
 <br>
 <form id="quizForm1">
@@ -73,7 +62,7 @@ Lakeshore Retail has identified several areas for improvement:
 
 **Question 2:** Lakeshore Retail wants to use the Azure AI Language Service to analyze product reviews and suggest products with higher positive reviews to customers. Which class and method should be used to analyze the product reviews using the Azure AI Language Service SDK in C#?<br>
 <a href="./images/r3.png">
-  <img src="./images/r3.png" alt="image of customers giving reviews">
+  <img src="./images/r3.png" alt="image of customers giving reviews" class="img-fluid">
 </a>
 <form id="quizForm2">
   <input type="radio" id="q2a" name="q2" value="A">
@@ -92,7 +81,7 @@ Lakeshore Retail has identified several areas for improvement:
 
 **Question 3:** Which AI service and feature should the developers implement a read-aloud feature for visually impaired users in their Touch Screen Assistant at retail outlets?<br>
 <a href="./images/r4.png">
-  <img src="./images/r4.png" alt="picture of a touch screen assistant">
+  <img src="./images/r4.png" alt="picture of a touch screen assistant" class="img-fluid">
 </a>
 <br>
 
@@ -112,7 +101,7 @@ Lakeshore Retail has identified several areas for improvement:
 
 **Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis? <br>
 <a href="./images/r6.png">
-  <img src="./images/r6.png" alt="picture of a retail store">
+  <img src="./images/r6.png" alt="picture of a retail store" class="img-fluid">
 </a>
 <br>
 
@@ -138,7 +127,7 @@ Lakeshore Retail has identified several areas for improvement:
 **Question 5:** How can Lakeshore Retail implement the new requirement for image-based search?
 
 <a href="./images/r5.jpg">
-  <img src="./images/r5.jpg" alt="picture of a shop">
+  <img src="./images/r5.jpg" alt="picture of a shop" class="img-fluid">
 </a>
 <br>
 
