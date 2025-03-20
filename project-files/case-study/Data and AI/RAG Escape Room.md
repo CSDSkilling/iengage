@@ -75,7 +75,7 @@ A company with three developers is facing an issue where someone is using the Az
 To solve the issue of key misuse, the company needs to identify the thief. The following MCQs will help in providing hints about the thief based on the correct answers. 
 
     <a href="./images/es1.png">
-  <img src="./images/es1.png" alt="a group of people looking at computer">
+  <img src="./images/es1.png" alt="a group of people looking at computer" class="img-fluid">
 </a>
     <div class="instructions">
         <h3>How to Play</h3>
