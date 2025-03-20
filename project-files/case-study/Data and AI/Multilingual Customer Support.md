@@ -52,7 +52,7 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 ## Task 3: Help the architects with the below questions
 
 <a href="./images/arch.png">
-  <img src="./images/arch.png" alt="a group of architects discussing">
+  <img src="./images/arch.png" alt="a group of architects discussing" class="img-fluid">
 </a>
 
 
