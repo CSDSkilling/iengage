@@ -16,7 +16,7 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 ## Task 1: Listen to the conversation between Hiroshi and Amanda
 
 <a href="./images/cc.png">
-  <img src="./images/cc.png" alt="Amanda talking to Hiroshi over the phone">
+  <img src="./images/cc.png" alt="Amanda talking to Hiroshi over the phone" class="img-fluid">
 </a>
 <br>
 <audio controls>
@@ -37,7 +37,7 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 ## Task 2: Observe the below image where Amanda is chatting with a Japanese customer <br>
 
 <a href="./images/cc2.png">
-  <img src="./images/cc2.png" alt="Amanda talking to Hiroshi over the chat">
+  <img src="./images/cc2.png" alt="Amanda talking to Hiroshi over the chat" class="img-fluid">
 </a>
 <br>
 
