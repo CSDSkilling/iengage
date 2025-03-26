@@ -14,7 +14,7 @@ Lamna Healthcare was known for its cutting-edge medical research and exceptional
 
 The IT team at Lamna Healthcare, led by the brilliant and meticulous Sarah, was tasked with finding a solution. Sarah knew that the stakes were high; patient data was sensitive and needed the highest level of protection. She gathered her team for a brainstorming session to evaluate their options.
 
-## Interactive Video
+## Video
 
 This video contains discussion about Service Endpoint and Private Endpoint. Watch the video and participate in the activity below to reinforce your learning.
 
