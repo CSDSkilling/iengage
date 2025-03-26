@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/iengage/assets/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/iengage/assets/css/style.css">
   <link rel="stylesheet" href="/iengage/assets/css/catalog_style.css">
 </head>
-<body>
-  <div class="container">
-    <div class="resizable" id="leftDiv">
+<body class="main-body">
+  <div id="leftDiv">
+    <div style="padding: 10px;">
       <ul>
         <li><a href="{{ site.url }}{{ site.baseurl }}" class="main-menu">Home</a></li>
         <li><a href="{{ site.url }}{{ site.baseurl }}/Catalog.html" class="main-menu">Catalog</a></li>
@@ -387,19 +388,20 @@
         </li>
       </ul>
     </div>
-    <div class="divider" id="divider"></div>
+  </div>
 
-<div id="rightDiv">
-  <div class="content-wrapper">
-     {{ content }}
-    <div class="footer">
-        <p><a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRwzpuuldNJ1Dh7kv7_FWVBRUOFdBRk1JUllPN0JUMVpGMEZDVFVETFUwNi4u&r0712f7305cf44745bce402fa04ca7ce0={{ page.title }}&r3fd228576ade413e81776abe37311fc8={{ page.category }}" target="_blank">Give us your feedback about this learning resource</a></p>
+  <!-- <div class="divider" id="divider"></div> -->
+
+  <div id="rightDiv">
+    <button id="toggleButton">&lt;&lt;</button>
+    <div class="content-wrapper">
+       {{ content }}
+      <div class="footer">
+          <p><a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRwzpuuldNJ1Dh7kv7_FWVBRUOFdBRk1JUllPN0JUMVpGMEZDVFVETFUwNi4u&r0712f7305cf44745bce402fa04ca7ce0={{ page.title }}&r3fd228576ade413e81776abe37311fc8={{ page.category }}" target="_blank">Give us your feedback about this learning resource</a></p>
+      </div>
     </div>
   </div>
-</div>
     
-  </div>
-
   <script>
     var toggler = document.getElementsByClassName("caret");
     var i;
@@ -411,5 +413,24 @@
       });
     }
   </script>
+
+  <script>
+    const sidebar = document.getElementById('leftDiv');
+    const content = document.getElementById('rightDiv');
+    const toggleButton = document.getElementById('toggleButton');
+
+    toggleButton.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
+        content.classList.toggle('collapsed');
+        toggleButton.classList.toggle('collapsed');
+        if (sidebar.classList.contains('collapsed')) {
+            toggleButton.innerHTML = '&gt;&gt;';
+        } else {
+            toggleButton.innerHTML = '&lt;&lt;';
+        }
+    });
+  </script>
+
+  <script src="/iengage/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
