@@ -107,7 +107,7 @@ In this conversation, Bob explores Microsoft Fabric roles but struggles to conne
 
     
   <script>
-        const images = ["./images/Slide1.PNG", "./images/Slide2.PNG", "./images/Slide3.PNG", "./images/Slide4.PNG", "./images/Slide5.PNG", "./images/Slide6.PNG", "./images/Slide7.PNG", "./images/Slide8.PNG", "./images/Slide9.PNG"];
+        const images = ["./images/sunil-dialog.png","./images/Slide1.PNG", "./images/Slide2.PNG", "./images/Slide3.PNG", "./images/Slide4.PNG", "./images/Slide5.PNG", "./images/Slide6.PNG", "./images/Slide7.PNG", "./images/Slide8.PNG", "./images/Slide9.PNG"];
         let currentIndex = 0;
 
         function showImage(index) {
