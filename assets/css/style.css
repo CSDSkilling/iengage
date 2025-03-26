@@ -33,7 +33,7 @@
     margin-left: 0;
 }
 #toggleButton {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 300px;
     cursor: pointer;
