@@ -76,28 +76,28 @@ In this conversation, Bob explores Microsoft Fabric roles but struggles to conne
             <div class="knowledge-check-question">
                 <p>Question 2: Bob assigns a Contributor role to a business analyst. What is something the Contributor CANNOT do?</p>
                 
-                <label><input type="radio" name="question1" value="A">A) Edit and modify reports</label><br>
-                <label><input type="radio" name="question1" value="B">B) Work with datasets and create dashboards</label><br>
-                <label><input type="radio" name="question1" value="C">C) Share reports with others</label><br>
-                <label><input type="radio" name="question1" value="D"> D) Build dataflows</label>
+                <label><input type="radio" name="question2" value="A">A) Edit and modify reports</label><br>
+                <label><input type="radio" name="question2" value="B">B) Work with datasets and create dashboards</label><br>
+                <label><input type="radio" name="question2" value="C">C) Share reports with others</label><br>
+                <label><input type="radio" name="question2" value="D"> D) Build dataflows</label>
             </div>
 
             <div class="knowledge-check-question">
                  <p>Question 3: An executive in Juliet’s company needs access to reports and dashboards but does not need to modify or create content. Which role should they be assigned?</p>
                 
-                <label><input type="radio" name="question1" value="A">A) Admin</label><br>
-                <label><input type="radio" name="question1" value="B">B) Member</label><br>
-                <label><input type="radio" name="question1" value="C">C) Viewer</label><br>
-                <label><input type="radio" name="question1" value="D"> D) Contributor</label>
+                <label><input type="radio" name="question3" value="A">A) Admin</label><br>
+                <label><input type="radio" name="question3" value="B">B) Member</label><br>
+                <label><input type="radio" name="question3" value="C">C) Viewer</label><br>
+                <label><input type="radio" name="question3" value="D"> D) Contributor</label>
             </div>
 
             <div class="knowledge-check-question">
                  <p>Question 4: Juliet is a senior data analyst in a company. She needs to create and modify reports, manage datasets, and share reports with others but does not need control over workspace settings.</p>
                 
-                <label><input type="radio" name="question1" value="A">A) Viewer</label><br>
-                <label><input type="radio" name="question1" value="B">B) Contributor</label><br>
-                <label><input type="radio" name="question1" value="C">C) Member</label><br>
-                <label><input type="radio" name="question1" value="D"> D) Admin</label>
+                <label><input type="radio" name="question4" value="A">A) Viewer</label><br>
+                <label><input type="radio" name="question4" value="B">B) Contributor</label><br>
+                <label><input type="radio" name="question4" value="C">C) Member</label><br>
+                <label><input type="radio" name="question4" value="D"> D) Admin</label>
             </div>
                            
             <button type="button" onclick="checkAnswers()">Submit</button>
