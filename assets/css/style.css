@@ -1,43 +1,66 @@
-body {
-    display: flex;
-    height: 100vh;
+.main-body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    line-height: 2;
-
-}
-
-.container {
     display: flex;
-    width: 100%;
+    line-height: 2;
 }
+
 #leftDiv {
-    width: 300px;
     background-color: #f1f1f1;
-    padding: 10px;
-    flex-shrink: 0; /* Prevent shrinking */
-    overflow: auto; /* Ensure content is scrollable if it overflows */
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    transition: width 0.3s;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+#leftDiv.collapsed {
+    width: 0;
 }
 #rightDiv {
     flex-grow: 1;
-    padding: 15px;
+    margin-left: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    transition: margin-left 0.3s;
     overflow: auto; /* Ensure content is scrollable if it overflows */
-    margin-left: 100px;
-
     justify-content: left; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
 }
+#rightDiv.collapsed {
+    margin-left: 0;
+}
+#toggleButton {
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    cursor: pointer;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#toggleButton.collapsed {
+    left: 0;
+}
 
 .content-wrapper {
-    width: 80%; /* Adjust the width as needed */
-    max-width: 1024px; /* Maximum width */
     text-align: justify; /* Center the text */
 }
+
 .divider {
-    width: 5px;
+    width: 1px;
     background-color: lightblue;
-   /* cursor: ew-resize; */
 }
+
 ul {
     list-style-type: none;
     margin: 0;
