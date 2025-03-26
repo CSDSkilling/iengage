@@ -1,0 +1,46 @@
+var TSC = TSC || {};
+
+TSC.embedded_config_xml = '<x:xmpmeta tsc:version="2.0.1" xmlns:x="adobe:ns:meta/" xmlns:tsc="http://www.techsmith.com/xmp/tsc/">\
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/" xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:tscDM="http://www.techsmith.com/xmp/tscDM/" xmlns:tscIQ="http://www.techsmith.com/xmp/tscIQ/" xmlns:tscHS="http://www.techsmith.com/xmp/tscHS/" xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#" xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#" xmlns:exif="http://ns.adobe.com/exif/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">\
+      <rdf:Description dc:date="2025-03-12 09:24:06 AM" dc:source="Camtasia,20.0.14,enu" dc:title="JohnAndAvatar" tscDM:firstFrame="JohnAndAvatar_First_Frame.png" tscDM:originId="0107F1CF-9ECB-40CD-B72C-BC5BCC9F54ED" tscDM:project="JohnAndAvatar">\
+         <xmpDM:duration xmpDM:scale="1/1000" xmpDM:value="77966"/>\
+         <xmpDM:videoFrameSize stDim:unit="pixel" stDim:h="1080" stDim:w="1920"/>\
+         <tsc:langName>\
+            <rdf:Bag>\
+               <rdf:li xml:lang="en-US">English</rdf:li></rdf:Bag>\
+         </tsc:langName>\
+         <xmpDM:Tracks>\
+            <rdf:Bag>\
+               <rdf:li>\
+                  <rdf:Description xmpDM:trackType="Caption" xmpDM:frameRate="f1000" xmpDM:trackName="Captioning" stFnt:fontFamily="Arial" tscDM:fontSize="64" tscDM:bgOpacity="0.750000" tscDM:position="overlay">\
+                     <xmpDM:markers>\
+                        <rdf:Seq>\
+                           <rdf:li><rdf:Description xmpDM:duration="6600" xmpDM:startTime="6933" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Hello, I have joined Contoso today as a Software Engineer. I am looking for some information.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="5100" xmpDM:startTime="15167" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Hello, Good morning. I am your AI companion. How can I help you today?}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="3133" xmpDM:startTime="20400" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Where do I start if I want to know more about Contoso?}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="8400" xmpDM:startTime="23767" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Begin by visiting Contoso Home to get an overview of the organization. Visit www.contosohome.com.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="5033" xmpDM:startTime="32167" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 From where can I download and install all the software and tools required for my job.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="8667" xmpDM:startTime="37467" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 You can install software from Contoso Software Central, which is available on every organizational device. If you are facing issues, }</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="5633" xmpDM:startTime="46133" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 please raise a ticket by navigating to www.contososupport.com.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4600" xmpDM:startTime="52000" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 What are the learning resources available for me to get started on the project?}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="7433" xmpDM:startTime="56800" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Access learning resources through Contoso Learning, available via the Contoso Home App. If you are looking for specific learning }</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4133" xmpDM:startTime="64233" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 resources, please let me know, I can help you with that.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="68433" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Thanks for your help. I can start my work now.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2967" xmpDM:startTime="72700" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 You are welcome. Have a great day ahead.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li></rdf:Seq>\
+                     </xmpDM:markers>\
+                     <tsc:fgColor xmpG:red="255" xmpG:green="255" xmpG:blue="255"/><tsc:bgColor xmpG:red="0" xmpG:green="0" xmpG:blue="0"/></rdf:Description>\
+               </rdf:li>\
+            </rdf:Bag>\
+         </xmpDM:Tracks>\
+         <tscDM:controller>\
+            <rdf:Description xmpDM:name="tscplayer">\
+               <tscDM:parameters>\
+                  <rdf:Bag>\
+                     <rdf:li xmpDM:name="autohide" xmpDM:value="true"/><rdf:li xmpDM:name="autoplay" xmpDM:value="false"/><rdf:li xmpDM:name="loop" xmpDM:value="false"/><rdf:li xmpDM:name="searchable" xmpDM:value="true"/><rdf:li xmpDM:name="captionsenabled" xmpDM:value="false"/><rdf:li xmpDM:name="sidebarenabled" xmpDM:value="false"/><rdf:li xmpDM:name="unicodeenabled" xmpDM:value="false"/><rdf:li xmpDM:name="backgroundcolor" xmpDM:value="000000"/><rdf:li xmpDM:name="sidebarlocation" xmpDM:value="left"/><rdf:li xmpDM:name="endaction" xmpDM:value="stop"/><rdf:li xmpDM:name="endactionparam" xmpDM:value="true"/><rdf:li xmpDM:name="locale" xmpDM:value="en-US"/></rdf:Bag>\
+               </tscDM:parameters>\
+               <tscDM:controllerText>\
+                  <rdf:Bag>\
+                  </rdf:Bag>\
+               </tscDM:controllerText>\
+            </rdf:Description>\
+         </tscDM:controller>\
+         <tscDM:contentList>\
+            <rdf:Description>\
+               <tscDM:files>\
+                  <rdf:Seq>\
+                     <rdf:li xmpDM:name="0" xmpDM:value="JohnAndAvatar.mp4"/><rdf:li xmpDM:name="1" xmpDM:value="JohnAndAvatar_First_Frame.png"/><rdf:li xmpDM:name="2" xmpDM:value="JohnAndAvatar_Thumbnails.png"/></rdf:Seq>\
+               </tscDM:files>\
+            </rdf:Description>\
+         </tscDM:contentList>\
+      </rdf:Description>\
+   </rdf:RDF>\
+</x:xmpmeta>';
