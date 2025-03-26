@@ -6,7 +6,7 @@ layout: default
 title: Home
 ---
 
-![img](./home.png)
+<img src="./home.png" class="img-fluid">
 
 iEngage 2.0 aims to revolutionize learner engagement by integrating cutting-edge AI, App, and Data services from Azure and the principles of SFI. Our vision is to create a dynamic and interactive learning environment through engaging AI and Azure based comics, comic based case study and gamified assets, we strive to make complex concepts accessible and actionable. By emphasizing the synergy between AI, Apps, and Data, and driving AI Design Wins, iEngage 2.0 will equip trainers and learners with the tools, knowledge and security awareness to excel in a rapidly evolving technological landscape.
 
