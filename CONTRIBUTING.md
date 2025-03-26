@@ -15,5 +15,5 @@ Fill up the submission form. Attach the completed submission template from step 
 
 ## Assets Guideliness:
 1. Case Study
-2. Comics
+2. [Comics](https://github.com/CSDSkilling/iengage/blob/main/iEngage_Comic_guidelines.pdf)
 3. Gamification
