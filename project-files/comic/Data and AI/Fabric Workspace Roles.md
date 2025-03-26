@@ -82,6 +82,7 @@ In this conversation, Bob explores Microsoft Fabric roles but struggles to conne
                 <label><input type="radio" name="question1" value="D"> D) Build dataflows</label>
             </div>
 
+            <div class="knowledge-check-question">
                  <p>Question 3: An executive in Juliet’s company needs access to reports and dashboards but does not need to modify or create content. Which role should they be assigned?</p>
                 
                 <label><input type="radio" name="question1" value="A">A) Admin</label><br>
@@ -90,6 +91,7 @@ In this conversation, Bob explores Microsoft Fabric roles but struggles to conne
                 <label><input type="radio" name="question1" value="D"> D) Contributor</label>
             </div>
 
+            <div class="knowledge-check-question">
                  <p>Question 4: Juliet is a senior data analyst in a company. She needs to create and modify reports, manage datasets, and share reports with others but does not need control over workspace settings.</p>
                 
                 <label><input type="radio" name="question1" value="A">A) Viewer</label><br>
