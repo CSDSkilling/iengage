@@ -55,7 +55,7 @@ In this scenario, team members in a conference room are discussing the intricaci
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/ai1.png" alt="Image Carousel" onclick="toggleEnlarge()">
+        <img id="carousel" class="carousel-image" src="./images/ai1.png" alt="Image Carousel" onclick="toggleEnlarge()"  class="img-fluid">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
