@@ -16,6 +16,7 @@ Meet John, a new employee who has just joined TechNova as a Software Engineer. O
 ## Video
 This video contains discussion about Service Endpoint and Private Endpoint. Watch the video and participate in the activity below to reinforce your learning.
 
+<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/OnboardingAvatar/JohnAndAvatar_player.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 By the end of the day, John feels confident and well-informed, thanks to Nova's guidance. They are now ready to embark on their journey at TechNova, knowing that they have a reliable AI Avatar to support them every step of the way.
 
