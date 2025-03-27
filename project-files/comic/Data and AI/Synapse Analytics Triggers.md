@@ -57,7 +57,7 @@ In this conversation, David seeks Juliet's expertise on the different types of t
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/syn1.PNG" alt="Image Carousel" onclick="toggleEnlarge()">
+        <img id="carousel" class="carousel-image" src="./images/syn1.PNG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
