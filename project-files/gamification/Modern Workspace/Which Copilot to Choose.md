@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  "Types of Copilot"
+title:  "Copilot Types"
 category: "Gamification"
-sub-category: "Modern Workspace"
-courses: [MS-4005, MS-4002]
+sub-category: "Modern Workplace"
+courses: [MS-4005, MS-4002, MS-4010]
 ---
 # A meeting room at a tech company.
 
@@ -33,8 +33,8 @@ Below are the questions. Each question is on one side of a flip card. Flip the c
             justify-content: center; /* Center the tiles */
         }
         .tile {
-            width: 300px;
-            height: 200px;
+            width: 500px;
+            height: 300px;
             display: flex;
             align-items: center;
             justify-content: center;
