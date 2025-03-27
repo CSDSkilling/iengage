@@ -12,7 +12,7 @@ courses: [DP-203,AZ-305]
 In this engaging comic, we explore the fascinating world of vehicle assistance powered by Azure Cosmos DB and AI. Follow the journey of Alex, a software engineer, Sam, an architect, and Alic, a project manager, as they delve into the capabilities of Cosmos DB. Through their adventure, you'll discover how this powerful database service enhances vehicle assistance systems by providing real-time data processing, seamless scalability, and robust performance. Whether it's optimizing route planning, managing vehicle diagnostics, or ensuring driver safety, Cosmos DB proves to be an invaluable tool in revolutionizing the automotive industry. Join Alex and Sam as they uncover the secrets behind Cosmos DB's success in transforming vehicle assistance into a smarter, more efficient experience.
 
 <a href="./images/cosmos1.jpg" download>
-  <img src="./images/cosmos1.jpg" alt="A group of four people in a business meeting discussing the integration of AI and Cosmos DB to enhance their assistant app. The conversation highlights the benefits of natural language processing, global distribution, multi-model capabilities, and personalized suggestions.">
+  <img src="./images/cosmos1.jpg" alt="A group of four people in a business meeting discussing the integration of AI and Cosmos DB to enhance their assistant app. The conversation highlights the benefits of natural language processing, global distribution, multi-model capabilities, and personalized suggestions." class="img-fluid">
 </a>
 
 ## Knowledge Check
