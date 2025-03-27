@@ -85,14 +85,21 @@ Below are the questions. Each question is on one side of a flip card. Flip the c
             <div class="front">Used for work tasks, Licensed by your work organization, Get in-app experiences in your Microsoft 365 apps, like Teams, Word, Excel, PowerPoint, and Outlook, Can access user-accessible work data (via Microsoft Graph) to generate Grounded response</div>
             <div class="back">Microsoft 365 Copilot</div>
         </div>
-        <div class="tile" onclick="checkAnswer(this, 'Retention Labels')">
-            <div class="front">Which labels can help your organization to manage the lifecycle of data by specifying how long content should be kept and what actions should be taken at the end of the retention period?</div>
-            <div class="back">Retention Labels</div>
+        <div class="tile" onclick="checkAnswer(this, 'Microsoft Security Copilot')">
+            <div class="front">Used by security professionals for incident investigation, threat hunting, intelligence gathering, posture management.
+Licensed by your work organization,
+Can access work data that the security professional's Microsoft Entra account has access to.
+Integrates with other services, like Microsoft Defender XDR, Microsoft Purview, Microsoft Intune, Microsoft Entra, and some non-Microsoft services</div>
+            <div class="back">Microsoft Security Copilot</div>
         </div>
-        <div class="tile" onclick="checkAnswer(this, 'Data Loss Prevention (DLP)')">
-            <div class="front">When your organization needs to detect and prevent the unintentional sharing of sensitive information, which set of capabilities in Microsoft Purview will you use?</div>
-            <div class="back">Data Loss Prevention (DLP)</div>
+        <div class="tile" onclick="checkAnswer(this, 'GitHub Copilot')">
+            <div class="front">Used by developers as AI coding assistant for writing code,
+Licensed by your work organization,
+Developers can Get code suggestions as they type and Ask for help when writing your code</div>
+            <div class="back">GitHub Copilot</div>
         </div>      
+
+
         
     </div>
 
