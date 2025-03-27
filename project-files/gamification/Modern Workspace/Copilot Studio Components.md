@@ -13,7 +13,7 @@ courses: [MS-4010, MS-4015]
 
 Welcome to the Microsoft Copilot Studio Drag-and-Drop Activity! This activity is designed to help you understand when to use various actions and components in Microsoft Copilot Studio, such as Conversation Actions, Prompt Actions, Flow Actions, Connectors, Topics, Variables, and Entities. By completing this activity, you'll gain a better understanding of how to build effective and interactive bots.
 <a href="./images/pb1.png">
-  <img src="./images/cb1.png" alt="man working with his laptop">
+  <img src="./images/cb1.png" alt="man working with his laptop" class="img-fluid">
 </a>
 
 ### Instructions
