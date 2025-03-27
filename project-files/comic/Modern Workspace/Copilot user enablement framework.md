@@ -57,7 +57,7 @@ Olivia and Ethan, two IT professionals, discuss how to successfully adopt Micros
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/Slide1.PNG" alt="Image Carousel" onclick="toggleEnlarge()">
+        <img id="carousel" class="carousel-image" src="./images/Slide1.PNG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
