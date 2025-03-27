@@ -11,7 +11,7 @@ courses: [AI-102, PR-801]
 In the futuristic city of Innovatia, a group of brilliant data scientists and tech enthusiasts are on a mission to harness the power of Azure AI services to solve complex problems and drive innovation. Led by Dr. Alice, a renowned data scientist, the team embarks on an exciting expedition to explore and implement Azure AI solutions.
 
 <a href="./images/ai2.png">
-  <img src="./images/ai2.png" alt="Alex is joined by a team of sidekicks">
+  <img src="./images/ai2.png" alt="Alex is joined by a team of sidekicks" class="img-fluid">
 </a>
 <br>
 
@@ -19,7 +19,7 @@ In the futuristic city of Innovatia, a group of brilliant data scientists and te
 Dr. Alice and her team, including tech-savvy members like Bob, a cloud architect, and Helen, a machine learning expert, discover a hidden lab filled with data anomalies. They realize that these anomalies can be resolved using Azure AI services. The team decides to provision the necessary AI services on Azure to begin their investigation.
 
 <a href="./images/ai1.png">
-  <img src="./images/ai1.png" alt="Alex is joined by a team of sidekicks">
+  <img src="./images/ai1.png" alt="Alex is joined by a team of sidekicks" class="img-fluid">
 </a>
 <br>
 
@@ -84,7 +84,7 @@ Reorder Sequence: Arrange the steps to provision an AI service on Azure in the c
 To ensure the security of their AI services, the team sets up endpoints and keys. They also decide to use Azure Key Vault to store their secrets securely, protecting their data from potential breaches.
 
 <a href="./images/ai3.png">
-  <img src="./images/ai3.png" alt="Alex is joined by a team of sidekicks">
+  <img src="./images/ai3.png" alt="Alex is joined by a team of sidekicks" class="img-fluid">
 </a>
 <br>
 
