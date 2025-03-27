@@ -66,7 +66,7 @@ In this conversation, Bob explores Microsoft Fabric roles but struggles to conne
         <h2>Knowledge Check</h2>
         <form id="knowledgeCheckForm">
             <div class="knowledge-check-question">
-                <p>Question 1: Bob is setting up a Microsoft Fabric workspace for his team. He needs full control over user permissions, workspace settings, and overall management.</p>
+                <p>Question 1: Bob is setting up a Microsoft Fabric workspace for his team. He needs full control over user permissions, workspace settings, and overall management. Which role should Bob have?</p>
                 
                 <label><input type="radio" name="question1" value="A">A) Contributor</label><br>
                 <label><input type="radio" name="question1" value="B">B) Member</label><br>
@@ -92,7 +92,7 @@ In this conversation, Bob explores Microsoft Fabric roles but struggles to conne
             </div>
 
             <div class="knowledge-check-question">
-                 <p>Question 4: Juliet is a senior data analyst in a company. She needs to create and modify reports, manage datasets, and share reports with others but does not need control over workspace settings.</p>
+                 <p>Question 4: Juliet is a senior data analyst in a company. She needs to create and modify reports, manage datasets, and share reports with others but does not need control over workspace settings. Which role best suits her?</p>
                 
                 <label><input type="radio" name="question4" value="A">A) Viewer</label><br>
                 <label><input type="radio" name="question4" value="B">B) Contributor</label><br>
