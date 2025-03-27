@@ -12,7 +12,7 @@ courses: [AZ-2007]
 A software development team at Contoso is working on a new project to develop a web application. The team is facing challenges with maintaining productivity due to the complexity of the codebase and the need for frequent code reviews and debugging. The team decides to leverage GitHub Copilot to enhance their workflow and improve efficiency.
 
 <a href="./images/g1.jpeg">
-  <img src="./images/g1.jpeg" alt="a group of developers in a office environment">
+  <img src="./images/g1.jpeg" alt="a group of developers in a office environment" class="img-fluid">
 </a>
 
 ### Instructions for Flip Cards
