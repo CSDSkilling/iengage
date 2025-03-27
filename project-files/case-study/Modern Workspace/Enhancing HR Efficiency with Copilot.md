@@ -18,7 +18,7 @@ In today's fast-paced work environment, enhancing productivity and streamlining 
 **Scene 1:**
 
 <a href="./images/c1.jpg" download>
-  <img src="./images/c1.jpg" alt="A comic-style illustration showing two people having a conversation in an office setting. One person asks about how custom Microsoft Copilot agents can help their HR team with repetitive tasks and tight deadlines. The other person explains that custom Copilot agents can be tailored to specific HR needs, assisting with drafting job descriptions, generating employee reports, summarizing meeting notes, and providing relevant suggestions using AI to save time.">
+  <img src="./images/c1.jpg" alt="A comic-style illustration showing two people having a conversation in an office setting. One person asks about how custom Microsoft Copilot agents can help their HR team with repetitive tasks and tight deadlines. The other person explains that custom Copilot agents can be tailored to specific HR needs, assisting with drafting job descriptions, generating employee reports, summarizing meeting notes, and providing relevant suggestions using AI to save time." class="img-fluid">
 </a>
 
 **Questions to Learners:** How would you respond if you were the IT consultant?
@@ -26,7 +26,7 @@ In today's fast-paced work environment, enhancing productivity and streamlining 
 **Scene 2:**
 
 <a href="./images/c2.jpg" download>
-  <img src="./images/c2.jpg" alt="A two-panel comic strip featuring a conversation between two business professionals. In the first panel, one person asks about the specific benefits of using a custom Copilot agent in HR. In the second panel, the other person explains that a custom Copilot agent enhances productivity by automating repetitive tasks, reduces errors with accurate suggestions, and assists with data analysis. It can also be integrated with existing HR tools and workflows for increased efficiency.">
+  <img src="./images/c2.jpg" alt="A two-panel comic strip featuring a conversation between two business professionals. In the first panel, one person asks about the specific benefits of using a custom Copilot agent in HR. In the second panel, the other person explains that a custom Copilot agent enhances productivity by automating repetitive tasks, reduces errors with accurate suggestions, and assists with data analysis. It can also be integrated with existing HR tools and workflows for increased efficiency." class="img-fluid">
 </a>
 
 
@@ -47,7 +47,7 @@ In today's fast-paced work environment, enhancing productivity and streamlining 
 **Scene 3:**
 
 <a href="./images/c3.jpg" download>
-  <img src="./images/c3.jpg" alt="A two-panel comic strip featuring two business professionals discussing the implementation of a custom Copilot agent for their HR team. In the first panel, one person expresses excitement about the potential benefits and asks how to get started. In the second panel, the other person explains that they need to define their specific HR requirements and collaborate with Microsoft to develop the custom Copilot agent, followed by training sessions to ensure effective use.">
+  <img src="./images/c3.jpg" alt="A two-panel comic strip featuring two business professionals discussing the implementation of a custom Copilot agent for their HR team. In the first panel, one person expresses excitement about the potential benefits and asks how to get started. In the second panel, the other person explains that they need to define their specific HR requirements and collaborate with Microsoft to develop the custom Copilot agent, followed by training sessions to ensure effective use." class="img-fluid">
 </a>
 
 **Tips for Trainers:** Discuss and share these references.
