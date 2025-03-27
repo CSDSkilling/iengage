@@ -61,7 +61,7 @@ courses: [AI-102, AI-3016, AI-3018]
     
     <h2>Escape Room Instructions</h2>
     <a href="./images/es.png">
-  <img src="./images/es.png" alt="a group of people exploring map">
+  <img src="./images/es.png" alt="a group of people exploring map" class="img-fluid">
 </a>
     <div class="instructions">
         <h3>How to Play</h3>
