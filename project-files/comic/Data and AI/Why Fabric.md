@@ -11,7 +11,7 @@ courses: [DP-203]
 ## Introduction
 This image is a comic-style illustration depicting a business meeting where team members are discussing their next "Digital Transformation Plan." The conversation revolves around selecting an appropriate platform that can handle data cleaning, storage, and analysis. The team considers various options and ultimately decides on Microsoft Fabric as the solution that meets their needs.
 <a href="./images/f1.png" download>
-  <img src="./images/f1.png" alt="A group of four people in a business meeting discussing">
+  <img src="./images/f1.png" alt="A group of four people in a business meeting discussing" class="img-fluid">
 </a>
 
 ## Knowledge Check
