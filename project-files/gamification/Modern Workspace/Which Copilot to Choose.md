@@ -11,12 +11,14 @@ courses: [MS-4005, MS-4002, MS-4010]
 
 Alex, a consultant is discussing with Debra, business decision-maker, on potential adoption of Copilot solutions.
 
-### Instructions for Flip Cards
-Below are the questions. Each question is on one side of a flip card. Flip the card to see the answer. The answer can be **Microsoft Copilot** or **Microsoft 365 Copilot** or **Microsoft Security Copilot** or **GitHub Copilot**.
-
 <a href="./images/ct1.png">
   <img src="./images/ct1.png" alt="man working with his laptop" class="img-fluid">
 </a>
+
+### Instructions for Flip Cards
+Below are the questions. Each question is on one side of a flip card. Flip the card to see the answer. The answer can be **Microsoft Copilot** or **Microsoft 365 Copilot** or **Microsoft Security Copilot** or **GitHub Copilot**.
+
+
 
 <html lang="en">
 <head>
