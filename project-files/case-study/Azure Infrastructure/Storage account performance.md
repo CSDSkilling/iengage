@@ -14,7 +14,7 @@ In the world of cloud storage, performance issues can sometimes slow down your o
 
 ## Task 1: Listen to the conversation between Evelyn and Adam
 <a href="./images/cc1.png">
-  <img src="./images/cc1.png" alt="Evelyn talking to Adam over the phone">
+  <img src="./images/cc1.png" alt="Evelyn talking to Adam over the phone" class="img-fluid">
 </a>
 <br>
 <audio controls>
