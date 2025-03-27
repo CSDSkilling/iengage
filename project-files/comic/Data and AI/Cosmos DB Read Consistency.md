@@ -57,7 +57,7 @@ In the bustling world of e-commerce, ensuring a seamless shopping experience is 
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/cd1.PNG" alt="Image Carousel" onclick="toggleEnlarge()">
+        <img id="carousel" class="carousel-image" src="./images/cd1.PNG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
