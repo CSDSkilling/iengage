@@ -17,7 +17,7 @@ Meet Alex, a tech-savvy hero who loves solving problems with cutting-edge techno
 **Analyze Ant:** A diligent ant who can analyze image content and provide insights.
 
 <a href="./images/av1.png">
-  <img src="./images/av1.png" alt="Alex is joined by a team of sidekicks">
+  <img src="./images/av1.png" alt="Alex is joined by a team of sidekicks" class="img-fluid">
 </a>
 <br>
 
@@ -29,7 +29,7 @@ The city is threatened by a group of villains, each representing a challenge:
 **Distortion Demon:** Warps images, making it hard to recognize objects.<br>
 
 <a href="./images/av2.png">
-  <img src="./images/av2.png" alt="a group of villains">
+  <img src="./images/av2.png" alt="a group of villains" class="img-fluid">
 </a>
 <br>
 
