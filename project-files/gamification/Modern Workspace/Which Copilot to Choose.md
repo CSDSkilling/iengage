@@ -102,7 +102,9 @@ Developers can Get code suggestions as they type and Ask for help when writing y
             <div class="back">GitHub Copilot</div>
         </div>      
 
-
+<a href="./images/ct2.png">
+  <img src="./images/ct2.png" alt="man working with his laptop" class="img-fluid">
+</a>
         
     </div>
 
