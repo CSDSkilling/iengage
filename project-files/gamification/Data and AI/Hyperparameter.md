@@ -24,7 +24,7 @@ courses: [DP-100]
 
 <div class="custom-container">
     <a href="./images/car1.png">
-        <img src="./images/car1.png" alt="picture of a car" class="center-image">
+        <img src="./images/car1.png" alt="picture of a car" class="center-image" class="img-fluid">
     </a>
     <div class="cards-row">
         <div class="card-container">
@@ -63,7 +63,7 @@ courses: [DP-100]
 
 <div class="custom-container">
     <a href="./images/car2.png">
-        <img src="./images/car2.png" alt="picture of a car" class="center-image">
+        <img src="./images/car2.png" alt="picture of a car" class="center-image" class="img-fluid">
     </a>
     <div class="cards-row">
         <div class="card-container">
@@ -107,7 +107,7 @@ There are two types of environments:
 
 <div class="custom-container">
     <a href="./images/cookie1.png">
-        <img src="./images/cookie1.png" alt="picture of cookie" class="center-image">
+        <img src="./images/cookie1.png" alt="picture of cookie" class="center-image" class="img-fluid">
     </a>
     <div class="cards-row">
         <div class="card-container">
