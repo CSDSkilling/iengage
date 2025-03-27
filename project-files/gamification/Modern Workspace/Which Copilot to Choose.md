@@ -14,6 +14,9 @@ Alex, a consultant is discussing with Debra, business decision-maker, on potenti
 ### Instructions for Flip Cards
 Below are the questions. Each question is on one side of a flip card. Flip the card to see the answer. The answer can be **Microsoft Copilot** or **Microsoft 365 Copilot** or **Microsoft Security Copilot** or **GitHub Copilot**.
 
+<a href="./images/ct1.png">
+  <img src="./images/ct1.png" alt="man working with his laptop" class="img-fluid">
+</a>
 
 <html lang="en">
 <head>
