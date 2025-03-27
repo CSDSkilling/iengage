@@ -16,7 +16,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 1:
 **Imagine you're a detective trying to solve the mystery of customer feedback. You have clues from emails, social media, and surveys. Which Azure AI service capability will help you crack the case by interpreting and understanding the text data?** <br>
 <a href="./images/d1.png">
-  <img src="./images/d1.png" alt="picture of a detective">
+  <img src="./images/d1.png" alt="picture of a detective" class="img-fluid">
 </a>
 <br>
 <form id="quizForm1">
@@ -36,7 +36,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 2:
 **You're a wizard in a magical organization, and you need to extract information from enchanted invoices and automate their processing. Which Azure AI service capability is your magic wand?** <br>
 <a href="./images/d2.png">
-  <img src="./images/d2.png" alt="picture of a wizard">
+  <img src="./images/d2.png" alt="picture of a wizard" class="img-fluid">
 </a>
 
 <form id="quizForm2">
@@ -56,7 +56,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 3:
 **A retail company wants to implement a system that can identify products in images for inventory management. Which Azure AI service capability should they use?** <br>
 <a href="./images/d3.png">
-  <img src="./images/d3.png" alt="picture of a retail company">
+  <img src="./images/d3.png" alt="picture of a retail company" class="img-fluid">
 </a>
 <br>
 
@@ -77,7 +77,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 4:
 **You're a treasure hunter searching through a vast repository of documents to find specific cases based on criteria like author, date, and keywords. Which Azure AI service capability will be your treasure map?** <br>
 <a href="./images/d4.png">
-  <img src="./images/d4.png" alt="picture of a treasure hunter">
+  <img src="./images/d4.png" alt="picture of a treasure hunter" class="img-fluid">
 </a>
 <br>
 
@@ -98,7 +98,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 5:
 **A healthcare provider wants to develop an application that can understand and respond to patient queries in natural language. Which Azure AI service capability should they leverage?** <br>
 <a href="./images/d5.png">
-  <img src="./images/d5.png" alt="picture of a healthcare provider">
+  <img src="./images/d5.png" alt="picture of a healthcare provider" class="img-fluid">
 </a>
 <br>
 
@@ -119,7 +119,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 6:
 **An insurance company needs to process and extract data from handwritten claim forms. Which Azure AI service capability is most appropriate for this task?** <br>
 <a href="./images/d6.png">
-  <img src="./images/d6.png" alt="picture of a insurance company">
+  <img src="./images/d6.png" alt="picture of a insurance company" class="img-fluid">
 </a>
 <br>
 
@@ -140,7 +140,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 7:
 **A financial institution wants to analyze customer sentiment from call center transcripts to improve customer service. Which Azure AI service capability should they use?** <br>
 <a href="./images/d7.png">
-  <img src="./images/d7.png" alt="picture of sentiment analysis">
+  <img src="./images/d7.png" alt="picture of sentiment analysis" class="img-fluid">
 </a>
 
 <form id="quizForm6">
@@ -160,7 +160,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 8:
 **A publishing house wants to extract and categorize information from a large collection of historical manuscripts. Which Azure AI service capability should they use?** <br>
 <a href="./images/d8.png">
-  <img src="./images/d8.png" alt="picture of sentiment analysis">
+  <img src="./images/d8.png" alt="picture of sentiment analysis" class="img-fluid">
 </a>
 
 <form id="quizForm6">
