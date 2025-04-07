@@ -126,7 +126,7 @@ Alex, a lead engineer at Contoso, has been tasked with overseeing the implementa
 <p id="result5"></p>
 
 ### Question 6:
-**There is no clear accountability framework in place for addressing issues arising from Contoso's AI systems. Fairness**
+**There is no clear accountability framework in place for addressing issues arising from Contoso's AI systems.**
 
 <form id="quizForm6">
   <input type="radio" id="q6a" name="q6" value="A">
