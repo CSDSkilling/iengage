@@ -14,7 +14,7 @@ Welcome to TechNova, a leading innovator in the technology industry. At TechNova
 Meet John, a new employee who has just joined TechNova as a Software Engineer. On their first day, John is introduced to Nova, the AI onboarding avatar. Nova greets John with a warm welcome and offers to guide them through the onboarding process.
 
 ## Video
-This video contains discussion about Service Endpoint and Private Endpoint. Watch the video and participate in the activity below to reinforce your learning.
+This video showcases how AI can enhance new-hire onboarding process. Watch the video and participate in the activity below to reinforce your learning.
 
 <iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/OnboardingAvatar/JohnAndAvatar_player.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
