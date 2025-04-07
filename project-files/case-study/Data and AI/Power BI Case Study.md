@@ -28,7 +28,7 @@ To enhance the analytical capabilities of their reports, the team needs to defin
 #### Requirement 4: Create Report
 The team requires a visual representation of key performance indicators (KPIs) that go beyond the default options in Power BI. They plan to use a specialized visual to present data interactively and effectively.
 
-#### Requirement 4: Power BI Service
+#### Requirement 5: Power BI Service
 Once the report is finalized, the team wants to securely share it with branch managers and executive stakeholders. They aim to create a centralized location where users can easily access and explore the report.
 
 
