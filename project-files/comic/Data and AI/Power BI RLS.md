@@ -58,7 +58,7 @@ Controlling data access is crucial in any organization, and Row-Level Security (
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/pbrole1.png" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
+        <img id="carousel" class="carousel-image" src="./images/pbrole1.PNG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
@@ -91,7 +91,7 @@ Controlling data access is crucial in any organization, and Row-Level Security (
 
     
   <script>
-        const images = ["./images/pbrole1.png","./images/pbrole2.PNG", "./images/pbrole3.PNG", "./images/pbrole4.PNG", "./images/pbrole4.PNG", "./images/pbrole6.PNG", "./images/pbrole7.PNG", "./images/pbrole8.PNG"];
+        const images = ["./images/pbrole1.PNG","./images/pbrole2.PNG", "./images/pbrole3.PNG", "./images/pbrole4.PNG", "./images/pbrole4.PNG", "./images/pbrole6.PNG", "./images/pbrole7.PNG", "./images/pbrole8.PNG"];
         let currentIndex = 0;
 
         function showImage(index) {
