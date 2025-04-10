@@ -18,7 +18,8 @@ As they discuss and practice these techniques, the novice will gain a deeper und
 ## The Basics of Prompt Engineering
 This video showcases The Basics of Prompt Engineering.
 
-<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/PromptEngineering/PromptEng_player.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/PromptEngineering/PromptEng-Part1.mp4" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
 
 **Writing a clear, concise, and specific prompt:**
 1.	Instead of just saying "Summarize this," you could say, "Please provide a concise summary of the main points in this document."
@@ -33,7 +34,7 @@ This video showcases The Basics of Prompt Engineering.
 ## Common Mistakes to Avoid
 This video showcases Common Mistakes to Avoid in Prompt Engineering.
 
-<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/PromptEngineering/PromptEng_player2.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/PromptEngineering/PromptEng-Part2.mp4" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
 
@@ -63,7 +64,7 @@ This video showcases Common Mistakes to Avoid in Prompt Engineering.
 ## Advance Prompt Engineering
 This video showcases Advance Prompt Engineering.
 
-<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/PromptEngineering/PromptEng_player3.html?embedIFrameId=embeddedSmartPlayerInstance" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="/iengage/project-files/gamification/Data and AI/videos/PromptEngineering/PromptEng-Part3.mp4" width="1024" height="600" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
 ### 1. Prompt Chaining
