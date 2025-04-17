@@ -1,16 +1,17 @@
 ---
 layout: default
-title:  "Cosmos DB Read Consistency"
+title:  "Identity Protection - Risks"
 category: "Comic"
-sub-category: "Data and AI"
-courses: [AZ-204, AZ-305, DP-203]
+sub-category: "Security, Compliance and Identity"
+courses: [AZ-104, AZ-305, AZ-500]
 ---
 
 
-# Cosmos DB Read Consistency
+# Enhancing Identity Protection in the Digital Age
 
 ## Introduction
-This image is a comic-style illustration depicting a business meeting where team members are discussing their next "Digital Transformation Plan." The conversation revolves around selecting an appropriate platform that can handle data cleaning, storage, and analysis. The team considers various options and ultimately decides on Microsoft Fabric as the solution that meets their needs.
+In today's digital landscape, safeguarding user identities has become paramount. This comic illustrates a conversation between two individuals discussing the risks associated with user identity compromise and the advanced methods used to detect and mitigate these risks. The dialogue highlights the importance of understanding sign-in risks, detecting suspicious activities through machine learning, and employing robust identity protection measures.
+
 <a href="./images/identityprot1.png">
   <img src="./images/identityprot1.png" alt="a boy and a girl sitting in a office space" class="img-fluid">
 </a>
@@ -20,7 +21,6 @@ This image is a comic-style illustration depicting a business meeting where team
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Carousel</title>
     <style>
         .knowledge-check {
             margin-top: 50px;
@@ -42,40 +42,40 @@ This image is a comic-style illustration depicting a business meeting where team
         <h2>Knowledge Check</h2>
         <form id="knowledgeCheckForm">
             <div class="knowledge-check-question">
-                <p>Question 1: What consistency level was Alice initially using in her e-commerce application?</p>
+                <p>Question 1: You notice that your account has been flagged for user risk. What could be the reason?</p>
                 
-                <label><input type="radio" name="question1" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question1" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question1" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question1" value="D"> D) Eventual Consistency</label>
+                <label><input type="radio" name="question1" value="A">A) You logged in from a new device.</label><br>
+                <label><input type="radio" name="question1" value="B">B) Your credentials were found in a data breach.</label><br>
+                <label><input type="radio" name="question1" value="C">C)  You accessed from an anonymous IP address.</label><br>
+                <label><input type="radio" name="question1" value="D"> D) You used a weak password.</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 2: Which consistency level did Alice switch to in order to resolve the issue with shopping cart updates?</p>
-               <label><input type="radio" name="question2" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question2" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question2" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question2" value="D"> D) Eventual Consistency</label>
+                <p>Question 2: During a routine check, Entra ID flags a sign-in attempt as risky. What might be the cause?</p>
+               <label><input type="radio" name="question2" value="A">A) The sign-in attempt came from an unfamiliar location.</label><br>
+                <label><input type="radio" name="question2" value="B">B) The user changed their password recently.</label><br>
+                <label><input type="radio" name="question2" value="C">C) The user logged in during regular business hours.</label><br>
+                <label><input type="radio" name="question2" value="D"> D) The user accessed from a known device.</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 3: Which consistency level guarantees that reads always return the most recent write?</p>
-               <label><input type="radio" name="question3" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question3" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question3" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question3" value="D"> D) Eventual Consistency</label>
+                <p>Question 3: You receive a notification that your sign-in attempt was blocked due to high sign-in risk. What could be the reason?</p>
+               <label><input type="radio" name="question3" value="A">A) You logged in from a new device.</label><br>
+                <label><input type="radio" name="question3" value="B">B)  You accessed from an anonymous IP address.</label><br>
+                <label><input type="radio" name="question3" value="C">C) Your credentials were found in a data breach.</label><br>
+                <label><input type="radio" name="question3" value="D"> D) You used a weak password.</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 4: For a social media feed where posts are updated within a few minutes, which consistency level is ideal?</p>
-               <label><input type="radio" name="question4" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question4" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question4" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question4" value="D"> D) Eventual Consistency</label>
+                <p>Question 4: Entra ID detects suspicious activity on your account. What might be flagged as user risk?</p>
+               <label><input type="radio" name="question4" value="A">A) Logging in from multiple locations in a short period.</label><br>
+                <label><input type="radio" name="question4" value="B">B) Using a strong password.</label><br>
+                <label><input type="radio" name="question4" value="C">C) Accessing from a known IP address.</label><br>
+                <label><input type="radio" name="question4" value="D"> D) Logging in during regular business hours.</label>
             </div>            
             <div class="knowledge-check-question">
-                <p>Question 5: Which consistency level ensures that reads never see out-of-order writes, maintaining the correct sequence of messages?</p>
-               <label><input type="radio" name="question5" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question5" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question5" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question5" value="D"> D) Eventual Consistency</label>
+                <p>Question 5: You are informed that your account has been flagged for user risk due to compromised credentials. What should you do next?</p>
+               <label><input type="radio" name="question5" value="A">A) Ignore the notification.</label><br>
+                <label><input type="radio" name="question5" value="B">B) Change your password immediately.</label><br>
+                <label><input type="radio" name="question5" value="C">C) Continue using the same credentials.</label><br>
+                <label><input type="radio" name="question5" value="D"> D) Log in from a different device.</label>
             </div>               
             <button type="button" onclick="checkAnswers()">Submit</button>
         </form>
@@ -84,36 +84,15 @@ This image is a comic-style illustration depicting a business meeting where team
 
     
   <script>
-        const images = ["./images/cd1.PNG", "./images/cd2.PNG", "./images/cd3.PNG", "./images/cd4.PNG", "./images/cd5.PNG", "./images/cd6.PNG", "./images/cd7.PNG"];
-        let currentIndex = 0;
-
-        function showImage(index) {
-            const carousel = document.getElementById('carousel');
-            carousel.src = images[index];
-        }
-
-        function nextImage() {
-            currentIndex = (currentIndex + 1) % images.length;
-            showImage(currentIndex);
-        }
-
-        function prevImage() {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            showImage(currentIndex);
-        }
-
-        function toggleEnlarge() {
-            const carousel = document.getElementById('carousel');
-            carousel.classList.toggle('enlarged');
-        }
+      
 
             function checkAnswers() {
             const answers = {
-                question1: 'D',
-                question2: 'C',
-                question3: 'A',
-                question4: 'B',
-                question5: 'D'
+                question1: 'B',
+                question2: 'A',
+                question3: 'B',
+                question4: 'A',
+                question5: 'B'
             
                
             };
