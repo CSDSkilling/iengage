@@ -56,7 +56,7 @@ In this dialog, a man and a lady discuss a real-time challenge they faced with u
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/rp0.PNG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
+        <img id="carousel" class="carousel-image" src="./images/rp0.png" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
@@ -64,7 +64,7 @@ In this dialog, a man and a lady discuss a real-time challenge they faced with u
 
     
   <script>
-        const images = ["./images/rp0.PNG", "./images/rp1.PNG", "./images/rp2.PNG", "./images/rp3.PNG", "./images/rp4.PNG"];
+        const images = ["./images/rp0.png", "./images/rp1.PNG", "./images/rp2.PNG", "./images/rp3.PNG", "./images/rp4.PNG"];
         let currentIndex = 0;
 
         function showImage(index) {
