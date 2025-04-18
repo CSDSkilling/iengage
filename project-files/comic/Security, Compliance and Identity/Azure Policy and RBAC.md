@@ -60,6 +60,43 @@ In this dialog, a man and a lady discuss a real-time challenge they faced with u
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
+ <div class="knowledge-check">
+        <h2>Knowledge Check</h2>
+        <form id="knowledgeCheckForm">
+            <div class="knowledge-check-question">
+                <p>Question 1: How can Azure RBAC help in managing access to sensitive project files?</p>
+                
+                <label><input type="radio" name="question1" value="A">A) By allowing unrestricted access to all users</label><br>
+                <label><input type="radio" name="question1" value="B">B) By assigning permissions based on user roles</label><br>
+                <label><input type="radio" name="question1" value="C">C) By encrypting all project files</label><br>
+                <label><input type="radio" name="question1" value="D"> D)By deleting sensitive files after use</label>
+            </div>
+            <div class="knowledge-check-question">
+                <p>Question 2: What is a key component of Azure's data protection policy that supports RBAC implementation?</p>
+               <label><input type="radio" name="question2" value="A">A) Unlimited access for all employees</label><br>
+                <label><input type="radio" name="question2" value="B">B) Role-based access control guidelines</label><br>
+                <label><input type="radio" name="question2" value="C">C) Regular deletion of old files</label><br>
+                <label><input type="radio" name="question2" value="D"> D) Public sharing of sensitive information</label>
+            </div>
+            <div class="knowledge-check-question">
+                <p>Question 3: How can Azure Policy help enforce compliance across different Azure resources?</p>
+               <label><input type="radio" name="question3" value="A">A) By allowing unrestricted access to all resources</label><br>
+                <label><input type="radio" name="question3" value="B">B) By defining and enforcing rules on resource configurations</label><br>
+                <label><input type="radio" name="question3" value="C">C) By encrypting all data automatically</label><br>
+                <label><input type="radio" name="question3" value="D"> D) By deleting non-compliant resources</label>
+            </div>
+            <div class="knowledge-check-question">
+                <p>Question 4: What is the role of Azure Policy in managing resource locks and preventing accidental changes?</p>
+               <label><input type="radio" name="question4" value="A">A) Azure Policy automatically deletes resources after a certain period</label><br>
+                <label><input type="radio" name="question4" value="B">B) Azure Policy can enforce resource locks to prevent accidental deletion or modification</label><br>
+                <label><input type="radio" name="question4" value="C">C) Azure Policy allows unrestricted changes to all resources</label><br>
+                <label><input type="radio" name="question4" value="D"> D) Azure Policy encrypts all resource data</label>
+            </div>            
+           
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+        <div id="results"></div>
+    </div>
 
 
     
@@ -89,11 +126,11 @@ In this dialog, a man and a lady discuss a real-time challenge they faced with u
 
             function checkAnswers() {
             const answers = {
-                question1: 'D',
-                question2: 'C',
-                question3: 'A',
-                question4: 'B',
-                question5: 'D'
+                question1: 'B',
+                question2: 'B',
+                question3: 'B',
+
+                question5: 'B'
             
                
             };
