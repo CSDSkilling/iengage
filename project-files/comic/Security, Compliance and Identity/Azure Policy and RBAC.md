@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Azure Policy and RBAC"
-category: "Comic"
+category: "Comic123"
 sub-category: "Security, Compliance and Identity"
 courses: [AZ-104, AZ-305, AZ-500]
 ---
