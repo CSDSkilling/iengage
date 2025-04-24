@@ -136,11 +136,11 @@ Please select the right Azure ACR Task command to build the container image and 
 
 <form id="quizForm3">
   <input type="radio" id="q3a" name="q3" value="A">
-  <label for="q3a">az acr build --registry $ACR_NAME --image <image-name>:v1 --file /path/to/Dockerfile /path/to/build/context</label><br>
+  <label for="q3a">A</label><br>
   <input type="radio" id="q3b" name="q3" value="B">
-  <label for="q3b">az build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile' </label><br>
+  <label for="q3b">B</label><br>
   <input type="radio" id="q3c" name="q3" value="C">
-  <label for="q3c">acr build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile</label><br>
+  <label for="q3c">C</label><br>
   <button type="button" onclick="checkAnswer('q3', 'C', 'result3')" class="styled-button">Submit</button>
 
 <p id="result3"></p>
