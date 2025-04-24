@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Journey to Containerization"
-category: "Play Along & Comic Videos"
+category: "Gamification"
 sub-category: "Azure Infrastructure"
 courses: [AZ-104,AZ-204,AZ-2003]
 ---
