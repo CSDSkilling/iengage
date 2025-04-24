@@ -136,15 +136,12 @@ Please select the right Azure ACR Task command to build the container image and 
 
 <form id="quizForm3">
   <input type="radio" id="q3a" name="q3" value="A">
-  <label for="q3a">A) az acr build --registry $ACR_NAME --image <image-name>:v1 --file /path/to/Dockerfile /path/to/build/context</label><br>
+  <label for="q3a">az acr build --registry $ACR_NAME --image <image-name>:v1 --file /path/to/Dockerfile /path/to/build/context</label><br>
   <input type="radio" id="q3b" name="q3" value="B">
-  <label for="q3b">B) az build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile</label><br>
+  <label for="q3b">az build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile' </label><br>
   <input type="radio" id="q3c" name="q3" value="C">
-  <label for="q3c">C) acr build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile</label><br>
-  <input type="radio" id="q3d" name="q3" value="D">
-  <label for="q3d">D) Azure AI Bot Service with QnA Maker </label><br>
+  <label for="q3c">acr build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile</label><br>
   <button type="button" onclick="checkAnswer('q3', 'C', 'result3')" class="styled-button">Submit</button>
-
 
 <p id="result3"></p>
 
