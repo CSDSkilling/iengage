@@ -144,7 +144,7 @@ Please select the right Azure ACR Task command to build the container image and 
   <input type="radio" id="q3d" name="q3" value="D">
   <label for="q3d">D) Azure AI Bot Service with QnA Maker </label><br>
   <button type="button" onclick="checkAnswer('q3', 'C', 'result3')" class="styled-button">Submit</button>
-</form>
+
 
 <p id="result3"></p>
 
