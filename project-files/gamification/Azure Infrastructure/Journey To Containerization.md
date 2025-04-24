@@ -109,7 +109,7 @@ Now since you got the Dockerfile now, you are ready to build the container image
 </style>
 
 <script>
-  const correctAnswers = [2, 3];
+  const correctAnswers = [1, 2];
 
   function checkAnswers() {
     const selected = Array.from(document.querySelectorAll('input[name="service"]:checked')).map(cb => parseInt(cb.value));
@@ -136,72 +136,21 @@ Please select the right Azure ACR Task command to build the container image and 
 
 <form id="quizForm3">
   <input type="radio" id="q3a" name="q3" value="A">
-  <label for="q3a">A. az acr build --registry $ACR_NAME --image <image-name>:v1 --file /path/to/Dockerfile /path/to/build/context</label><br>
+  <label for="q3a">A) az acr build --registry $ACR_NAME --image <image-name>:v1 --file /path/to/Dockerfile /path/to/build/context</label><br>
   <input type="radio" id="q3b" name="q3" value="B">
-  <label for="q3b">B. az build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile</label><br>
+  <label for="q3b">B) az build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile</label><br>
   <input type="radio" id="q3c" name="q3" value="C">
-  <label for="q3c">C. acr build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile </label><br>
-  <button type="button" onclick="checkAnswer3()" class="styled-button">Submit</button>
+  <label for="q3c">C) acr build -–registry $ACR_Name –image  <image-name>:v1 Dockerfile</label><br>
+  <input type="radio" id="q3d" name="q3" value="D">
+  <label for="q3d">D) Azure AI Bot Service with QnA Maker </label><br>
+  <button type="button" onclick="checkAnswer('q3', 'C', 'result3')" class="styled-button">Submit</button>
 </form>
 
 <p id="result3"></p>
 
 
 <script>
-    function checkOrderSetup() {
-      var items = $("#sortable-setup li");
-      var correct = true;
-      items.each(function(index) {
-        if ($(this).data("order") !== index + 1) {
-          correct = false;
-        }
-      });
-      var feedback = document.getElementById("feedback-setup");
-      if (correct) {
-        feedback.textContent = "Correct order!";
-        feedback.style.color = "green";
-      } else {
-        feedback.textContent = "Incorrect order. Try again.";
-        feedback.style.color = "red";
-      }
-    }
-
-    function helpMeSetup() {
-      var items = $("#sortable-setup li").sort(function(a, b) {
-        return $(a).data("order") - $(b).data("order");
-      });
-      $("#sortable-setup").html(items);
-      document.getElementById("feedback-setup").textContent = "Here is the correct order.";
-      document.getElementById("feedback-setup").style.color = "blue";
-    }
-
-  function checkAnswer2() {
-    var radios = document.getElementsByName('q2');
-    var correctAnswer = 'A';
-    var result = document.getElementById('result2');
-    var selected = false;
-
-    for (var i = 0; i < radios.length; i++) {
-      if (radios[i].checked) {
-        selected = true;
-        if (radios[i].value === correctAnswer) {
-          result.textContent = 'Correct!';
-          result.style.color = 'green';
-        } else {
-          result.textContent = 'Incorrect. Try again!';
-          result.style.color = 'red';
-        }
-        break;
-      }
-    }
-
-    if (!selected) {
-      result.textContent = 'Please select an answer.';
-      result.style.color = 'orange';
-    }
-  }
-
-  function checkAnswer3() {
+   function checkAnswer3() {
     var radios = document.getElementsByName('q3');
     var correctAnswer = 'A';
     var result = document.getElementById('result3');
