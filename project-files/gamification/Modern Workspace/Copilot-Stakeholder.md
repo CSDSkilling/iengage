@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Copilot Adoption- Stakeholders"
-category: "Gamification"
+category: "Gamification123"
 sub-category: "Modern Workplace"
 courses: [MS-4018]
 ---
