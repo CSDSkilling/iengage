@@ -141,16 +141,16 @@ Please select the right Azure ACR Task command to build the container image and 
   <label for="q3b">az acr build --registry $ACR_NAME --image {image-name}:v1 Dockerfile</label><br>
   <input type="radio" id="q3c" name="q3" value="C">
   <label for="q3c">az acr build --registry $ACR_NAME --image {image-name}:v1 Dockerfile</label><br>
-  <button type="button" onclick="checkAnswer('q3', 'C', 'result3')" class="styled-button">Submit</button>
+  <button type="button" onclick="checkAnswer3()" class="styled-button">Submit</button>
 </form>
     
 <p id="result3"></p>
 
 <script>
-   function checkAnswer3() {
+  function checkAnswer() {
     var radios = document.getElementsByName('q3');
-    var correctAnswer = 'A';
-    var result = document.getElementById('result3');
+    var correctAnswer = 'C';
+    var result = document.getElementById('result');
     var selected = false;
 
     for (var i = 0; i < radios.length; i++) {
@@ -172,6 +172,5 @@ Please select the right Azure ACR Task command to build the container image and 
       result.style.color = 'orange';
     }
   }
-
- 
 </script>
+
