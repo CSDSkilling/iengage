@@ -23,3 +23,6 @@ By utilizing these tailored communication methods, Contoso can ensure that stake
 4.	M365 Tenant Admin: Bi-weekly stand-up meetings.
 
 ## Activity: Choose the right Communication mode from the drop down.
+
+
+
