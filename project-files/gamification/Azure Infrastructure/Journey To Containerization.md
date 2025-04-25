@@ -146,31 +146,31 @@ Please select the right Azure ACR Task command to build the container image and 
     
 <p id="result3"></p>
 
+
 <script>
-  function checkAnswer() {
-    var radios = document.getElementsByName('q3');
-    var correctAnswer = 'C';
-    var result = document.getElementById('result');
-    var selected = false;
+  function checkAnswer3() {
+    var radios = document.getElementsByName('q3');
+    var correctAnswer = 'C';
+    var result = document.getElementById('result3');
+    var selected = false;
 
-    for (var i = 0; i < radios.length; i++) {
-      if (radios[i].checked) {
-        selected = true;
-        if (radios[i].value === correctAnswer) {
-          result.textContent = 'Correct!';
-          result.style.color = 'green';
-        } else {
-          result.textContent = 'Incorrect. Try again!';
-          result.style.color = 'red';
-        }
-        break;
-      }
-    }
+    for (var i = 0; i < radios.length; i++) {
+      if (radios[i].checked) {
+        selected = true;
+        if (radios[i].value === correctAnswer) {
+          result.textContent = 'Correct!';
+          result.style.color = 'green';
+        } else {
+          result.textContent = 'Incorrect. Try again!';
+          result.style.color = 'red';
+        }
+        break;
+      }
+    }
 
-    if (!selected) {
-      result.textContent = 'Please select an answer.';
-      result.style.color = 'orange';
-    }
-  }
+    if (!selected) {
+      result.textContent = 'Please select an answer.';
+      result.style.color = 'orange';
+    }
+  }
 </script>
-
