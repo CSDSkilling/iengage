@@ -19,7 +19,8 @@ In this activity, you will step into the shoes of TechWave Solutions' developmen
 You are a developer tasked with containerizing your Python app and run it. Your app code is present in ‘sample.py’ present in your local machine. Use the instructions given and arrange them in order to complete the task given to you on the right-hand side.
 
 
-**Question 1: Rearrange the following instructions and create a functional Docker file for the python application that you are developing. Dockerfile Instructions:**
+## Question 1: 
+Rearrange the following instructions and create a functional Docker file for the python application that you are developing. Dockerfile Instructions:**
 
 
 <ul id="sortable-setup" class="styled-list">
