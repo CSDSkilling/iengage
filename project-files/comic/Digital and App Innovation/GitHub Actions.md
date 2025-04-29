@@ -67,26 +67,26 @@ By the end of the comic, Alex has set up her first workflow—and is ready to au
         <h2>Knowledge Check</h2>
         <form id="knowledgeCheckForm">
             <div class="knowledge-check-question">
-                <p>Question 1: What does Azure Face Service do first when analyzing an image?</p>
+                <p>Question 1: What is the main purpose of GitHub Actions?</p>
                 
-                <label><input type="radio" name="question1" value="A">A) Identifies the emotion of the person </label><br>
-                <label><input type="radio" name="question1" value="B">B) Matches the face to a database</label><br>
-                <label><input type="radio" name="question1" value="C">C) Detects the face and provides its location</label><br>
-                <label><input type="radio" name="question1" value="D"> D) Groups the face with others</label>
+                <label><input type="radio" name="question1" value="A">A) To write code automatically  </label><br>
+                <label><input type="radio" name="question1" value="B">B) To automate workflows such as testing, building, or deploying code</label><br>
+                <label><input type="radio" name="question1" value="C">C) To store files on GitHub  </label><br>
+                <label><input type="radio" name="question1" value="D"> D) To design user interfaces</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 2: What is the difference between ‘Verification’ and ‘Identification’ in Face Service?</p>
-               <label><input type="radio" name="question2" value="A">A) Verification compares one face to many; Identification compares two faces</label><br>
-                <label><input type="radio" name="question2" value="B">B) Verification compares two faces; Identification compares one face to many</label><br>
-                <label><input type="radio" name="question2" value="C">C) Both are used only for emotion detection</label><br>
-                <label><input type="radio" name="question2" value="D"> D) Verification uses live video; Identification uses photos</label>
+                <p>Question 2: Where are GitHub workflow files typically stored?</p>
+               <label><input type="radio" name="question2" value="A">A) In the root of the repository  </label><br>
+                <label><input type="radio" name="question2" value="B">B) In a folder named `src/workflows` </label><br>
+                <label><input type="radio" name="question2" value="C">C) In the `.github/workflows/` directory  </label><br>
+                <label><input type="radio" name="question2" value="D"> D) In a folder called `automation/`</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 3: Which feature helps ensure the face in front of the camera is from a live person, not a spoof?</p>
-               <label><input type="radio" name="question3" value="A">A) Emotion Detection</label><br>
-                <label><input type="radio" name="question3" value="B">B) Find Similar</label><br>
-                <label><input type="radio" name="question3" value="C">C) Liveness Detection</label><br>
-                <label><input type="radio" name="question3" value="D"> D) Face Grouping</label>
+                <p>Question 3: What file format is used to define workflows in GitHub Actions?</p>
+               <label><input type="radio" name="question3" value="A">A) `.html`  </label><br>
+                <label><input type="radio" name="question3" value="B">B) `.exe`  </label><br>
+                <label><input type="radio" name="question3" value="C">C) `.yml` or `.yaml`  </label><br>
+                <label><input type="radio" name="question3" value="D"> D) `.json`</label>
             </div>
             <div class="knowledge-check-question">
                 <p>Question 4: When would you use the 'Find Similar' feature?  </p>
