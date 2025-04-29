@@ -89,18 +89,18 @@ By the end of the comic, Alex has set up her first workflow—and is ready to au
                 <label><input type="radio" name="question3" value="D"> D) `.json`</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 4: When would you use the 'Find Similar' feature?  </p>
-               <label><input type="radio" name="question4" value="A">A) To analyze head pose</label><br>
-                <label><input type="radio" name="question4" value="B">B) To match a face to lookalikes in a database</label><br>
-                <label><input type="radio" name="question4" value="C">C) To detect sunglasses</label><br>
-                <label><input type="radio" name="question4" value="D"> D) To verify biometric consent</label>
+                <p>Question 4: What are the main building blocks of a GitHub Actions workflow?  </p>
+               <label><input type="radio" name="question4" value="A">A) Pages, Repos, Commits </label><br>
+                <label><input type="radio" name="question4" value="B">B) Scripts, Branches, Merges  </label><br>
+                <label><input type="radio" name="question4" value="C">C) Workflows, Jobs, Steps, Actions  </label><br>
+                <label><input type="radio" name="question4" value="D"> D) Tokens, Secrets, Forks</label>
             </div>            
             <div class="knowledge-check-question">
-                <p>Question 5: Which of the following is a requirement or rule when using Azure Face Service?</p>
-               <label><input type="radio" name="question5" value="A">A) It can be used freely by U.S. police departments</label><br>
-                <label><input type="radio" name="question5" value="B">B) You must follow Responsible AI guidelines and data protection laws like GDPR</label><br>
-                <label><input type="radio" name="question5" value="C">C) You can store biometric data without consent</label><br>
-                <label><input type="radio" name="question5" value="D"> D) The SDK only works with facial emotion recognition</label>
+                <p>Question 5: What happens when you push new code to a GitHub repository with an active workflow?</p>
+               <label><input type="radio" name="question5" value="A">A) The repository is deleted  </label><br>
+                <label><input type="radio" name="question5" value="B">B) A new branch is created  </label><br>
+                <label><input type="radio" name="question5" value="C">C) The defined workflow is triggered automatically  </label><br>
+                <label><input type="radio" name="question5" value="D"> D) Nothing happens until you manually start it</label>
             </div>               
             <button type="button" onclick="checkAnswers()">Submit</button>
         </form>
@@ -134,11 +134,11 @@ By the end of the comic, Alex has set up her first workflow—and is ready to au
 
             function checkAnswers() {
             const answers = {
-                question1: 'C',
-                question2: 'B',
+                question1: 'B',
+                question2: 'C',
                 question3: 'C',
-                question4: 'B',
-                question5: 'B'
+                question4: 'C',
+                question5: 'C'
             
                
             };
