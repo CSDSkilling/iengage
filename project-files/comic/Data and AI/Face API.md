@@ -64,40 +64,40 @@ In a cutting-edge tech office buzzing with innovation, junior developer Jane beg
         <h2>Knowledge Check</h2>
         <form id="knowledgeCheckForm">
             <div class="knowledge-check-question">
-                <p>Question 1: What consistency level was Alice initially using in her e-commerce application?</p>
+                <p>Question 1: What does Azure Face Service do first when analyzing an image?</p>
                 
-                <label><input type="radio" name="question1" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question1" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question1" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question1" value="D"> D) Eventual Consistency</label>
+                <label><input type="radio" name="question1" value="A">A) Identifies the emotion of the person </label><br>
+                <label><input type="radio" name="question1" value="B">B) Matches the face to a database</label><br>
+                <label><input type="radio" name="question1" value="C">C) Detects the face and provides its location</label><br>
+                <label><input type="radio" name="question1" value="D"> D) Groups the face with others</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 2: Which consistency level did Alice switch to in order to resolve the issue with shopping cart updates?</p>
-               <label><input type="radio" name="question2" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question2" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question2" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question2" value="D"> D) Eventual Consistency</label>
+                <p>Question 2: What is the difference between ‘Verification’ and ‘Identification’ in Face Service?</p>
+               <label><input type="radio" name="question2" value="A">A) Verification compares one face to many; Identification compares two faces</label><br>
+                <label><input type="radio" name="question2" value="B">B) Verification compares two faces; Identification compares one face to many</label><br>
+                <label><input type="radio" name="question2" value="C">C) Both are used only for emotion detection</label><br>
+                <label><input type="radio" name="question2" value="D"> D) Verification uses live video; Identification uses photos</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 3: Which consistency level guarantees that reads always return the most recent write?</p>
-               <label><input type="radio" name="question3" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question3" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question3" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question3" value="D"> D) Eventual Consistency</label>
+                <p>Question 3: Which feature helps ensure the face in front of the camera is from a live person, not a spoof?</p>
+               <label><input type="radio" name="question3" value="A">A) Emotion Detection</label><br>
+                <label><input type="radio" name="question3" value="B">B) Find Similar</label><br>
+                <label><input type="radio" name="question3" value="C">C) Liveness Detection</label><br>
+                <label><input type="radio" name="question3" value="D"> D) Face Grouping</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 4: For a social media feed where posts are updated within a few minutes, which consistency level is ideal?</p>
-               <label><input type="radio" name="question4" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question4" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question4" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question4" value="D"> D) Eventual Consistency</label>
+                <p>Question 4: When would you use the 'Find Similar' feature?  </p>
+               <label><input type="radio" name="question4" value="A">A) To analyze head pose</label><br>
+                <label><input type="radio" name="question4" value="B">B) To match a face to lookalikes in a database</label><br>
+                <label><input type="radio" name="question4" value="C">C) To detect sunglasses</label><br>
+                <label><input type="radio" name="question4" value="D"> D) To verify biometric consent</label>
             </div>            
             <div class="knowledge-check-question">
-                <p>Question 5: Which consistency level ensures that reads never see out-of-order writes, maintaining the correct sequence of messages?</p>
-               <label><input type="radio" name="question5" value="A">A) Strong Consistency</label><br>
-                <label><input type="radio" name="question5" value="B">B) Bounded Staleness</label><br>
-                <label><input type="radio" name="question5" value="C">C) Session Consistency</label><br>
-                <label><input type="radio" name="question5" value="D"> D) Eventual Consistency</label>
+                <p>Question 5: Which of the following is a requirement or rule when using Azure Face Service?</p>
+               <label><input type="radio" name="question5" value="A">A) It can be used freely by U.S. police departments</label><br>
+                <label><input type="radio" name="question5" value="B">B) You must follow Responsible AI guidelines and data protection laws like GDPR</label><br>
+                <label><input type="radio" name="question5" value="C">C) You can store biometric data without consent</label><br>
+                <label><input type="radio" name="question5" value="D"> D) The SDK only works with facial emotion recognition</label>
             </div>               
             <button type="button" onclick="checkAnswers()">Submit</button>
         </form>
@@ -131,11 +131,11 @@ In a cutting-edge tech office buzzing with innovation, junior developer Jane beg
 
             function checkAnswers() {
             const answers = {
-                question1: 'D',
-                question2: 'C',
-                question3: 'A',
+                question1: 'C',
+                question2: 'B',
+                question3: 'C',
                 question4: 'B',
-                question5: 'D'
+                question5: 'B'
             
                
             };
