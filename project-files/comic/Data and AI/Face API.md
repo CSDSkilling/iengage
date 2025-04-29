@@ -3,7 +3,7 @@ layout: default
 title:  "Understanding Azure Face Service"
 category: "Comic"
 sub-category: "Data and AI"
-courses: [AI-102]
+courses: [AI-102, AI-3004]
 ---
 
 
