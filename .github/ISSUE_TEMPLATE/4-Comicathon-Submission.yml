@@ -1,22 +1,14 @@
-name: Hackathon Submission
-description: Submit iEngage hackathon file
-title: "[Hackathon] <Title of the submission>"
-labels: ["hackathon"]
+name: Comic-thon Submission
+description: Submit iEngage Comic-thon file
+title: "[Comic-thon] <Title of the submission>"
+labels: ["Comic-thon"]
 assignees:
   - julietrajan
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to submit your comics to iEngage Hackathon!
-  - type: input
-    id: contact
-    attributes:
-      label: Author Email
-      description: This email will be used for all correspondences.
-      placeholder: ex. email@example.com
-    validations:
-      required: true
+        Thanks for taking the time to submit your comics to iEngage Comic-thon!
   - type: dropdown
     id: solutionarea
     attributes:
