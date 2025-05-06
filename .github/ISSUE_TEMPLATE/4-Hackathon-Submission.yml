@@ -26,19 +26,19 @@ body:
     validations:
       required: true
   - type: dropdown
-      id: solutionarea
-      attributes:
-        label: Solution Area
-        description: Which solution area does the comics fall into?
-        options:
-          - Azure Infrastructure
-          - Data and AI
-          - Digital and App Innovation
-          - Migration
-          - Modern Workplace
-          - Security, Compliance and Identity
-      validations:
-        required: true
+    id: solutionarea
+    attributes:
+      label: Solution Area
+      description: Which solution area does the comics fall into?
+      options:
+        - Azure Infrastructure
+        - Data and AI
+        - Digital and App Innovation
+        - Migration
+        - Modern Workplace
+        - Security, Compliance and Identity
+    validations:
+      required: true
   - type: input
     id: courses
     attributes:
