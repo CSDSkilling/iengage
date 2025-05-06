@@ -1,7 +1,7 @@
 name: Comic-thon Submission
 description: Submit iEngage Comic-thon file
 title: "[Comic-thon] <Title of the submission>"
-labels: ["Comic-thon"]
+labels: ["comic-thon"]
 assignees:
   - julietrajan
 body:
