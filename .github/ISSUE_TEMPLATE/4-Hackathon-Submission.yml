@@ -17,14 +17,6 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
-  - type: textarea
-    id: desc
-    attributes:
-      label: Description
-      description: Provide a brief description of the comics you're submitting.
-      placeholder: Brief description of the comics you're submitting
-    validations:
-      required: true
   - type: dropdown
     id: solutionarea
     attributes:
@@ -48,11 +40,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: file
+    id: desc
     attributes:
-      label: Comics File
-      description: |
-        Attach the PowerPoint file containing your comics.
-        Tip: Click this area to highlight it and then drag the file in.
+      label: Description
+      description: Provide a brief description of the comics you're submitting, and attach the PowerPoint file containing your comics.
+      placeholder: Brief description of the comics you're submitting
     validations:
       required: true
