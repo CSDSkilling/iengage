@@ -1,6 +1,6 @@
 name: Hackathon Submission
 description: Submit iEngage hackathon file
-title: "[Hackathon]: <Title of the submission>"
+title: "[Hackathon] <Title of the submission>"
 labels: ["hackathon"]
 assignees:
   - julietrajan
