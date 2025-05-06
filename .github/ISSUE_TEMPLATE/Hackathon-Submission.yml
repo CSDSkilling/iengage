@@ -1,0 +1,58 @@
+name: Hackathon Submission
+description: Submit iEngage hackathon file
+title: "[Hackathon]: <Title of the submission>"
+labels: ["hackathon"]
+assignees:
+  - ningweinw
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit your comics to iEngage Hackathon!
+  - type: input
+    id: contact
+    attributes:
+      label: Author Email
+      description: This email will be used for all correspondences.
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      description: Provide a brief description of the comics you're submitting.
+      placeholder: Brief description of the comics you're submitting
+    validations:
+      required: true
+  - type: dropdown
+      id: solutionarea
+      attributes:
+        label: Solution Area
+        description: Which solution area does the comics fall into?
+        options:
+          - Azure Infrastructure
+          - Data and AI
+          - Digital and App Innovation
+          - Migration
+          - Modern Workplace
+          - Security, Compliance and Identity
+      validations:
+        required: true
+  - type: input
+    id: courses
+    attributes:
+      label: Target Courses
+      description: Which courses is your comics designed for?
+      placeholder: ex. AZ-104, AZ-305
+    validations:
+      required: true
+  - type: textarea
+    id: file
+    attributes:
+      label: Comics File
+      description: |
+        Attach the PowerPoint file containing your comics.
+        Tip: Click this area to highlight it and then drag the file in.
+    validations:
+      required: true
