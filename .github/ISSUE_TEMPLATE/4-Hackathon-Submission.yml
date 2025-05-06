@@ -3,7 +3,7 @@ description: Submit iEngage hackathon file
 title: "[Hackathon]: <Title of the submission>"
 labels: ["hackathon"]
 assignees:
-  - ningweinw
+  - julietrajan
 body:
   - type: markdown
     attributes:
