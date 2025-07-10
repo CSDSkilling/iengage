@@ -89,10 +89,10 @@ Where learning is heroic, automation is the weapon, and saving the day means shi
             </div>
             <div class="knowledge-check-question">
                 <p>Question 3: Which section of a pipeline file defines the machine image used to run jobs?</p>
-               <label><input type="radio" name="question4" value="A">A. trigger:</label><br>
-                <label><input type="radio" name="question4" value="B">B. steps:  </label><br>
-                <label><input type="radio" name="question4" value="C">C. pool: </label><br>
-                <label><input type="radio" name="question4" value="D"> D. env:</label>
+               <label><input type="radio" name="question3" value="A">A. trigger:</label><br>
+                <label><input type="radio" name="question3" value="B">B. steps:  </label><br>
+                <label><input type="radio" name="question3" value="C">C. pool: </label><br>
+                <label><input type="radio" name="question3" value="D"> D. env:</label>
             </div>
             <div class="knowledge-check-question">
                 <p>Question 4: What is the purpose of the script step in an Azure Pipeline?  </p>
@@ -152,8 +152,8 @@ Where learning is heroic, automation is the weapon, and saving the day means shi
                 question2: 'C',
                 question3: 'C',
                 question4: 'C',
-                question4: 'B',
-                question5: 'C'
+                question5: 'B',
+                question6: 'C'
             
                
             };
