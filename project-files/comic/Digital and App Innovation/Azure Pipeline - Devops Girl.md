@@ -64,10 +64,10 @@ Where learning is heroic, automation is the weapon, and saving the day means shi
 </head>
 <body>
     <div class="carousel-container">
-        <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/ado1.JPG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
-        <button class="carousel-button" onclick="nextImage()">Next</button>
-    </div>
+    <button id="prevBtn" class="carousel-button" onclick="prevImage()">Previous</button>
+    <img id="carousel" class="carousel-image" src="./images/ado1.JPG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
+    <button id="nextBtn" class="carousel-button" onclick="nextImage()">Next</button>
+</div>
 
   <div class="knowledge-check">
         <h2>Knowledge Check</h2>
@@ -123,28 +123,49 @@ Where learning is heroic, automation is the weapon, and saving the day means shi
 
     
   <script>
-        const images = ["./images/ado1.JPG", "./images/ado2.JPG", "./images/ado3.JPG", "./images/ado4.JPG", "./images/ado5.JPG", "./images/ado6.JPG", "./images/ado7.JPG", "./images/ado8.JPG", "./images/ado9.JPG", "./images/ado10.JPG"];
-        let currentIndex = 0;
+        
+const images = [
+        "./images/ado1.JPG", "./images/ado2.JPG", "./images/ado3.JPG",
+        "./images/ado4.JPG", "./images/ado5.JPG", "./images/ado6.JPG",
+        "./images/ado7.JPG", "./images/ado8.JPG", "./images/ado9.JPG",
+        "./images/ado10.JPG"
+    ];
+    let currentIndex = 0;
 
-        function showImage(index) {
-            const carousel = document.getElementById('carousel');
-            carousel.src = images[index];
-        }
+    function showImage(index) {
+        const carousel = document.getElementById('carousel');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
 
-        function nextImage() {
-            currentIndex = (currentIndex + 1) % images.length;
-            showImage(currentIndex);
-        }
+        carousel.src = images[index];
 
-        function prevImage() {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            showImage(currentIndex);
-        }
+        // Disable buttons based on current index
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === images.length - 1;
+    }
 
-        function toggleEnlarge() {
-            const carousel = document.getElementById('carousel');
-            carousel.classList.toggle('enlarged');
-        }
+    function nextImage() {
+        if (currentIndex < images.length - 1) {
+            currentIndex++;
+            showImage(currentIndex);
+        }
+    }
+
+    function prevImage() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            showImage(currentIndex);
+        }
+    }
+
+    function toggleEnlarge() {
+        const carousel = document.getElementById('carousel');
+        carousel.classList.toggle('enlarged');
+    }
+
+    // Initialize the carousel on page load
+    window.onload = () => showImage(currentIndex);
+
 
             function checkAnswers() {
             const answers = {
