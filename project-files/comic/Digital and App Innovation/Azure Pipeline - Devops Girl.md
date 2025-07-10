@@ -73,41 +73,49 @@ Where learning is heroic, automation is the weapon, and saving the day means shi
         <h2>Knowledge Check</h2>
         <form id="knowledgeCheckForm">
             <div class="knowledge-check-question">
-                <p>Question 1: What is the main purpose of GitHub Actions?</p>
+                <p>Question 1: What is the main purpose of an Azure DevOps Pipeline?</p>
                 
-                <label><input type="radio" name="question1" value="A">A) To write code automatically  </label><br>
-                <label><input type="radio" name="question1" value="B">B) To automate workflows such as testing, building, or deploying code</label><br>
-                <label><input type="radio" name="question1" value="C">C) To store files on GitHub  </label><br>
-                <label><input type="radio" name="question1" value="D"> D) To design user interfaces</label>
+                <label><input type="radio" name="question1" value="A">A. To write frontend code </label><br>
+                <label><input type="radio" name="question1" value="B">B. To automatically build, test, and deploy code</label><br>
+                <label><input type="radio" name="question1" value="C">C. To manage cloud costs </label><br>
+                <label><input type="radio" name="question1" value="D">D. To draw architecture diagrams</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 2: Where are GitHub workflow files typically stored?</p>
-               <label><input type="radio" name="question2" value="A">A) In the root of the repository  </label><br>
-                <label><input type="radio" name="question2" value="B">B) In a folder named `src/workflows` </label><br>
-                <label><input type="radio" name="question2" value="C">C) In the `.github/workflows/` directory  </label><br>
-                <label><input type="radio" name="question2" value="D"> D) In a folder called `automation/`</label>
+                <p>Question 2: What file format is typically used to define an Azure Pipeline?</p>
+               <label><input type="radio" name="question2" value="A">A. JSON</label><br>
+                <label><input type="radio" name="question2" value="B">B. HTML </label><br>
+                <label><input type="radio" name="question2" value="C">C. YAML </label><br>
+                <label><input type="radio" name="question2" value="D">D. Markdown</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 3: What file format is used to define workflows in GitHub Actions?</p>
-               <label><input type="radio" name="question3" value="A">A) `.html`  </label><br>
-                <label><input type="radio" name="question3" value="B">B) `.exe`  </label><br>
-                <label><input type="radio" name="question3" value="C">C) `.yml` or `.yaml`  </label><br>
-                <label><input type="radio" name="question3" value="D"> D) `.json`</label>
+                <p>Question 3: Which section of a pipeline file defines the machine image used to run jobs?</p>
+               <label><input type="radio" name="question4" value="A">A. trigger:</label><br>
+                <label><input type="radio" name="question4" value="B">B. steps:  </label><br>
+                <label><input type="radio" name="question4" value="C">C. pool: </label><br>
+                <label><input type="radio" name="question4" value="D"> D. env:</label>
             </div>
             <div class="knowledge-check-question">
-                <p>Question 4: What are the main building blocks of a GitHub Actions workflow?  </p>
-               <label><input type="radio" name="question4" value="A">A) Pages, Repos, Commits </label><br>
-                <label><input type="radio" name="question4" value="B">B) Scripts, Branches, Merges  </label><br>
-                <label><input type="radio" name="question4" value="C">C) Workflows, Jobs, Steps, Actions  </label><br>
-                <label><input type="radio" name="question4" value="D"> D) Tokens, Secrets, Forks</label>
+                <p>Question 4: What is the purpose of the script step in an Azure Pipeline?  </p>
+               <label><input type="radio" name="question4" value="A">A. To create a database</label><br>
+                <label><input type="radio" name="question4" value="B">B. To set user permissions</label><br>
+                <label><input type="radio" name="question4" value="C">C. To run command-line instructions like install and test </label><br>
+                <label><input type="radio" name="question4" value="D"> D. To define triggers</label>
             </div>            
             <div class="knowledge-check-question">
-                <p>Question 5: What happens when you push new code to a GitHub repository with an active workflow?</p>
-               <label><input type="radio" name="question5" value="A">A) The repository is deleted  </label><br>
-                <label><input type="radio" name="question5" value="B">B) A new branch is created  </label><br>
-                <label><input type="radio" name="question5" value="C">C) The defined workflow is triggered automatically  </label><br>
-                <label><input type="radio" name="question5" value="D"> D) Nothing happens until you manually start it</label>
+                <p>Question 5: How can you control when a deployment to production happens?</p>
+               <label><input type="radio" name="question5" value="A">A. Add a delay timer </label><br>
+                <label><input type="radio" name="question5" value="B">B. Use a manual approval step </label><br>
+                <label><input type="radio" name="question5" value="C">C. Use a chatbot </label><br>
+                <label><input type="radio" name="question5" value="D"> D. Add more npm install lines</label>
             </div>               
+            <div class="knowledge-check-question">
+                <p>Question 6: What does the trigger section in a YAML pipeline file do?</p>
+               <label><input type="radio" name="question6" value="A">A. It lists environment variables </label><br>
+                <label><input type="radio" name="question6" value="B">B. It chooses the operating system  </label><br>
+                <label><input type="radio" name="question6" value="C">C. It defines when the pipeline should run  </label><br>
+                <label><input type="radio" name="question6" value="D"> D. It sets up authentication</label>
+            </div>               
+
             <button type="button" onclick="checkAnswers()">Submit</button>
         </form>
         <div id="results"></div>
@@ -144,6 +152,7 @@ Where learning is heroic, automation is the weapon, and saving the day means shi
                 question2: 'C',
                 question3: 'C',
                 question4: 'C',
+                question4: 'B',
                 question5: 'C'
             
                
