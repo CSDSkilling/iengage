@@ -1,19 +1,25 @@
 ---
 layout: default
-title:  "GitHub Actions"
+title:  "Azure Devops Pipeline"
 category: "Comic"
 sub-category: "Digital and App Innovation"
-courses: [AZ-400, AZ-2008, AZ-2006, GH-200]
+courses: [AZ-400]
 ---
 
 
-# GitHub Actions – Automation for the Win!
+# DevOps Girl – Pipeline to the rescue!
 
 ## Introduction
-Welcome to the world of GitHub Actions – Automation for the Win! In this comic, we follow Alex, a curious student just beginning her coding journey. Frustrated by repetitive tasks like testing code manually, she turns to her tech-savvy friend Sam, who introduces her to the magic of GitHub Actions—a powerful tool built right into GitHub that can automate coding workflows.
-Together, with the help of their floating AI assistant Botty, they explore the basics of automation: learning what workflows, jobs, steps, and actions are—and how all of these pieces work together to make a developer’s life easier. Set in a modern classroom and cozy coffee shop, this story makes it fun and easy to understand how GitHub Actions fits into real-world coding projects.
+In a near-futuristic world where software development powers everything from city infrastructure to education systems, stability and speed are essential—but chaos is never far behind. Deep in the digital realm, a dangerous force has awakened: the Glitch Beast. Born from corrupted code, broken builds, and unresolved errors, the Glitch Beast thrives in manual deployments, poor automation, and misconfigured pipelines. Every failed test and delayed release feeds its strength. Humanity’s ability to deploy code efficiently and securely is under siege.
+But all is not lost.
 
-By the end of the comic, Alex has set up her first workflow—and is ready to automate like a pro!
+From the heart of a high-tech training facility emerges a hero unlike any other: DevOps Girl. With an athletic build, a suit glowing with circuit patterns, and a utility belt stocked with debugging gadgets, she is more than just a coder—she is a symbol of clarity in the face of complexity. DevOps Girl has a gift: she can visualize and optimize CI/CD pipelines, debug code in midair, and summon test bots to battle errors at lightning speed. Her mission? To teach the world the power of Azure DevOps Pipelines and bring automation, precision, and peace to the tech world.
+
+By her side is Leo, a bright and curious teen stepping into the world of software development. Eager to learn but easily overwhelmed, Leo represents every student starting their coding journey. With his trusty laptop plastered in stickers and his hoodie pulled tight, Leo brings a sense of humor and heart to the team. Under DevOps Girl’s guidance, he learns not just how to write code—but how to deliver it with confidence and control.
+Together, they must face the Glitch Beast and all the confusion it brings. Through lessons in YAML syntax, pipeline stages, test automation, and production approvals, DevOps Girl shows Leo—and readers—how technology can be mastered, and how even the most intimidating systems can become tools of empowerment.
+Welcome to DevOps Girl: Pipeline to the Rescue!
+Where learning is heroic, automation is the weapon, and saving the day means shipping clean code.
+
 
 <html lang="en">
 <head>
@@ -59,7 +65,7 @@ By the end of the comic, Alex has set up her first workflow—and is ready to au
 <body>
     <div class="carousel-container">
         <button class="carousel-button" onclick="prevImage()">Previous</button>
-        <img id="carousel" class="carousel-image" src="./images/gh1.JPG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
+        <img id="carousel" class="carousel-image" src="./images/ado1.JPG" alt="Image Carousel" onclick="toggleEnlarge()" class="img-fluid">
         <button class="carousel-button" onclick="nextImage()">Next</button>
     </div>
 
@@ -109,7 +115,7 @@ By the end of the comic, Alex has set up her first workflow—and is ready to au
 
     
   <script>
-        const images = ["./images/gh1.JPG", "./images/gh2.JPG", "./images/gh3.JPG", "./images/gh4.JPG", "./images/gh5.JPG", "./images/gh6.JPG", "./images/gh7.JPG", "./images/gh8.JPG", "./images/gh9.JPG"];
+        const images = ["./images/ado1.JPG", "./images/ado2.JPG", "./images/ado3.JPG", "./images/ado4.JPG", "./images/ado5.JPG", "./images/ado6.JPG", "./images/ado7.JPG", "./images/ado8.JPG", "./images/ado9.JPG", "./images/ado10.JPG"];
         let currentIndex = 0;
 
         function showImage(index) {
