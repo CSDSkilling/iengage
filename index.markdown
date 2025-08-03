@@ -8,7 +8,7 @@ title: Home
 
 <img src="./home.png" class="img-fluid">
 
-iEngage is a dynamic, gamified learning platform designed to make complex technical concepts more accessible and engaging. It leverages comic strips, interactive videos, case studies, and game-based activities to enhance knowledge retention, promote collaboration, and boost learner motivation
+IEngage is a dynamic, gamified learning platform designed to make complex technical concepts more accessible and engaging. It leverages comic strips, interactive videos, case studies, and game-based activities to enhance knowledge retention, promote collaboration, and boost learner motivation
 
 ## Objectives
 The primary objectives of iEngage are:<br>
